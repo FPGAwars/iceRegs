@@ -1,0 +1,19 @@
+{
+  "name": "iceregs",
+  "version": "0.1.0",
+  "description": "Working with Registers",
+  "wiki": "https://github.com/FPGAwars/iceRegs/wiki",
+  "keywords": ["registers","flip-flops"],
+  "license": "GPL-2.0",
+  "authors": [{
+    "name": "Juan Gonzalez-Gomez (Obijuan)",
+    "email": "",
+    "url": "https://github.com/Obijuan"
+  }],
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "branch": "main",
+    "url": "https://github.com/FPGAwars/iceRegs"
+  }
+}
