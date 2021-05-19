@@ -66,24 +66,12 @@
           "id": "1424658d-bf99-4d6a-a5b3-f87564edd009",
           "type": "febcfed8636b8ee9a98750b96ed9e53a165dd4a8",
           "position": {
-            "x": 680,
+            "x": 688,
             "y": 80
           },
           "size": {
             "width": 96,
             "height": 64
-          }
-        },
-        {
-          "id": "bf863377-3d17-48eb-88e8-8780f7b76e05",
-          "type": "bfd134811bcbe268b76163fe7d22ee4cdd40bb3e",
-          "position": {
-            "x": 864,
-            "y": 64
-          },
-          "size": {
-            "width": 96,
-            "height": 96
           }
         },
         {
@@ -101,6 +89,18 @@
             "width": 640,
             "height": 88
           }
+        },
+        {
+          "id": "742e8c7e-03a0-43f6-88a2-dfeb2edc841d",
+          "type": "22cb989122c63147390b94df200e6d0f31e2d967",
+          "position": {
+            "x": 864,
+            "y": 64
+          },
+          "size": {
+            "width": 96,
+            "height": 96
+          }
         }
       ],
       "wires": [
@@ -116,7 +116,7 @@
         },
         {
           "source": {
-            "block": "bf863377-3d17-48eb-88e8-8780f7b76e05",
+            "block": "742e8c7e-03a0-43f6-88a2-dfeb2edc841d",
             "port": "4e8afe74-8f38-4873-97ee-f7585d99a4aa"
           },
           "target": {
@@ -130,7 +130,7 @@
             "port": "997db8c4-b772-49d8-83e7-4427aff720e6"
           },
           "target": {
-            "block": "bf863377-3d17-48eb-88e8-8780f7b76e05",
+            "block": "742e8c7e-03a0-43f6-88a2-dfeb2edc841d",
             "port": "58d2c88e-2434-438f-986b-0f5b9c3654ca"
           }
         },
@@ -140,7 +140,7 @@
             "port": "3d584b0a-29eb-47af-8c43-c0822282ef05"
           },
           "target": {
-            "block": "bf863377-3d17-48eb-88e8-8780f7b76e05",
+            "block": "742e8c7e-03a0-43f6-88a2-dfeb2edc841d",
             "port": "adf3a6ae-71e2-43dd-b504-c2cdbc14dab7"
           }
         }
@@ -3396,7 +3396,7 @@
         }
       }
     },
-    "bfd134811bcbe268b76163fe7d22ee4cdd40bb3e": {
+    "22cb989122c63147390b94df200e6d0f31e2d967": {
       "package": {
         "name": "1-bit-reg",
         "version": "0.1",
@@ -3603,6 +3603,19 @@
               }
             },
             {
+              "id": "17e4cdf4-3bce-44a9-904c-16c4a66ec3a8",
+              "type": "basic.constant",
+              "data": {
+                "name": "",
+                "value": "0",
+                "local": false
+              },
+              "position": {
+                "x": 784,
+                "y": 504
+              }
+            },
+            {
               "id": "6c0b315b-6b22-4d04-9490-a65f04d3fd60",
               "type": "basic.info",
               "data": {
@@ -3769,6 +3782,16 @@
                 "port": "bf2f0c53-2d04-4cba-aa70-2df85502d24f"
               },
               "vertices": []
+            },
+            {
+              "source": {
+                "block": "17e4cdf4-3bce-44a9-904c-16c4a66ec3a8",
+                "port": "constant-out"
+              },
+              "target": {
+                "block": "ba56fc22-f7c4-4728-9358-9d7a95fc884e",
+                "port": "65194b18-5d2a-41b2-bd86-01be99978ad6"
+              }
             }
           ]
         }
