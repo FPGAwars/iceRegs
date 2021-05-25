@@ -17,8 +17,9 @@
           "type": "basic.outputLabel",
           "data": {
             "blockColor": "fuchsia",
-            "name": "d2",
-            "oldBlockColor": "fuchsia"
+            "name": "d3",
+            "oldBlockColor": "fuchsia",
+            "virtual": true
           },
           "position": {
             "x": 1200,
@@ -39,66 +40,12 @@
           }
         },
         {
-          "id": "e5f6cfba-f822-4d53-a924-926407bc4e3f",
-          "type": "basic.input",
-          "data": {
-            "name": "",
-            "clock": true
-          },
-          "position": {
-            "x": -560,
-            "y": -416
-          }
-        },
-        {
-          "id": "4b0bae4c-c796-429c-ac44-785afc2f4c89",
-          "type": "basic.inputLabel",
-          "data": {
-            "blockColor": "yellow",
-            "name": "clk",
-            "pins": [
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": true
-          },
-          "position": {
-            "x": -408,
-            "y": -416
-          }
-        },
-        {
           "id": "e81229a5-0943-49ed-bc5d-c728ee8f9649",
           "type": "basic.output",
           "data": {
             "name": "",
             "range": "[3:0]",
-            "pins": [
-              {
-                "index": "3",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "2",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "1",
-                "name": "",
-                "value": ""
-              },
-              {
-                "index": "0",
-                "name": "",
-                "value": ""
-              }
-            ],
-            "virtual": false
+            "size": 4
           },
           "position": {
             "x": 1536,
@@ -181,6 +128,38 @@
           }
         },
         {
+          "id": "e5f6cfba-f822-4d53-a924-926407bc4e3f",
+          "type": "basic.input",
+          "data": {
+            "name": "",
+            "clock": true
+          },
+          "position": {
+            "x": -312,
+            "y": -320
+          }
+        },
+        {
+          "id": "4b0bae4c-c796-429c-ac44-785afc2f4c89",
+          "type": "basic.inputLabel",
+          "data": {
+            "blockColor": "yellow",
+            "name": "clk",
+            "pins": [
+              {
+                "index": "0",
+                "name": "",
+                "value": ""
+              }
+            ],
+            "virtual": true
+          },
+          "position": {
+            "x": -160,
+            "y": -320
+          }
+        },
+        {
           "id": "f7695d00-3aee-48b0-a295-5103d8705106",
           "type": "basic.outputLabel",
           "data": {
@@ -246,16 +225,36 @@
           }
         },
         {
-          "id": "ef53a8b8-3e31-44ed-8aa3-df9349a6e9aa",
-          "type": "basic.outputLabel",
+          "id": "adf3a6ae-71e2-43dd-b504-c2cdbc14dab7",
+          "type": "basic.input",
+          "data": {
+            "name": "sin",
+            "clock": false
+          },
+          "position": {
+            "x": -320,
+            "y": -224
+          }
+        },
+        {
+          "id": "0a9f1d38-136c-4c0a-b06a-c4375e70e3cd",
+          "type": "basic.inputLabel",
           "data": {
             "blockColor": "fuchsia",
             "name": "sin",
+            "pins": [
+              {
+                "index": "0",
+                "name": "NULL",
+                "value": "NULL"
+              }
+            ],
+            "virtual": true,
             "oldBlockColor": "fuchsia"
           },
           "position": {
-            "x": -232,
-            "y": -240
+            "x": -160,
+            "y": -224
           }
         },
         {
@@ -316,19 +315,6 @@
           }
         },
         {
-          "id": "a1e9a4f6-a3ef-481c-87f2-ad8ab9fcb62b",
-          "type": "basic.outputLabel",
-          "data": {
-            "blockColor": "fuchsia",
-            "name": "shift",
-            "oldBlockColor": "fuchsia"
-          },
-          "position": {
-            "x": -232,
-            "y": -160
-          }
-        },
-        {
           "id": "bd10bf06-1e85-4b2a-991c-419adf9dc56c",
           "type": "basic.outputLabel",
           "data": {
@@ -381,50 +367,6 @@
           }
         },
         {
-          "id": "adf3a6ae-71e2-43dd-b504-c2cdbc14dab7",
-          "type": "basic.input",
-          "data": {
-            "name": "sin",
-            "clock": false
-          },
-          "position": {
-            "x": -536,
-            "y": -120
-          }
-        },
-        {
-          "id": "0a9f1d38-136c-4c0a-b06a-c4375e70e3cd",
-          "type": "basic.inputLabel",
-          "data": {
-            "blockColor": "fuchsia",
-            "name": "sin",
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
-            "virtual": true,
-            "oldBlockColor": "fuchsia"
-          },
-          "position": {
-            "x": -376,
-            "y": -120
-          }
-        },
-        {
-          "id": "739e23da-78f7-4658-be30-7fc7096a452b",
-          "type": "basic.output",
-          "data": {
-            "name": "nc"
-          },
-          "position": {
-            "x": 1512,
-            "y": -80
-          }
-        },
-        {
           "id": "0da42cdc-7d03-494b-acec-9b2095f8d663",
           "type": "basic.input",
           "data": {
@@ -432,8 +374,8 @@
             "clock": false
           },
           "position": {
-            "x": -536,
-            "y": -16
+            "x": -320,
+            "y": -120
           }
         },
         {
@@ -453,8 +395,19 @@
             "oldBlockColor": "fuchsia"
           },
           "position": {
-            "x": -368,
-            "y": -16
+            "x": -152,
+            "y": -120
+          }
+        },
+        {
+          "id": "739e23da-78f7-4658-be30-7fc7096a452b",
+          "type": "basic.output",
+          "data": {
+            "name": "nc"
+          },
+          "position": {
+            "x": 1512,
+            "y": -80
           }
         },
         {
@@ -465,8 +418,8 @@
             "readonly": true
           },
           "position": {
-            "x": -552,
-            "y": -456
+            "x": -304,
+            "y": -360
           },
           "size": {
             "width": 144,
