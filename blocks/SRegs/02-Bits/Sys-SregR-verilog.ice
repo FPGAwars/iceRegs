@@ -21,22 +21,14 @@
           },
           "position": {
             "x": 296,
-            "y": 16
+            "y": 64
           }
         },
         {
           "id": "d269d7ec-85b9-4c7f-b700-18ffdca4ce0c",
           "type": "basic.output",
           "data": {
-            "name": "so",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "name": "so"
           },
           "position": {
             "x": 1120,
@@ -48,19 +40,11 @@
           "type": "basic.input",
           "data": {
             "name": "si",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ],
             "clock": false
           },
           "position": {
-            "x": 288,
-            "y": 120
+            "x": 296,
+            "y": 176
           }
         },
         {
@@ -74,20 +58,6 @@
           "position": {
             "x": 1120,
             "y": 176
-          }
-        },
-        {
-          "id": "a1cf824b-fe55-4488-a76c-491a448e6896",
-          "type": "basic.input",
-          "data": {
-            "name": "",
-            "range": "[1:0]",
-            "clock": false,
-            "size": 2
-          },
-          "position": {
-            "x": 288,
-            "y": 192
           }
         },
         {
@@ -114,11 +84,6 @@
                 },
                 {
                   "name": "si"
-                },
-                {
-                  "name": "d",
-                  "range": "[1:0]",
-                  "size": 2
                 }
               ],
               "out": [
@@ -170,24 +135,7 @@
             "block": "1b406876-57cb-4d90-8354-5dd6c68d0d4d",
             "port": "clk"
           },
-          "vertices": [
-            {
-              "x": 416,
-              "y": 48
-            }
-          ]
-        },
-        {
-          "source": {
-            "block": "a1cf824b-fe55-4488-a76c-491a448e6896",
-            "port": "out"
-          },
-          "target": {
-            "block": "1b406876-57cb-4d90-8354-5dd6c68d0d4d",
-            "port": "d"
-          },
-          "vertices": [],
-          "size": 2
+          "vertices": []
         },
         {
           "source": {
