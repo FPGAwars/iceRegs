@@ -92,7 +92,7 @@
           "id": "21cea661-86c3-456b-9a90-3f8e0758e95f",
           "type": "basic.info",
           "data": {
-            "info": "# TEST: 2-bits SRegL: Manual testing\n\n",
+            "info": "# TEST: 2-bits SRegL-rst: Manual testing\n\n",
             "readonly": true
           },
           "position": {
@@ -10641,7 +10641,8 @@
             {
               "source": {
                 "block": "b3124bdc-ce33-4989-ac30-5053555b3855",
-                "port": "521f03e5-f364-41b0-a2b8-c7858e6debf5"
+                "port": "521f03e5-f364-41b0-a2b8-c7858e6debf5",
+                "size": 2
               },
               "target": {
                 "block": "b2b69b92-2fd7-413c-8536-57e10918ad3e",
@@ -10656,7 +10657,8 @@
               },
               "target": {
                 "block": "521f03e5-f364-41b0-a2b8-c7858e6debf5",
-                "port": "in"
+                "port": "in",
+                "size": 2
               },
               "size": 2
             },
@@ -10702,6 +10704,18 @@
             },
             {
               "source": {
+                "block": "d0b7e2ce-927b-40d9-9de7-abaf69fa2da4",
+                "port": "outlabel"
+              },
+              "target": {
+                "block": "22740aba-0389-4036-8aa7-d6725ffba3af",
+                "port": "a03f9523-36f8-46b7-80d6-0a0816fddaf1",
+                "size": 2
+              },
+              "size": 2
+            },
+            {
+              "source": {
                 "block": "9dad6350-1887-40ab-80e7-81fc57c7e5e7",
                 "port": "constant-out"
               },
@@ -10740,17 +10754,6 @@
                 "block": "22740aba-0389-4036-8aa7-d6725ffba3af",
                 "port": "79b18de5-9152-4bdb-8059-3dcf8efa92dc"
               }
-            },
-            {
-              "source": {
-                "block": "d0b7e2ce-927b-40d9-9de7-abaf69fa2da4",
-                "port": "outlabel"
-              },
-              "target": {
-                "block": "22740aba-0389-4036-8aa7-d6725ffba3af",
-                "port": "a03f9523-36f8-46b7-80d6-0a0816fddaf1"
-              },
-              "size": 2
             }
           ]
         }
