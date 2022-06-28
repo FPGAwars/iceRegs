@@ -1,17 +1,28 @@
 {
   "version": "1.2",
   "package": {
-    "name": "Sys-SregR-ld-02-verilog",
+    "name": "SregR-ld-02-verilog",
     "version": "0.3",
-    "description": "Sys-SregR-ld-02-verilog: Two bits System Shift register to the right, with load. Verilog implementation",
+    "description": "SregR-ld-rst-02-verilog: Two bits Shift register to the right with load input. Verilog implementation",
     "author": "Juan González-Gómez (Obijuan)",
-    "image": "%3Csvg%20width=%22254.803%22%20height=%22264.301%22%20viewBox=%220%200%2067.416754%2069.929686%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg%20transform=%22matrix(.99953%200%200%201.00074%20-72.848%20-31.874)%22%3E%3Cpath%20style=%22-inkscape-stroke:none%22%20d=%22M98.64%2077.005h10.65%22%20color=%22#000%22%20fill=%22#00f%22/%3E%3Cg%20stroke=%22#000%22%20stroke-width=%221.442%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%3E%3Cpath%20d=%22M98.564%2084.51l13.608%2016.672-6.918-20.534%22%20fill=%22#ccc%22%20stroke-width=%221.0924880399999999%22/%3E%3Cpath%20d=%22M91.18%2076.446l-9.232-19.613-6.45%203.725-2.07-3.584%2020.905-12.07%202.07%203.584-6.093%203.518%2012.03%2018.222s5.4-2.025%208.536.74c3.136%202.767%202.52%204.92%202.887%204.773L90.074%2089.379s-2.848-3.696-2.16-6.796c.688-3.1%203.266-6.137%203.266-6.137z%22%20fill=%22red%22%20stroke-width=%221.0924880399999999%22/%3E%3C/g%3E%3Cg%20stroke=%22#000%22%20stroke-width=%221.442%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%3E%3Cpath%20d=%22M114.904%2083.574l13.608%2016.672-6.918-20.534%22%20fill=%22#ccc%22%20stroke-width=%221.0924880399999999%22/%3E%3Cpath%20d=%22M107.52%2075.51l-9.232-19.613-6.45%203.725-2.07-3.584%2020.905-12.07%202.069%203.584-6.092%203.518%2012.03%2018.222s5.399-2.025%208.535.74c3.137%202.766%202.52%204.92%202.887%204.773l-23.688%2013.638s-2.848-3.696-2.16-6.796c.688-3.1%203.266-6.137%203.266-6.137z%22%20fill=%22red%22%20stroke-width=%221.0924880399999999%22/%3E%3C/g%3E%3Cg%20fill=%22#00f%22%3E%3Cpath%20d=%22M114.727%2037.231h10.65M83.213%2035.636c-.832%200-1.507.662-1.507%201.48s.675%201.481%201.507%201.48h41.84c.833.001%201.508-.662%201.508-1.48s-.675-1.48-1.507-1.48z%22%20color=%22#000%22/%3E%3Cg%20color=%22#000%22%20fill-rule=%22evenodd%22%20stroke-width=%221.428%22%3E%3Cpath%20d=%22M129.687%2037.231l-6.463%203.674v-7.347z%22/%3E%3Cpath%20d=%22M70.553%20186.299v13.027l11.271-6.513-1.056-.612zm1.412%202.445l7.039%204.069-7.04%204.07z%22%20stroke=%22#00f%22%20transform=%22matrix(.70596%200%200%20.69423%2072.918%20-96.625)%22/%3E%3C/g%3E%3C/g%3E%3Crect%20width=%2224.424%22%20height=%2213.175%22%20x=%22115.511%22%20y=%2247.442%22%20ry=%222.245%22%20fill=%22#fff%22%20stroke=%22#000%22%20stroke-width=%22.794%22%20stroke-linecap=%22round%22/%3E%3Ctext%20style=%22line-height:1.25%22%20x=%22117.385%22%20y=%2257.038%22%20transform=%22scale(1.0006%20.9994)%22%20font-weight=%22400%22%20font-size=%2210.582%22%20font-family=%22sans-serif%22%20fill=%22#00f%22%20stroke-width=%22.265%22%3E%3Ctspan%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20x=%22117.385%22%20y=%2257.038%22%20font-weight=%22700%22%3ESys%3C/tspan%3E%3C/text%3E%3C/g%3E%3C/svg%3E",
+    "image": "%3Csvg%20width=%22286.865%22%20height=%22270.294%22%20viewBox=%220%200%2075.899794%2071.515403%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath%20style=%22-inkscape-stroke:none%22%20d=%22M43.907%2045.917h10.645%22%20color=%22#000%22%20fill=%22#00f%22/%3E%3Cg%20stroke=%22#000%22%20stroke-width=%221.442%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%3E%3Cpath%20d=%22M102.876%20163.95l4.552%2028.037%205.644-28.037%22%20fill=%22#ccc%22%20transform=%22matrix(.65581%20-.3791%20.37863%20.6566%20-85.712%20-15.223)%22/%3E%3Cpath%20d=%22M99.758%20149.859l2.39-28.512h-9.831v-5.462h31.86v5.462h-9.284l1.724%2028.769s7.509%201.248%209.269%206.48c1.76%205.231-.367%207.286.15%207.36l-36.077-.044s-.817-6.104%202.015-9.194c2.832-3.09%207.784-4.86%207.784-4.86z%22%20fill=%22red%22%20transform=%22matrix(.65581%20-.3791%20.37863%20.6566%20-85.712%20-15.223)%22/%3E%3C/g%3E%3Cg%20stroke=%22#000%22%20stroke-width=%221.442%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%3E%3Cpath%20d=%22M102.876%20163.95l4.552%2028.037%205.644-28.037%22%20fill=%22#ccc%22%20transform=%22matrix(.65581%20-.3791%20.37863%20.6566%20-69.38%20-16.16)%22/%3E%3Cpath%20d=%22M99.758%20149.859l2.39-28.512h-9.831v-5.462h31.86v5.462h-9.284l1.724%2028.769s7.509%201.248%209.269%206.48c1.76%205.231-.367%207.286.15%207.36l-36.077-.044s-.817-6.104%202.015-9.194c2.832-3.09%207.784-4.86%207.784-4.86z%22%20fill=%22red%22%20transform=%22matrix(.65581%20-.3791%20.37863%20.6566%20-69.38%20-16.16)%22/%3E%3C/g%3E%3Cg%20fill=%22#00f%22%3E%3Cpath%20d=%22M57.38%205.385h10.645M25.882%203.789c-.832%200-1.506.662-1.507%201.481%200%20.819.675%201.482%201.507%201.481h41.82c.832.001%201.507-.662%201.508-1.48%200-.82-.676-1.483-1.507-1.482z%22%20color=%22#000%22/%3E%3Cg%20color=%22#000%22%20fill-rule=%22evenodd%22%20stroke-width=%221.428%22%3E%3Cpath%20d=%22M72.334%205.385l-6.46%203.676V1.71z%22/%3E%3Cpath%20d=%22M70.553%20186.299v13.027l11.271-6.513-1.056-.612zm1.412%202.445l7.039%204.069-7.04%204.07z%22%20stroke=%22#00f%22%20transform=%22matrix(.70563%200%200%20.69474%2015.592%20-128.57)%22/%3E%3C/g%3E%3C/g%3E%3Cg%20transform=%22translate(-93.518%20-25.21)%20scale(1.09073)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20cx=%22100.602%22%20cy=%2273.815%22%20r=%2214.559%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3C/svg%3E",
     "otid": 1618509859237
   },
   "design": {
     "board": "alhambra-ii",
     "graph": {
       "blocks": [
+        {
+          "id": "be91d376-1c61-4d32-b3c4-1b7bf1acdfb6",
+          "type": "basic.output",
+          "data": {
+            "name": "nc"
+          },
+          "position": {
+            "x": 1008,
+            "y": 0
+          }
+        },
         {
           "id": "ca7c5f10-efb6-43f9-9364-52d751fc0bc6",
           "type": "basic.input",
@@ -20,45 +31,8 @@
             "clock": true
           },
           "position": {
-            "x": 0,
-            "y": 96
-          }
-        },
-        {
-          "id": "d269d7ec-85b9-4c7f-b700-18ffdca4ce0c",
-          "type": "basic.output",
-          "data": {
-            "name": "so"
-          },
-          "position": {
-            "x": 680,
-            "y": 152
-          }
-        },
-        {
-          "id": "adb65ce3-8256-4acb-ad39-154262efb1ad",
-          "type": "basic.input",
-          "data": {
-            "name": "si",
-            "clock": false
-          },
-          "position": {
-            "x": -8,
-            "y": 216
-          }
-        },
-        {
-          "id": "25d7ab32-f568-4103-8f60-2624ef11dbbd",
-          "type": "basic.input",
-          "data": {
-            "name": "d",
-            "range": "[1:0]",
-            "clock": false,
-            "size": 2
-          },
-          "position": {
-            "x": -16,
-            "y": 336
+            "x": 264,
+            "y": 16
           }
         },
         {
@@ -70,24 +44,95 @@
             "size": 2
           },
           "position": {
-            "x": 680,
-            "y": 392
+            "x": 1008,
+            "y": 96
           }
         },
         {
-          "id": "94f45efc-b475-44f1-97a8-27f652d67006",
+          "id": "f9c3347a-de6b-42df-a75c-5d8414239a86",
+          "type": "basic.input",
+          "data": {
+            "name": "",
+            "range": "[1:0]",
+            "clock": false,
+            "size": 2
+          },
+          "position": {
+            "x": 264,
+            "y": 176
+          }
+        },
+        {
+          "id": "adb65ce3-8256-4acb-ad39-154262efb1ad",
+          "type": "basic.input",
+          "data": {
+            "name": "si",
+            "clock": false
+          },
+          "position": {
+            "x": 264,
+            "y": 264
+          }
+        },
+        {
+          "id": "d269d7ec-85b9-4c7f-b700-18ffdca4ce0c",
+          "type": "basic.output",
+          "data": {
+            "name": "so"
+          },
+          "position": {
+            "x": 1008,
+            "y": 344
+          }
+        },
+        {
+          "id": "b1048667-dc4c-446c-afac-62693ce8da5e",
+          "type": "basic.input",
+          "data": {
+            "name": "shift",
+            "clock": false
+          },
+          "position": {
+            "x": 264,
+            "y": 344
+          }
+        },
+        {
+          "id": "8330777c-8313-4fe4-a987-62425be6e296",
+          "type": "basic.output",
+          "data": {
+            "name": "nc"
+          },
+          "position": {
+            "x": 1016,
+            "y": 416
+          }
+        },
+        {
+          "id": "6d0c1399-323e-4961-afa0-fbf37767b867",
           "type": "basic.input",
           "data": {
             "name": "load",
             "clock": false
           },
           "position": {
-            "x": -8,
-            "y": 456
+            "x": 264,
+            "y": 424
           }
         },
         {
-          "id": "af5b5be5-dd44-42a9-a42e-bdd18fe3ea2c",
+          "id": "a033c488-3a27-44b0-a0d8-f4bf8b63020f",
+          "type": "basic.output",
+          "data": {
+            "name": "nc"
+          },
+          "position": {
+            "x": 1016,
+            "y": 480
+          }
+        },
+        {
+          "id": "e8263827-40f2-41e2-a361-49e23ca53324",
           "type": "basic.constant",
           "data": {
             "name": "",
@@ -95,12 +140,12 @@
             "local": false
           },
           "position": {
-            "x": 344,
-            "y": -48
+            "x": 632,
+            "y": -112
           }
         },
         {
-          "id": "4a66be97-1150-4a2d-8d1a-47cd042a8291",
+          "id": "adf3cb99-0368-4eec-827e-0b4e16ec1cfd",
           "type": "basic.code",
           "data": {
             "ports": {
@@ -109,7 +154,7 @@
                   "name": "clk"
                 },
                 {
-                  "name": "si"
+                  "name": "rst"
                 },
                 {
                   "name": "d",
@@ -117,17 +162,23 @@
                   "size": 2
                 },
                 {
+                  "name": "si"
+                },
+                {
+                  "name": "shift"
+                },
+                {
                   "name": "load"
                 }
               ],
               "out": [
                 {
-                  "name": "so"
-                },
-                {
                   "name": "q",
                   "range": "[1:0]",
                   "size": 2
+                },
+                {
+                  "name": "so"
                 }
               ]
             },
@@ -136,26 +187,26 @@
                 "name": "INI"
               }
             ],
-            "code": "//-- Generic System Shift register to the right\n//-- with reset and load\n\n//-- Number of bits\nlocalparam N = 2;\n\n//-- Initial value\nreg [N-1:0] q = INI;\n\n//-- Serial out: lsb\nassign so = q[0];\n\nalways @(posedge clk)\n \n  //-- Load data\n  if (load == 1'b1)\n    q <= d;\n    \n  //-- In any other cases just\n  //-- shift the register to the right\n  else\n    q <= {si, q[1]};\n  \n\n"
+            "code": "//-- Generic Shift register to the right\n//-- with load input\n\n//-- Number of bits\nlocalparam N = 2;\n\n//-- Initial value\nreg [N-1:0] q = INI;\n\n//-- Serial out: lsb\nassign so = q[0];\n\nalways @(posedge clk)\nbegin\n\n  //-- Load has higher priority than shift\n  if (load == 1'b1)\n    q <= d;\n\n  //-- The register is only shifted to the  \n  //-- right if shift is 1\n  else if (shift == 1'b1)\n    q <= {si, q[1]};\n    \n  //-- In any other cases the current\n  //-- value remains without change\nend"
           },
           "position": {
-            "x": 160,
-            "y": 64
+            "x": 432,
+            "y": 8
           },
           "size": {
-            "width": 456,
-            "height": 480
+            "width": 488,
+            "height": 488
           }
         }
       ],
       "wires": [
         {
           "source": {
-            "block": "af5b5be5-dd44-42a9-a42e-bdd18fe3ea2c",
+            "block": "e8263827-40f2-41e2-a361-49e23ca53324",
             "port": "constant-out"
           },
           "target": {
-            "block": "4a66be97-1150-4a2d-8d1a-47cd042a8291",
+            "block": "adf3cb99-0368-4eec-827e-0b4e16ec1cfd",
             "port": "INI"
           },
           "vertices": []
@@ -166,7 +217,7 @@
             "port": "out"
           },
           "target": {
-            "block": "4a66be97-1150-4a2d-8d1a-47cd042a8291",
+            "block": "adf3cb99-0368-4eec-827e-0b4e16ec1cfd",
             "port": "clk"
           }
         },
@@ -176,34 +227,44 @@
             "port": "out"
           },
           "target": {
-            "block": "4a66be97-1150-4a2d-8d1a-47cd042a8291",
+            "block": "adf3cb99-0368-4eec-827e-0b4e16ec1cfd",
             "port": "si"
           }
         },
         {
           "source": {
-            "block": "25d7ab32-f568-4103-8f60-2624ef11dbbd",
+            "block": "f9c3347a-de6b-42df-a75c-5d8414239a86",
             "port": "out"
           },
           "target": {
-            "block": "4a66be97-1150-4a2d-8d1a-47cd042a8291",
+            "block": "adf3cb99-0368-4eec-827e-0b4e16ec1cfd",
             "port": "d"
           },
           "size": 2
         },
         {
           "source": {
-            "block": "94f45efc-b475-44f1-97a8-27f652d67006",
+            "block": "6d0c1399-323e-4961-afa0-fbf37767b867",
             "port": "out"
           },
           "target": {
-            "block": "4a66be97-1150-4a2d-8d1a-47cd042a8291",
+            "block": "adf3cb99-0368-4eec-827e-0b4e16ec1cfd",
             "port": "load"
           }
         },
         {
           "source": {
-            "block": "4a66be97-1150-4a2d-8d1a-47cd042a8291",
+            "block": "b1048667-dc4c-446c-afac-62693ce8da5e",
+            "port": "out"
+          },
+          "target": {
+            "block": "adf3cb99-0368-4eec-827e-0b4e16ec1cfd",
+            "port": "shift"
+          }
+        },
+        {
+          "source": {
+            "block": "adf3cb99-0368-4eec-827e-0b4e16ec1cfd",
             "port": "so"
           },
           "target": {
@@ -213,7 +274,7 @@
         },
         {
           "source": {
-            "block": "4a66be97-1150-4a2d-8d1a-47cd042a8291",
+            "block": "adf3cb99-0368-4eec-827e-0b4e16ec1cfd",
             "port": "q"
           },
           "target": {
