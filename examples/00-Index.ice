@@ -788,7 +788,7 @@
           "type": "f0c7fd95a330f722b79b9bf59172afe1331ec698",
           "position": {
             "x": 1864,
-            "y": 400
+            "y": 432
           },
           "size": {
             "width": 96,
@@ -800,7 +800,7 @@
           "type": "cf18512848a867a7fe75183a6e66e0af2278356b",
           "position": {
             "x": 2064,
-            "y": 392
+            "y": 400
           },
           "size": {
             "width": 96,
