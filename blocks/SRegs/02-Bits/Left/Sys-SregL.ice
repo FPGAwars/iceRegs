@@ -94,15 +94,7 @@
           "type": "basic.inputLabel",
           "data": {
             "name": "so",
-            "blockColor": "fuchsia",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "fuchsia"
           },
           "position": {
             "x": 472,
@@ -125,15 +117,7 @@
           "type": "basic.outputLabel",
           "data": {
             "name": "so",
-            "blockColor": "fuchsia",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "blockColor": "fuchsia"
           },
           "position": {
             "x": 944,
