@@ -31,22 +31,6 @@ For installing and using this colection in Icestudio follow these steps:
 | Spanish |  es_ES | ![](https://progress-bar.dev/0) |
 
 ## Blocks
-* **Old-Regs**
-  * **03-bits**
-    * Reg-rst
-    * Reg
-  * **04-bits**
-    * Reg-rst
-    * Reg
-  * **05-bits**
-    * Reg
-  * **08-bits**
-    * Reg-rst
-    * Reg
-  * **16-bits**
-    * Reg
-  * **32-bits**
-    * Reg
 * **Old-SRegs-old**
   * **03-Bits**
     * SReg-right
@@ -128,37 +112,6 @@ For installing and using this colection in Icestudio follow these steps:
 ## Examples
 * 00-Index
 * **TESTs**
-  * **Old-Regs**
-    * **03-bits**
-      * **Reg**
-      * **Reg-rst**
-        * **Alhambra-II**
-          * 01-Manual-testing
-        * **Alhambra-II**
-          * 01-Manual-testing
-    * **04-bits**
-      * **Reg**
-      * **Reg-rst**
-        * **Alhambra-II**
-          * 01-Manual-testing
-        * **Alhambra-II**
-          * 01-Manual-testing
-    * **05-bits**
-      * **Alhambra-II**
-        * 01-Manual-testing
-    * **08-bits**
-      * **Reg**
-      * **Reg-rst**
-        * **Alhambra-II**
-          * 01-Manual-testing
-        * **Alhambra-II**
-          * 01-Manual-testing
-    * **16-bits**
-      * **Alhambra-II**
-        * 01-Manual-testing
-    * **32-bits**
-      * **Alhambra-II**
-        * 01-Manual-testing
   * **Old-SRegs**
     * **03-Bits**
       * **SReg-right**
