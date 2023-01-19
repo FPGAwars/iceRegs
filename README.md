@@ -109,6 +109,20 @@ For installing and using this colection in Icestudio follow these steps:
       * Reg-rst-verilog
       * Reg-verilog
       * Sys-reg-rst-verilog
+  * **04-bits**
+    * Reg
+    * Sys-reg
+  * **08-bits**
+    * Reg
+    * Sys-reg
+  * **16-bits**
+    * Reg
+    * Sys-reg
+  * **32-bits**
+    * Reg-rst
+    * Reg
+    * Sys-reg-rst
+    * Sys-reg
 * **SRegs**
 * **SRegs-ld**
   * **02-Bits**
@@ -269,7 +283,6 @@ For installing and using this colection in Icestudio follow these steps:
           * 01-Manual-testing
         * **Alhambra-II**
           * 01-Manual-testing
-      * **SReg-left**
     * **05-bits**
       * **Alhambra-II**
         * 01-Manual-testing
@@ -314,6 +327,40 @@ For installing and using this colection in Icestudio follow these steps:
       * **Sys-reg-dff**
         * **Alhambra-II**
           * 01-manual-test
+      * **Sys-reg-rst**
+        * **Alhambra-II**
+          * 01-manual-test
+        * **Alhambra-II**
+          * 01-manual-test
+    * **04-bits**
+      * **Reg**
+        * **Alhambra-II**
+          * 01-manual-test
+      * **Sys-Reg**
+        * **Alhambra-II**
+          * 01-manual-test
+    * **08-bits**
+      * **Reg**
+        * **Alhambra-II**
+          * 01-manual-test
+      * **Sys-Reg**
+        * **Alhambra-II**
+          * 01-manual-test
+    * **16-bits**
+      * **Reg**
+        * **Alhambra-II**
+          * 01-manual-test
+      * **Sys-Reg**
+        * **Alhambra-II**
+          * 01-manual-test
+    * **32-bits**
+      * **Reg**
+      * **Reg-rst**
+        * **Alhambra-II**
+          * 01-manual-test
+        * **Alhambra-II**
+          * 01-manual-test
+      * **Sys-reg**
       * **Sys-reg-rst**
         * **Alhambra-II**
           * 01-manual-test
