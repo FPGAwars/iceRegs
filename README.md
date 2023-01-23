@@ -103,6 +103,7 @@ For installing and using this colection in Icestudio follow these steps:
 
 ## Examples
 * 00-Index
+* 01-Sys-Regs-two-values
 * **TESTs**
   * **Regs**
     * **02-bits**
