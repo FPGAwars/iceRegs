@@ -28,7 +28,7 @@ For installing and using this colection in Icestudio follow these steps:
 | Language | Locale | Translated strings |
 |----------|--------|--------------------|
 | English  |  en    | ![](https://progress-bar.dev/100) |
-| Spanish |  es_ES | ![](https://progress-bar.dev/3) |
+| Spanish |  es_ES | ![](https://progress-bar.dev/2) |
 
 ## Blocks
 * **Regs**
@@ -42,6 +42,8 @@ For installing and using this colection in Icestudio follow these steps:
       * Reg-rst-verilog
       * Reg-verilog
       * Sys-reg-rst-verilog
+  * **03-bits**
+    * Sys-reg
   * **04-bits**
     * Reg
     * Sys-reg
@@ -128,6 +130,10 @@ For installing and using this colection in Icestudio follow these steps:
       * **Sys-reg-rst**
         * **Alhambra-II**
           * 01-manual-test
+        * **Alhambra-II**
+          * 01-manual-test
+    * **03-bits**
+      * **Sys-Reg**
         * **Alhambra-II**
           * 01-manual-test
     * **04-bits**
