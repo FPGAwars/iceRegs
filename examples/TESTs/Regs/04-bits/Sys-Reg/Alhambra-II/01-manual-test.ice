@@ -42,8 +42,8 @@
             ]
           },
           "position": {
-            "x": 1032,
-            "y": 320
+            "x": 1048,
+            "y": 336
           }
         },
         {
@@ -51,7 +51,7 @@
           "type": "basic.constant",
           "data": {
             "name": "",
-            "value": "'h55",
+            "value": "'h5",
             "local": false
           },
           "position": {
@@ -172,6 +172,25 @@
       "design": {
         "graph": {
           "blocks": [
+            {
+              "id": "b86701a5-9c95-460a-93b9-b4727b3f400a",
+              "type": "basic.output",
+              "data": {
+                "name": "nc",
+                "virtual": true,
+                "pins": [
+                  {
+                    "index": "0",
+                    "name": "NULL",
+                    "value": "NULL"
+                  }
+                ]
+              },
+              "position": {
+                "x": 944,
+                "y": 8
+              }
+            },
             {
               "id": "ca7c5f10-efb6-43f9-9364-52d751fc0bc6",
               "type": "basic.input",
