@@ -13,6 +13,25 @@
     "graph": {
       "blocks": [
         {
+          "id": "2c62c042-f7f1-465e-b03b-138f9bccd05c",
+          "type": "basic.output",
+          "data": {
+            "name": "nc",
+            "virtual": true,
+            "pins": [
+              {
+                "index": "0",
+                "name": "NULL",
+                "value": "NULL"
+              }
+            ]
+          },
+          "position": {
+            "x": 944,
+            "y": 32
+          }
+        },
+        {
           "id": "ca7c5f10-efb6-43f9-9364-52d751fc0bc6",
           "type": "basic.input",
           "data": {
