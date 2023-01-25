@@ -200,6 +200,7 @@ gettext('Sys-reg-dff  \n(Didactic purposes)');
 gettext('## SRegs-ld');
 gettext('### 12-bits');
 gettext('### 20-bits');
+gettext('### 24-bits');
 gettext('01-Sys-Regs-two-values');
 gettext('Button-tic: Configurable button that emits a tic when it is pressed');
 gettext('Rising-edge detector. It generates a 1-period pulse (tic) when a rising edge is detected on the input');
