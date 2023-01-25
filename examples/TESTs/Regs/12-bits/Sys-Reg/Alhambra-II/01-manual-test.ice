@@ -153,8 +153,8 @@
             "local": false
           },
           "position": {
-            "x": 216,
-            "y": 320
+            "x": 208,
+            "y": 304
           }
         },
         {
@@ -166,8 +166,8 @@
             "local": false
           },
           "position": {
-            "x": 408,
-            "y": 304
+            "x": 400,
+            "y": 288
           }
         },
         {
@@ -238,8 +238,8 @@
           "id": "bede5b26-9cee-483f-a335-2854eb6c1176",
           "type": "20620a64fa65e6323382a880bc396bc67289e199",
           "position": {
-            "x": 216,
-            "y": 416
+            "x": 208,
+            "y": 400
           },
           "size": {
             "width": 96,
@@ -250,8 +250,8 @@
           "id": "6f4947be-2563-4f49-9528-626989910143",
           "type": "885f18d08dabfa48f5f8cfacf80857cfe98b19bb",
           "position": {
-            "x": 408,
-            "y": 400
+            "x": 400,
+            "y": 384
           },
           "size": {
             "width": 96,
@@ -18015,6 +18015,25 @@
       "design": {
         "graph": {
           "blocks": [
+            {
+              "id": "bda34d8e-cb0e-4847-8958-c3c59c9af58e",
+              "type": "basic.output",
+              "data": {
+                "name": "nc",
+                "virtual": true,
+                "pins": [
+                  {
+                    "index": "0",
+                    "name": "NULL",
+                    "value": "NULL"
+                  }
+                ]
+              },
+              "position": {
+                "x": 952,
+                "y": -8
+              }
+            },
             {
               "id": "ca7c5f10-efb6-43f9-9364-52d751fc0bc6",
               "type": "basic.input",
