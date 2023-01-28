@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-28 20:48+0000\n"
+"POT-Creation-Date: 2023-01-28 20:57+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -58,62 +58,62 @@ msgstr "16-bits"
 msgid "20-bits"
 msgstr "02-bits"
 
-#: translation.js:20
+#: translation.js:20 translation.js:366
 #, fuzzy
 msgid "21-bits"
 msgstr "02-bits"
 
-#: translation.js:21 translation.js:366
+#: translation.js:21 translation.js:367
 #, fuzzy
 msgid "22-bits"
 msgstr "02-bits"
 
-#: translation.js:22 translation.js:367
+#: translation.js:22 translation.js:368
 #, fuzzy
 msgid "23-bits"
 msgstr "02-bits"
 
-#: translation.js:23 translation.js:368
+#: translation.js:23 translation.js:369
 #, fuzzy
 msgid "24-bits"
 msgstr "04-bits"
 
-#: translation.js:24 translation.js:369
+#: translation.js:24 translation.js:370
 #, fuzzy
 msgid "25-bits"
 msgstr "02-bits"
 
-#: translation.js:25 translation.js:370
+#: translation.js:25 translation.js:371
 #, fuzzy
 msgid "26-bits"
 msgstr "16-bits"
 
-#: translation.js:26 translation.js:371
+#: translation.js:26 translation.js:372
 #, fuzzy
 msgid "27-bits"
 msgstr "02-bits"
 
-#: translation.js:27 translation.js:372
+#: translation.js:27 translation.js:373
 #, fuzzy
 msgid "28-bits"
 msgstr "08-bits"
 
-#: translation.js:28 translation.js:373
+#: translation.js:28 translation.js:374
 #, fuzzy
 msgid "29-bits"
 msgstr "02-bits"
 
-#: translation.js:29 translation.js:374
+#: translation.js:29 translation.js:375
 #, fuzzy
 msgid "30-bits"
 msgstr "02-bits"
 
-#: translation.js:30 translation.js:375
+#: translation.js:30 translation.js:376
 #, fuzzy
 msgid "31-bits"
 msgstr "02-bits"
 
-#: translation.js:31 translation.js:376
+#: translation.js:31 translation.js:377
 msgid "32-bits"
 msgstr "32-bits"
 
@@ -122,7 +122,7 @@ msgstr "32-bits"
 msgid "Verilog"
 msgstr "Verilog"
 
-#: translation.js:33 translation.js:115 translation.js:378 translation.js:547
+#: translation.js:33 translation.js:115 translation.js:379 translation.js:557
 msgid "Reg-rst"
 msgstr "Reg-rst"
 
@@ -187,8 +187,8 @@ msgid "Output"
 msgstr ""
 
 #: translation.js:49 translation.js:68 translation.js:75 translation.js:84
-#: translation.js:123 translation.js:377 translation.js:416 translation.js:425
-#: translation.js:445 translation.js:546
+#: translation.js:123 translation.js:378 translation.js:417 translation.js:426
+#: translation.js:446 translation.js:556
 msgid "Reg"
 msgstr ""
 
@@ -196,7 +196,7 @@ msgstr ""
 msgid "Reg-02: Two bits Register with load input"
 msgstr ""
 
-#: translation.js:51 translation.js:380
+#: translation.js:51 translation.js:381
 msgid "Sys-reg-dff"
 msgstr ""
 
@@ -230,7 +230,7 @@ msgid ""
 "Its output is shown in the cycle n+1"
 msgstr ""
 
-#: translation.js:58 translation.js:125 translation.js:381 translation.js:549
+#: translation.js:58 translation.js:125 translation.js:382 translation.js:559
 msgid "Sys-reg-rst"
 msgstr ""
 
@@ -238,8 +238,8 @@ msgstr ""
 #: translation.js:82 translation.js:90 translation.js:91 translation.js:93
 #: translation.js:95 translation.js:97 translation.js:99 translation.js:101
 #: translation.js:103 translation.js:105 translation.js:107 translation.js:109
-#: translation.js:111 translation.js:113 translation.js:126 translation.js:379
-#: translation.js:524 translation.js:532 translation.js:539 translation.js:548
+#: translation.js:111 translation.js:113 translation.js:126 translation.js:380
+#: translation.js:534 translation.js:542 translation.js:549 translation.js:558
 msgid "Sys-reg"
 msgstr ""
 
@@ -420,19 +420,19 @@ msgstr ""
 msgid "Reg-32: 32 bits Register with load input"
 msgstr ""
 
-#: translation.js:127 translation.js:128 translation.js:562 translation.js:563
+#: translation.js:127 translation.js:128 translation.js:572 translation.js:573
 msgid "02-Bits"
 msgstr ""
 
-#: translation.js:129 translation.js:176 translation.js:564 translation.js:608
+#: translation.js:129 translation.js:176 translation.js:574 translation.js:618
 msgid "Left"
 msgstr ""
 
-#: translation.js:130 translation.js:177 translation.js:565 translation.js:609
+#: translation.js:130 translation.js:177 translation.js:575 translation.js:619
 msgid "Right"
 msgstr ""
 
-#: translation.js:132 translation.js:567
+#: translation.js:132 translation.js:577
 msgid "SregL-ld-rst"
 msgstr ""
 
@@ -452,7 +452,7 @@ msgid ""
 "Shift-right"
 msgstr ""
 
-#: translation.js:136 translation.js:566
+#: translation.js:136 translation.js:576
 msgid "SregL-ld"
 msgstr ""
 
@@ -466,7 +466,7 @@ msgid ""
 "Shift-left"
 msgstr ""
 
-#: translation.js:139 translation.js:569
+#: translation.js:139 translation.js:579
 msgid "Sys-SregL-ld-rst"
 msgstr ""
 
@@ -510,7 +510,7 @@ msgstr ""
 msgid "Serial input"
 msgstr ""
 
-#: translation.js:148 translation.js:568
+#: translation.js:148 translation.js:578
 msgid "Sys-SregL-ld"
 msgstr ""
 
@@ -558,7 +558,7 @@ msgid ""
 "load. Verilog implementation"
 msgstr ""
 
-#: translation.js:159 translation.js:592
+#: translation.js:159 translation.js:602
 msgid "SregR-ld-rst"
 msgstr ""
 
@@ -572,7 +572,7 @@ msgstr ""
 msgid "SR1: Shift  a 2-bit value one bit right. MSB is filled with in"
 msgstr ""
 
-#: translation.js:162 translation.js:591
+#: translation.js:162 translation.js:601
 msgid "SregR-ld"
 msgstr ""
 
@@ -580,7 +580,7 @@ msgstr ""
 msgid "SregR-ld-02: Two bits Shift register to the right with load input"
 msgstr ""
 
-#: translation.js:164 translation.js:594
+#: translation.js:164 translation.js:604
 msgid "Sys-SregR-ld-rst"
 msgstr ""
 
@@ -590,7 +590,7 @@ msgid ""
 "and load"
 msgstr ""
 
-#: translation.js:166 translation.js:593
+#: translation.js:166 translation.js:603
 msgid "Sys-SregR-ld"
 msgstr ""
 
@@ -638,7 +638,7 @@ msgid ""
 "load. Verilog implementation"
 msgstr ""
 
-#: translation.js:179 translation.js:611
+#: translation.js:179 translation.js:621
 msgid "SregL-rst"
 msgstr ""
 
@@ -646,7 +646,7 @@ msgstr ""
 msgid "SregL-rst-02: Two bits Shift register to the left, with reset"
 msgstr ""
 
-#: translation.js:181 translation.js:610
+#: translation.js:181 translation.js:620
 msgid "SregL"
 msgstr ""
 
@@ -710,7 +710,7 @@ msgid ""
 "implementation"
 msgstr ""
 
-#: translation.js:196 translation.js:627
+#: translation.js:196 translation.js:637
 msgid "SregR-rst"
 msgstr ""
 
@@ -718,7 +718,7 @@ msgstr ""
 msgid "SregR-rst-02: Two bits Shift register to the right, with reset"
 msgstr ""
 
-#: translation.js:198 translation.js:626
+#: translation.js:198 translation.js:636
 msgid "SregR"
 msgstr ""
 
@@ -1509,581 +1509,608 @@ msgstr ""
 msgid "SReg-ld"
 msgstr ""
 
-#: translation.js:382 translation.js:383 translation.js:389 translation.js:390
-#: translation.js:394 translation.js:401 translation.js:418 translation.js:422
-#: translation.js:427 translation.js:430 translation.js:434 translation.js:447
-#: translation.js:450 translation.js:454 translation.js:466 translation.js:475
-#: translation.js:483 translation.js:491 translation.js:500 translation.js:509
-#: translation.js:518 translation.js:525 translation.js:533 translation.js:540
-#: translation.js:550 translation.js:551 translation.js:557 translation.js:558
-#: translation.js:570 translation.js:571 translation.js:576 translation.js:577
-#: translation.js:595 translation.js:596 translation.js:601 translation.js:602
-#: translation.js:614 translation.js:615 translation.js:620 translation.js:621
-#: translation.js:630 translation.js:631
+#: translation.js:383 translation.js:384 translation.js:390 translation.js:391
+#: translation.js:395 translation.js:402 translation.js:419 translation.js:423
+#: translation.js:428 translation.js:431 translation.js:435 translation.js:448
+#: translation.js:451 translation.js:455 translation.js:467 translation.js:476
+#: translation.js:485 translation.js:493 translation.js:501 translation.js:510
+#: translation.js:519 translation.js:528 translation.js:535 translation.js:543
+#: translation.js:550 translation.js:560 translation.js:561 translation.js:567
+#: translation.js:568 translation.js:580 translation.js:581 translation.js:586
+#: translation.js:587 translation.js:605 translation.js:606 translation.js:611
+#: translation.js:612 translation.js:624 translation.js:625 translation.js:630
+#: translation.js:631 translation.js:640 translation.js:641
 msgid "Alhambra-II"
 msgstr ""
 
-#: translation.js:384 translation.js:387 translation.js:391 translation.js:395
-#: translation.js:398 translation.js:402 translation.js:419 translation.js:423
-#: translation.js:428 translation.js:431 translation.js:435 translation.js:448
-#: translation.js:451 translation.js:455 translation.js:467 translation.js:476
-#: translation.js:484 translation.js:492 translation.js:501 translation.js:510
-#: translation.js:519 translation.js:526 translation.js:534 translation.js:541
-#: translation.js:552 translation.js:555 translation.js:559 translation.js:561
-#: translation.js:572 translation.js:574 translation.js:578 translation.js:589
-#: translation.js:597 translation.js:599 translation.js:603 translation.js:606
-#: translation.js:616 translation.js:618 translation.js:622 translation.js:624
-#: translation.js:632 translation.js:634 translation.js:636 translation.js:638
+#: translation.js:385 translation.js:388 translation.js:392 translation.js:396
+#: translation.js:399 translation.js:403 translation.js:420 translation.js:424
+#: translation.js:429 translation.js:432 translation.js:436 translation.js:449
+#: translation.js:452 translation.js:456 translation.js:468 translation.js:477
+#: translation.js:486 translation.js:494 translation.js:502 translation.js:511
+#: translation.js:520 translation.js:529 translation.js:536 translation.js:544
+#: translation.js:551 translation.js:562 translation.js:565 translation.js:569
+#: translation.js:571 translation.js:582 translation.js:584 translation.js:588
+#: translation.js:599 translation.js:607 translation.js:609 translation.js:613
+#: translation.js:616 translation.js:626 translation.js:628 translation.js:632
+#: translation.js:634 translation.js:642 translation.js:644 translation.js:646
+#: translation.js:648
 msgid "01-manual-test"
 msgstr ""
 
-#: translation.js:385
+#: translation.js:386
 msgid ""
 "# TEST: 2-bits Reg-rst: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:386
+#: translation.js:387
 msgid "Next"
 msgstr ""
 
-#: translation.js:388
+#: translation.js:389
 msgid ""
 "# TEST: 2-bits Reg: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:392
+#: translation.js:393
 msgid "2bits constant value: 0"
 msgstr ""
 
-#: translation.js:393
+#: translation.js:394
 msgid ""
 "# TEST: 2-bits Sys-reg-dff: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:396
+#: translation.js:397
 msgid "2bits constant value: 3"
 msgstr ""
 
-#: translation.js:397
+#: translation.js:398
 msgid ""
 "# TEST: 2-bits Sys-reg-rst: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:399
+#: translation.js:400
 msgid ""
 "# TEST: 2-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:400 translation.js:417 translation.js:426 translation.js:433
-#: translation.js:446 translation.js:453 translation.js:465 translation.js:474
-#: translation.js:482 translation.js:490 translation.js:499 translation.js:508
-#: translation.js:517
+#: translation.js:401 translation.js:418 translation.js:427 translation.js:434
+#: translation.js:447 translation.js:454 translation.js:466 translation.js:475
+#: translation.js:484 translation.js:492 translation.js:500 translation.js:509
+#: translation.js:518 translation.js:527
 msgid "Sys-Reg"
 msgstr ""
 
-#: translation.js:403
+#: translation.js:404
 msgid "Generic: 3-bits generic constant (0-7)"
 msgstr ""
 
-#: translation.js:404
+#: translation.js:405
 msgid ""
 "Data Ledoscope. 2 samples of 4bits data are taken initially, at the system "
 "clock rate"
 msgstr ""
 
-#: translation.js:405
+#: translation.js:406
 msgid "System TFF: It toogles its output on every system cycle"
 msgstr ""
 
-#: translation.js:406
+#: translation.js:407
 msgid "Counter-x01: 1-bit counter"
 msgstr ""
 
-#: translation.js:407
+#: translation.js:408
 msgid "UINT4-3bit:  Extend a 3-bit unsigned integer to 4-bits "
 msgstr ""
 
-#: translation.js:408
+#: translation.js:409
 msgid "Bus4-Join-1-3: Join the two buses into a 4-bits Bus"
 msgstr ""
 
-#: translation.js:409
+#: translation.js:410
 msgid "Bus4-Split-1-3: Split the 4-bits bus into two: 1-bit and 3-bits buses"
 msgstr ""
 
-#: translation.js:410
+#: translation.js:411
 msgid ""
 "# TEST: 3-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:411
+#: translation.js:412
 msgid ""
 "The first two samples on the  \n"
 "channels are captured  \n"
 "(Samples at cycles 0 and 1)"
 msgstr ""
 
-#: translation.js:412
+#: translation.js:413
 msgid "T flip-flop"
 msgstr ""
 
-#: translation.js:413
+#: translation.js:414
 msgid "Cycle number: 0 and 1"
 msgstr ""
 
-#: translation.js:414
+#: translation.js:415
 msgid ""
 "The Flip-flips is reset  \n"
 "at the end of cycle 1"
 msgstr ""
 
-#: translation.js:415
+#: translation.js:416
 msgid "2-cycles with pulse"
 msgstr ""
 
-#: translation.js:420
+#: translation.js:421
 msgid "Generic: 4-bits generic constant (0-15)"
 msgstr ""
 
-#: translation.js:421
+#: translation.js:422
 msgid ""
 "# TEST: 4-bits Reg: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:424
+#: translation.js:425
 msgid ""
 "# TEST: 4-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:429
+#: translation.js:430
 msgid ""
 "# TEST: 8-bits Reg: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:432
+#: translation.js:433
 msgid ""
 "# TEST: 8-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:436
+#: translation.js:437
 msgid ""
 "Display16-8: Display a 16-bits value on an  8-LEDs. The sel input selects "
 "the byte to display "
 msgstr ""
 
-#: translation.js:437
+#: translation.js:438
 msgid ""
 "Data Ledoscope. 2 samples of 16bits data are taken initially, at the system "
 "clock rate"
 msgstr ""
 
-#: translation.js:438
+#: translation.js:439
 msgid "Reg-x16: 16bits register"
 msgstr ""
 
-#: translation.js:439
+#: translation.js:440
 msgid "Generic: 12-bits generic constant (0-4095)"
 msgstr ""
 
-#: translation.js:440
+#: translation.js:441
 msgid "UINT16-12bits:  Extend a 12-bits unsigned integer to 16-bits "
 msgstr ""
 
-#: translation.js:441
+#: translation.js:442
 msgid "Bus16-Join-4-12: Join the two same halves into an 16-bits Bus"
 msgstr ""
 
-#: translation.js:442
+#: translation.js:443
 msgid "4bits constant value: 0"
 msgstr ""
 
-#: translation.js:443
+#: translation.js:444
 msgid ""
 "# TEST: 12-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:444
+#: translation.js:445
 msgid ""
 "Byte 0  \n"
 "(least significant)  "
 msgstr ""
 
-#: translation.js:449
+#: translation.js:450
 msgid ""
 "# TEST: 16-bits Reg: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:452
+#: translation.js:453
 msgid ""
 "# TEST: 16-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:456
+#: translation.js:457
 msgid ""
 "Data Ledoscope. 2 samples of 32bits data are taken initially, at the system "
 "clock rate"
 msgstr ""
 
-#: translation.js:457
+#: translation.js:458
 msgid "Reg-x32: 32bits register"
 msgstr ""
 
-#: translation.js:458
+#: translation.js:459
 msgid ""
 "Display32-8: Display a 32-bits value on an  8-LEDs. The sel input selects "
 "the byte to display "
 msgstr ""
 
-#: translation.js:459
+#: translation.js:460
 msgid "Generic: 20-bits generic constant"
 msgstr ""
 
-#: translation.js:460
+#: translation.js:461
 msgid "UINT32-20bits:  Extend a 20-bits unsigned integer to 32-bits "
 msgstr ""
 
-#: translation.js:461
+#: translation.js:462
 msgid "Bus32-Join-12-20: Join the two buses into an 32-bits Bus"
 msgstr ""
 
-#: translation.js:462
+#: translation.js:463
 msgid "12bits constant value: 0"
 msgstr ""
 
-#: translation.js:463
+#: translation.js:464
 msgid ""
 "# TEST: 20-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:464
+#: translation.js:465
 msgid ""
 "It is 1 if the sample 0 is  \n"
 "the current sample"
 msgstr ""
 
-#: translation.js:468
-msgid "Generic: 22-bits generic constant"
-msgstr ""
-
 #: translation.js:469
-msgid "UINT32-22bits:  Extend a 22-bits unsigned integer to 32-bits "
+msgid "Generic: 21-bits generic constant"
 msgstr ""
 
 #: translation.js:470
-msgid "Bus32-Join-10-22: Join the two buses into an 32-bits Bus"
+msgid "UINT32-21bits:  Extend a 21-bits unsigned integer to 32-bits "
 msgstr ""
 
 #: translation.js:471
-msgid "10bits constant value: 0"
+msgid "Bus32-Join-11-21: Join the two buses into an 32-bits Bus"
 msgstr ""
 
 #: translation.js:472
-msgid "Generic: 9-bits generic constant"
+msgid "11bits constant value: 0"
 msgstr ""
 
 #: translation.js:473
+msgid "Generic: 11-bits generic constant"
+msgstr ""
+
+#: translation.js:474
+msgid ""
+"# TEST: 21-bits Sys-reg: Manual testing\n"
+"\n"
+msgstr ""
+
+#: translation.js:478
+msgid "Generic: 22-bits generic constant"
+msgstr ""
+
+#: translation.js:479
+msgid "UINT32-22bits:  Extend a 22-bits unsigned integer to 32-bits "
+msgstr ""
+
+#: translation.js:480
+msgid "Bus32-Join-10-22: Join the two buses into an 32-bits Bus"
+msgstr ""
+
+#: translation.js:481
+msgid "10bits constant value: 0"
+msgstr ""
+
+#: translation.js:482
+msgid "Generic: 9-bits generic constant"
+msgstr ""
+
+#: translation.js:483
 msgid ""
 "# TEST: 22-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:477
+#: translation.js:487
 msgid "Generic: 23-bits generic constant"
 msgstr ""
 
-#: translation.js:478
+#: translation.js:488
 msgid "UINT32-23bits:  Extend a 23-bits unsigned integer to 32-bits "
 msgstr ""
 
-#: translation.js:479
+#: translation.js:489
 msgid "Bus32-Join-9-23: Join the two buses into an 32-bits Bus"
 msgstr ""
 
-#: translation.js:480
+#: translation.js:490
 msgid "9bits constant value: 0"
 msgstr ""
 
-#: translation.js:481
+#: translation.js:491
 msgid ""
 "# TEST: 23-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:485
+#: translation.js:495
 msgid "Generic: 24-bits generic constant"
 msgstr ""
 
-#: translation.js:486
+#: translation.js:496
 msgid "UINT32-24bits:  Extend a 24-bits unsigned integer to 32-bits "
 msgstr ""
 
-#: translation.js:487
+#: translation.js:497
 msgid "Bus32-Join-8-24: Join the two buses into an 32-bits Bus"
 msgstr ""
 
-#: translation.js:488
+#: translation.js:498
 msgid "8bits constant value: 0"
 msgstr ""
 
-#: translation.js:489
+#: translation.js:499
 msgid ""
 "# TEST: 24-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:493
+#: translation.js:503
 msgid "Generic: 25-bits generic constant"
 msgstr ""
 
-#: translation.js:494
+#: translation.js:504
 msgid "UINT32-25bits:  Extend a 25-bits unsigned integer to 32-bits "
 msgstr ""
 
-#: translation.js:495
+#: translation.js:505
 msgid "Bus32-Join-7-25: Join the two buses into an 32-bits Bus"
 msgstr ""
 
-#: translation.js:496
+#: translation.js:506
 msgid "7bits constant value: 0"
 msgstr ""
 
-#: translation.js:497
+#: translation.js:507
 msgid "Generic: 7-bits generic constant (0-127)"
 msgstr ""
 
-#: translation.js:498
+#: translation.js:508
 msgid ""
 "# TEST: 25-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:502
+#: translation.js:512
 msgid "Generic: 26-bits generic constant"
 msgstr ""
 
-#: translation.js:503
+#: translation.js:513
 msgid "UINT32-26bits:  Extend a 26-bits unsigned integer to 32-bits "
 msgstr ""
 
-#: translation.js:504
+#: translation.js:514
 msgid "6bits constant value: 0"
 msgstr ""
 
-#: translation.js:505
+#: translation.js:515
 msgid "Generic: 6-bits generic constant (0-63)"
 msgstr ""
 
-#: translation.js:506
+#: translation.js:516
 msgid "Bus32-Join-6-26: Join the two buses into an 32-bits Bus"
 msgstr ""
 
-#: translation.js:507
+#: translation.js:517
 msgid ""
 "# TEST: 26-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:511
+#: translation.js:521
 msgid "Generic: 27-bits generic constant"
 msgstr ""
 
-#: translation.js:512
+#: translation.js:522
 msgid "UINT32-27bits:  Extend a 27-bits unsigned integer to 32-bits "
 msgstr ""
 
-#: translation.js:513
+#: translation.js:523
 msgid "Bus32-Join-5-27: Join the two buses into an 32-bits Bus"
 msgstr ""
 
-#: translation.js:514
+#: translation.js:524
 msgid "5bits constant value: 0"
 msgstr ""
 
-#: translation.js:515
+#: translation.js:525
 msgid "Generic: 5-bits generic constant (0-31)"
 msgstr ""
 
-#: translation.js:516
+#: translation.js:526
 msgid ""
 "# TEST: 27-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:520
+#: translation.js:530
 msgid "Generic: 28-bits generic constant"
 msgstr ""
 
-#: translation.js:521
+#: translation.js:531
 msgid "UINT32-28bits:  Extend a 28-bits unsigned integer to 32-bits "
 msgstr ""
 
-#: translation.js:522
+#: translation.js:532
 msgid "Bus32-Join-4-28: Join the two buses into an 32-bits Bus"
 msgstr ""
 
-#: translation.js:523
+#: translation.js:533
 msgid ""
 "# TEST: 28-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:527
+#: translation.js:537
 msgid "Generic: 29-bits generic constant"
 msgstr ""
 
-#: translation.js:528
+#: translation.js:538
 msgid "UINT32-29bits:  Extend a 29-bits unsigned integer to 32-bits "
 msgstr ""
 
-#: translation.js:529
+#: translation.js:539
 msgid "3bits constant value: 0"
 msgstr ""
 
-#: translation.js:530
+#: translation.js:540
 msgid "Bus32-Join-3-29: Join the two buses into an 32-bits Bus"
 msgstr ""
 
-#: translation.js:531
+#: translation.js:541
 msgid ""
 "# TEST: 29-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:535
+#: translation.js:545
 msgid "Generic: 30-bits generic constant"
 msgstr ""
 
-#: translation.js:536
+#: translation.js:546
 msgid "UINT32-30bits:  Extend a 30-bits unsigned integer to 32-bits "
 msgstr ""
 
-#: translation.js:537
+#: translation.js:547
 msgid "Bus32-Join-2-30: Join the two buses into an 32-bits Bus"
 msgstr ""
 
-#: translation.js:538
+#: translation.js:548
 msgid ""
 "# TEST: 30-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:542
+#: translation.js:552
 msgid "Generic: 31-bits generic constant"
 msgstr ""
 
-#: translation.js:543
+#: translation.js:553
 msgid "UINT32-31bits:  Extend a 31-bits unsigned integer to 32-bits "
 msgstr ""
 
-#: translation.js:544
+#: translation.js:554
 msgid "Bus32-Join-1-31: Join the two buses into an 32-bits Bus"
 msgstr ""
 
-#: translation.js:545
+#: translation.js:555
 msgid ""
 "# TEST: 31-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:553
+#: translation.js:563
 msgid ""
 "Direct connection of a button. The button should not have any external "
 "circuit"
 msgstr ""
 
-#: translation.js:554
+#: translation.js:564
 msgid ""
 "# TEST: 32-bits Reg-rst: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:556
+#: translation.js:566
 msgid ""
 "# TEST: 32-bits Reg: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:560
+#: translation.js:570
 msgid ""
 "# TEST: 32-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:573
+#: translation.js:583
 msgid ""
 "# TEST: 2-bits SRegL-ld-rst: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:575
+#: translation.js:585
 msgid ""
 "# TEST: 2-bits SRegL-ld: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:579
+#: translation.js:589
 msgid ""
 "Ledoscope. Capture the input signal during the first 4 cycles after circuit "
 "initialization"
 msgstr ""
 
-#: translation.js:580
+#: translation.js:590
 msgid "SReg-right-x4: 4 bits Shift register (to the right)"
 msgstr ""
 
-#: translation.js:581
+#: translation.js:591
 msgid ""
 "# TEST: 2-bits Sys-SRegL-ld-rst: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:582
+#: translation.js:592
 msgid "4-bits Shift register"
 msgstr ""
 
-#: translation.js:583
+#: translation.js:593
 msgid ""
 "The input channel is captured  \n"
 "on the register. One bit per  \n"
 "system clock"
 msgstr ""
 
-#: translation.js:584
+#: translation.js:594
 msgid "RS FlipFlop initialized to 1"
 msgstr ""
 
-#: translation.js:585
+#: translation.js:595
 msgid ""
 "while 1, the shift register  \n"
 "is capturing"
 msgstr ""
 
-#: translation.js:586
+#: translation.js:596
 msgid "2-bits counter"
 msgstr ""
 
-#: translation.js:587
+#: translation.js:597
 msgid ""
 "After 4 cycles the Flip-Flop is  \n"
 "reset and it stops capturing  \n"
 "bits"
 msgstr ""
 
-#: translation.js:588
+#: translation.js:598
 msgid ""
 "As the 2-bits system counter is counting  \n"
 "all the time, the done signal is only  \n"
@@ -2091,101 +2118,101 @@ msgid ""
 "value and the Ledoscope is on (busy)"
 msgstr ""
 
-#: translation.js:590
+#: translation.js:600
 msgid ""
 "# TEST: 2-bits Sys-SRegL-ld: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:598
+#: translation.js:608
 msgid ""
 "# TEST: 2-bits SRegR-ld-rst: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:600
+#: translation.js:610
 msgid ""
 "# TEST: 2-bits SRegR-ld: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:604
+#: translation.js:614
 msgid ""
 "Sys-SregR-load-02: Two bits System Shift register to the right, with reset "
 "and load"
 msgstr ""
 
-#: translation.js:605
+#: translation.js:615
 msgid ""
 "# TEST: 2-bits Sys-SRegR-ld-rst: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:607
+#: translation.js:617
 msgid ""
 "# TEST: 2-bits Sys-SRegR-ld: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:612
+#: translation.js:622
 msgid "Sys-sregL"
 msgstr ""
 
-#: translation.js:613
+#: translation.js:623
 msgid "Sys-sregL-rst"
 msgstr ""
 
-#: translation.js:617
+#: translation.js:627
 msgid ""
 "# TEST: 2-bits SRegL-rst: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:619
+#: translation.js:629
 msgid ""
 "# TEST: 2-bits SRegL: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:623
+#: translation.js:633
 msgid ""
 "# TEST: 2-bits Sys-SRegL-rst: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:625
+#: translation.js:635
 msgid ""
 "# TEST: 2-bits Sys-SRegL: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:628
+#: translation.js:638
 msgid "Sys-sregR"
 msgstr ""
 
-#: translation.js:629
+#: translation.js:639
 msgid "Sys-sregR-rst"
 msgstr ""
 
-#: translation.js:633
+#: translation.js:643
 msgid ""
 "# TEST: 2-bits SRegR-rst: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:635
+#: translation.js:645
 msgid ""
 "# TEST: 2-bits SRegR: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:637
+#: translation.js:647
 msgid ""
 "# TEST: 2-bits Sys-SRegR: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:639
+#: translation.js:649
 msgid ""
 "# TEST: 2-bits Sys-SRegR-rst: Manual testing\n"
 "\n"
