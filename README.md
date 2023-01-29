@@ -55,6 +55,8 @@ For installing and using this colection in Icestudio follow these steps:
   * **16-bits**
     * Reg
     * Sys-reg
+  * **17-bits**
+    * Sys-reg
   * **18-bits**
     * Sys-reg
   * **19-bits**
