@@ -2,7 +2,7 @@
   "version": "1.2",
   "package": {
     "name": "Sys-reg-rst-02",
-    "version": "0.3",
+    "version": "0.4",
     "description": "Sys-reg-rst-02: Two bits system register with reset",
     "author": "Juan González-Gómez (Obijuan)",
     "image": "%3Csvg%20width=%22252.294%22%20height=%22220.368%22%20viewBox=%220%200%2066.75283%2058.305748%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg%20stroke=%22#000%22%20stroke-width=%221.442%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%3E%3Cpath%20d=%22M25.682%2041.088L39.29%2057.76l-6.918-20.534%22%20fill=%22#ccc%22%20stroke-width=%221.0924880399999999%22/%3E%3Cpath%20d=%22M18.298%2033.024L9.066%2013.41l-6.45%203.724-2.07-3.583%2020.905-12.07%202.069%203.584-6.092%203.517%2012.03%2018.223s5.399-2.025%208.535.74c3.137%202.766%202.52%204.92%202.887%204.773L17.192%2045.956s-2.848-3.695-2.16-6.795c.688-3.1%203.266-6.137%203.266-6.137z%22%20fill=%22red%22%20stroke-width=%221.0924880399999999%22/%3E%3C/g%3E%3Cg%20stroke=%22#000%22%20stroke-width=%221.442%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%3E%3Cpath%20d=%22M42.022%2040.152l13.607%2016.672-6.918-20.534%22%20fill=%22#ccc%22%20stroke-width=%221.0924880399999999%22/%3E%3Cpath%20d=%22M34.638%2032.088l-9.232-19.613-6.451%203.724-2.07-3.583L37.792.546%2039.86%204.13l-6.093%203.517%2012.03%2018.223s5.4-2.025%208.536.74c3.137%202.766%202.52%204.92%202.887%204.772L33.532%2045.02s-2.848-3.695-2.16-6.795c.688-3.1%203.266-6.137%203.266-6.137z%22%20fill=%22red%22%20stroke-width=%221.0924880399999999%22/%3E%3C/g%3E%3Cg%20transform=%22translate(-38.356%20-17.732)%22%3E%3Crect%20width=%2224.412%22%20height=%2213.185%22%20x=%2280.3%22%20y=%2221.375%22%20ry=%222.247%22%20fill=%22#fff%22%20stroke=%22#000%22%20stroke-width=%22.794%22%20stroke-linecap=%22round%22/%3E%3Ctext%20style=%22line-height:1.25%22%20x=%2282.245%22%20y=%2230.943%22%20font-weight=%22400%22%20font-size=%2210.583%22%20font-family=%22sans-serif%22%20fill=%22#00f%22%20stroke-width=%22.265%22%3E%3Ctspan%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20x=%2282.245%22%20y=%2230.943%22%20font-weight=%22700%22%3ESys%3C/tspan%3E%3C/text%3E%3C/g%3E%3C/svg%3E",
@@ -16,19 +16,11 @@
           "id": "58b0158f-8daf-43f9-85be-b027d3f3cf4b",
           "type": "basic.output",
           "data": {
-            "name": "nc",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "name": "nc"
           },
           "position": {
-            "x": 1120,
-            "y": -56
+            "x": 1112,
+            "y": -40
           }
         },
         {
@@ -39,8 +31,8 @@
             "clock": true
           },
           "position": {
-            "x": 200,
-            "y": 8
+            "x": 248,
+            "y": -32
           }
         },
         {
@@ -51,27 +43,43 @@
             "blockColor": "yellow"
           },
           "position": {
-            "x": 344,
-            "y": 8
+            "x": 392,
+            "y": -32
           }
         },
         {
           "id": "5dcbf0d4-9205-4315-8f46-fafe34edb2e4",
           "type": "basic.output",
           "data": {
-            "name": "nc",
-            "virtual": true,
-            "pins": [
-              {
-                "index": "0",
-                "name": "NULL",
-                "value": "NULL"
-              }
-            ]
+            "name": "nc"
           },
           "position": {
-            "x": 1120,
-            "y": 48
+            "x": 1112,
+            "y": 64
+          }
+        },
+        {
+          "id": "892d93f1-9c4c-46c1-82c7-ff9702a5725a",
+          "type": "basic.input",
+          "data": {
+            "name": "rst",
+            "clock": false
+          },
+          "position": {
+            "x": 248,
+            "y": 72
+          }
+        },
+        {
+          "id": "ac06d304-adc4-4964-9009-9ae09c6a7bc5",
+          "type": "basic.inputLabel",
+          "data": {
+            "name": "rst",
+            "blockColor": "fuchsia"
+          },
+          "position": {
+            "x": 392,
+            "y": 72
           }
         },
         {
@@ -84,30 +92,6 @@
           "position": {
             "x": 800,
             "y": 80
-          }
-        },
-        {
-          "id": "892d93f1-9c4c-46c1-82c7-ff9702a5725a",
-          "type": "basic.input",
-          "data": {
-            "name": "rst",
-            "clock": false
-          },
-          "position": {
-            "x": 200,
-            "y": 112
-          }
-        },
-        {
-          "id": "ac06d304-adc4-4964-9009-9ae09c6a7bc5",
-          "type": "basic.inputLabel",
-          "data": {
-            "name": "rst",
-            "blockColor": "fuchsia"
-          },
-          "position": {
-            "x": 344,
-            "y": 112
           }
         },
         {
@@ -129,8 +113,20 @@
           "data": {
             "name": "data",
             "range": "[1:0]",
-            "blockColor": "fuchsia",
-            "size": 2
+            "blockColor": "navy",
+            "virtual": true,
+            "pins": [
+              {
+                "index": "1",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "0",
+                "name": "NULL",
+                "value": "NULL"
+              }
+            ]
           },
           "position": {
             "x": 576,
@@ -147,8 +143,8 @@
             "size": 2
           },
           "position": {
-            "x": 200,
-            "y": 216
+            "x": 248,
+            "y": 176
           }
         },
         {
@@ -157,12 +153,24 @@
           "data": {
             "name": "data",
             "range": "[1:0]",
-            "blockColor": "fuchsia",
-            "size": 2
+            "blockColor": "navy",
+            "virtual": true,
+            "pins": [
+              {
+                "index": "1",
+                "name": "NULL",
+                "value": "NULL"
+              },
+              {
+                "index": "0",
+                "name": "NULL",
+                "value": "NULL"
+              }
+            ]
           },
           "position": {
-            "x": 344,
-            "y": 216
+            "x": 392,
+            "y": 176
           }
         },
         {
@@ -186,8 +194,8 @@
             "local": false
           },
           "position": {
-            "x": 936,
-            "y": -56
+            "x": 944,
+            "y": -64
           }
         },
         {
@@ -224,6 +232,54 @@
           "size": {
             "width": 96,
             "height": 96
+          }
+        },
+        {
+          "id": "138aebf3-5f01-45f9-9cdc-1d31de4a3e26",
+          "type": "basic.info",
+          "data": {
+            "info": "Sys-reg",
+            "readonly": true
+          },
+          "position": {
+            "x": 952,
+            "y": 232
+          },
+          "size": {
+            "width": 96,
+            "height": 40
+          }
+        },
+        {
+          "id": "7f37b2d5-e71f-4626-a942-3da8410683b5",
+          "type": "basic.info",
+          "data": {
+            "info": "Mux-2-1",
+            "readonly": true
+          },
+          "position": {
+            "x": 792,
+            "y": 272
+          },
+          "size": {
+            "width": 96,
+            "height": 40
+          }
+        },
+        {
+          "id": "b16dafcb-eec8-474b-8cc5-56d15b07dc6a",
+          "type": "basic.info",
+          "data": {
+            "info": "Init value",
+            "readonly": true
+          },
+          "position": {
+            "x": 960,
+            "y": -104
+          },
+          "size": {
+            "width": 112,
+            "height": 40
           }
         }
       ],
