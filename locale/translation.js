@@ -15,6 +15,7 @@ gettext('03-bits');
 gettext('04-bits');
 gettext('08-bits');
 gettext('12-bits');
+gettext('15-bits');
 gettext('16-bits');
 gettext('17-bits');
 gettext('18-bits');
@@ -84,6 +85,8 @@ gettext('Bus8-Split-half: Split the 8-bits bus into two buses of the same size')
 gettext('Sys-reg');
 gettext('Sys-reg');
 gettext('Sys-reg-12: 12 bits system register');
+gettext('Sys-reg');
+gettext('Sys-reg-15: 15 bits system register');
 gettext('Reg');
 gettext('Reg-16: 16 bits Register with load input');
 gettext('Sys-reg-16: 16 bits system register');
