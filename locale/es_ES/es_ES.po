@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-29 14:56+0000\n"
+"POT-Creation-Date: 2023-01-29 17:01+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -177,124 +177,41 @@ msgstr "02-bits"
 msgid "32-bits"
 msgstr "32-bits"
 
-#: translation.js:44 translation.js:167 translation.js:194 translation.js:214
-#: translation.js:231
-msgid "Verilog"
-msgstr "Verilog"
+#: translation.js:44
+msgid "Blocks"
+msgstr ""
 
-#: translation.js:45 translation.js:151 translation.js:438 translation.js:697
-msgid "Reg-rst"
-msgstr "Reg-rst"
+#: translation.js:45
+msgid "Reg-rst-verilog"
+msgstr ""
 
 #: translation.js:46
-msgid "Reg-rst-02: Two bits Register with load and reset inputs"
-msgstr "Reg-rst-02: Registro de dos bits con entradas de load y reset"
+msgid ""
+"Reg-rst-02-verilog: Two bits Register with load and reset inputs. Verilog "
+"implementation"
+msgstr ""
 
 #: translation.js:47
-msgid "2-to-1 Multplexer (2-bit channels)"
+msgid "Reg-verilog"
 msgstr ""
 
 #: translation.js:48
-msgid "2-to-1 Multplexer (1-bit channels)"
-msgstr ""
-
-#: translation.js:49
-msgid "OR2: Two bits input OR gate"
-msgstr ""
-
-#: translation.js:50
-msgid "Two bits input And gate"
-msgstr ""
-
-#: translation.js:51
-msgid "NOT gate (Verilog implementation)"
-msgstr ""
-
-#: translation.js:52
-msgid "Bus2-Join-all: Joint two wires into a 2-bits Bus"
-msgstr ""
-
-#: translation.js:53
-msgid "Bus2-Split-all: Split the 2-bits bus into two wires"
-msgstr ""
-
-#: translation.js:54
-msgid "Sys-reg-rst-02: Two bits system register with reset"
-msgstr ""
-
-#: translation.js:55
-msgid "Sys-reg-02: Two bits system register"
-msgstr ""
-
-#: translation.js:56
-msgid "Generic: 2-bits generic constant (0,1,2,3)"
-msgstr ""
-
-#: translation.js:57
-msgid "Channel A"
-msgstr ""
-
-#: translation.js:58
-msgid "Channel B"
-msgstr ""
-
-#: translation.js:59
-msgid "Input"
-msgstr ""
-
-#: translation.js:60
-msgid "Output"
-msgstr ""
-
-#: translation.js:61 translation.js:80 translation.js:93 translation.js:114
-#: translation.js:159 translation.js:437 translation.js:476 translation.js:507
-#: translation.js:571 translation.js:696
-msgid "Reg"
-msgstr ""
-
-#: translation.js:62
-msgid "Reg-02: Two bits Register with load input"
-msgstr ""
-
-#: translation.js:63 translation.js:440
-msgid "Sys-reg-dff"
-msgstr ""
-
-#: translation.js:64
 msgid ""
-"Sys-reg-dff-02: Two bits system register implemented directly from two D "
-"Flip-Flops"
+"Reg-02-verilog: Two bits Register with load input. Verilog implementation"
 msgstr ""
 
-#: translation.js:65
-msgid "System - D Flip-flop. Capture data every system clock cycle"
-msgstr ""
-
-#: translation.js:66
-msgid "Parameter: Initial value"
-msgstr ""
-
-#: translation.js:67
-msgid "System clock"
-msgstr ""
-
-#: translation.js:68
-msgid "Input data"
-msgstr ""
-
-#: translation.js:69
-msgid ""
-"# D Flip-Flop  (system)\n"
-"\n"
-"It stores the input data that arrives at cycle n  \n"
-"Its output is shown in the cycle n+1"
-msgstr ""
-
-#: translation.js:70 translation.js:161 translation.js:441 translation.js:699
+#: translation.js:49 translation.js:77 translation.js:161 translation.js:441
+#: translation.js:699
 msgid "Sys-reg-rst"
 msgstr ""
 
-#: translation.js:71 translation.js:78 translation.js:86 translation.js:87
+#: translation.js:50
+msgid ""
+"Sys-reg-rst-02-verilog: Two bits system register with reset. Verilog "
+"implementation"
+msgstr ""
+
+#: translation.js:51 translation.js:78 translation.js:86 translation.js:87
 #: translation.js:89 translation.js:91 translation.js:99 translation.js:100
 #: translation.js:102 translation.js:104 translation.js:106 translation.js:108
 #: translation.js:110 translation.js:112 translation.js:120 translation.js:121
@@ -306,33 +223,112 @@ msgstr ""
 msgid "Sys-reg"
 msgstr ""
 
+#: translation.js:52
+msgid "Sys-reg-02: Two bits system register"
+msgstr ""
+
+#: translation.js:53 translation.js:151 translation.js:438 translation.js:697
+msgid "Reg-rst"
+msgstr "Reg-rst"
+
+#: translation.js:54
+msgid "Reg-rst-02: Two bits Register with load and reset inputs"
+msgstr "Reg-rst-02: Registro de dos bits con entradas de load y reset"
+
+#: translation.js:55
+msgid "2-to-1 Multplexer (2-bit channels)"
+msgstr ""
+
+#: translation.js:56
+msgid "2-to-1 Multplexer (1-bit channels)"
+msgstr ""
+
+#: translation.js:57
+msgid "OR2: Two bits input OR gate"
+msgstr ""
+
+#: translation.js:58
+msgid "Two bits input And gate"
+msgstr ""
+
+#: translation.js:59
+msgid "NOT gate (Verilog implementation)"
+msgstr ""
+
+#: translation.js:60
+msgid "Bus2-Join-all: Joint two wires into a 2-bits Bus"
+msgstr ""
+
+#: translation.js:61
+msgid "Bus2-Split-all: Split the 2-bits bus into two wires"
+msgstr ""
+
+#: translation.js:62
+msgid "Sys-reg-rst-02: Two bits system register with reset"
+msgstr ""
+
+#: translation.js:63
+msgid "Generic: 2-bits generic constant (0,1,2,3)"
+msgstr ""
+
+#: translation.js:64
+msgid "Channel A"
+msgstr ""
+
+#: translation.js:65
+msgid "Channel B"
+msgstr ""
+
+#: translation.js:66
+msgid "Input"
+msgstr ""
+
+#: translation.js:67
+msgid "Output"
+msgstr ""
+
+#: translation.js:68 translation.js:80 translation.js:93 translation.js:114
+#: translation.js:159 translation.js:437 translation.js:476 translation.js:507
+#: translation.js:571 translation.js:696
+msgid "Reg"
+msgstr ""
+
+#: translation.js:69
+msgid "Reg-02: Two bits Register with load input"
+msgstr ""
+
+#: translation.js:70 translation.js:440
+msgid "Sys-reg-dff"
+msgstr ""
+
+#: translation.js:71
+msgid ""
+"Sys-reg-dff-02: Two bits system register implemented directly from two D "
+"Flip-Flops"
+msgstr ""
+
 #: translation.js:72
-msgid "Reg-rst-verilog"
+msgid "System - D Flip-flop. Capture data every system clock cycle"
 msgstr ""
 
 #: translation.js:73
-msgid ""
-"Reg-rst-02-verilog: Two bits Register with load and reset inputs. Verilog "
-"implementation"
+msgid "Parameter: Initial value"
 msgstr ""
 
 #: translation.js:74
-msgid "Reg-verilog"
+msgid "System clock"
 msgstr ""
 
 #: translation.js:75
-msgid ""
-"Reg-02-verilog: Two bits Register with load input. Verilog implementation"
+msgid "Input data"
 msgstr ""
 
 #: translation.js:76
-msgid "Sys-reg-rst-verilog"
-msgstr ""
-
-#: translation.js:77
 msgid ""
-"Sys-reg-rst-02-verilog: Two bits system register with reset. Verilog "
-"implementation"
+"# D Flip-Flop  (system)\n"
+"\n"
+"It stores the input data that arrives at cycle n  \n"
+"Its output is shown in the cycle n+1"
 msgstr ""
 
 #: translation.js:79
@@ -542,6 +538,10 @@ msgstr ""
 #: translation.js:166 translation.js:213 translation.js:715 translation.js:759
 msgid "Right"
 msgstr ""
+
+#: translation.js:167 translation.js:194 translation.js:214 translation.js:231
+msgid "Verilog"
+msgstr "Verilog"
 
 #: translation.js:168 translation.js:717
 msgid "SregL-ld-rst"

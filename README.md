@@ -33,15 +33,15 @@ For installing and using this colection in Icestudio follow these steps:
 ## Blocks
 * **Regs**
   * **02-bits**
-    * Reg-rst
-    * Reg
-    * Sys-reg-dff
+    * Reg-rst-verilog
+    * Reg-verilog
     * Sys-reg-rst
     * Sys-reg
-    * **Verilog**
-      * Reg-rst-verilog
-      * Reg-verilog
-      * Sys-reg-rst-verilog
+    * **Blocks**
+      * Reg-rst
+      * Reg
+      * Sys-reg-dff
+      * Sys-reg-rst
   * **03-bits**
     * Sys-reg
   * **04-bits**
