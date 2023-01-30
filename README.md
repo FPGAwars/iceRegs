@@ -157,6 +157,7 @@ For installing and using this colection in Icestudio follow these steps:
 * 00-Index
 * 01-Sys-Regs-two-values
 * 02-Sys-Regs-four-values
+* 03-Sys-Regs-rst-two-values
 * **TESTs**
   * **Regs**
     * **02-bits**
