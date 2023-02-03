@@ -28,7 +28,7 @@ For installing and using this colection in Icestudio follow these steps:
 | Language | Locale | Translated strings |
 |----------|--------|--------------------|
 | English  |  en    | ![](https://progress-bar.dev/100) |
-| Spanish |  es_ES | ![](https://progress-bar.dev/2) |
+| Spanish |  es_ES | ![](https://progress-bar.dev/1) |
 
 ## Blocks
 * **Regs**
@@ -43,6 +43,7 @@ For installing and using this colection in Icestudio follow these steps:
       * Sys-reg-dff
       * Sys-reg-rst
   * **03-bits**
+    * Sys-reg-rst
     * Sys-reg
   * **04-bits**
     * Sys-reg
@@ -182,6 +183,9 @@ For installing and using this colection in Icestudio follow these steps:
           * 01-manual-test
     * **03-bits**
       * **Sys-Reg**
+      * **Sys-Reg-rst**
+        * **Alhambra-II**
+          * 01-manual-test
         * **Alhambra-II**
           * 01-manual-test
     * **04-bits**
