@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-03 10:46+0000\n"
+"POT-Creation-Date: 2023-02-03 12:45+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -177,8 +177,8 @@ msgstr "02-bits"
 msgid "32-bits"
 msgstr "32-bits"
 
-#: translation.js:44 translation.js:83 translation.js:97 translation.js:119
-#: translation.js:157
+#: translation.js:44 translation.js:82 translation.js:96 translation.js:118
+#: translation.js:156
 msgid "Blocks"
 msgstr ""
 
@@ -201,7 +201,7 @@ msgid ""
 "Reg-02-verilog: Two bits Register with load input. Verilog implementation"
 msgstr ""
 
-#: translation.js:49 translation.js:78 translation.js:169 translation.js:458
+#: translation.js:49 translation.js:78 translation.js:168 translation.js:458
 #: translation.js:714
 msgid "Sys-reg-rst"
 msgstr ""
@@ -212,14 +212,14 @@ msgid ""
 "implementation"
 msgstr ""
 
-#: translation.js:51 translation.js:81 translation.js:84 translation.js:91
-#: translation.js:93 translation.js:95 translation.js:98 translation.js:105
-#: translation.js:107 translation.js:109 translation.js:111 translation.js:113
-#: translation.js:115 translation.js:117 translation.js:120 translation.js:127
-#: translation.js:129 translation.js:131 translation.js:133 translation.js:135
-#: translation.js:137 translation.js:139 translation.js:141 translation.js:143
-#: translation.js:145 translation.js:147 translation.js:149 translation.js:151
-#: translation.js:153 translation.js:155 translation.js:158 translation.js:456
+#: translation.js:51 translation.js:80 translation.js:83 translation.js:90
+#: translation.js:92 translation.js:94 translation.js:97 translation.js:104
+#: translation.js:106 translation.js:108 translation.js:110 translation.js:112
+#: translation.js:114 translation.js:116 translation.js:119 translation.js:126
+#: translation.js:128 translation.js:130 translation.js:132 translation.js:134
+#: translation.js:136 translation.js:138 translation.js:140 translation.js:142
+#: translation.js:144 translation.js:146 translation.js:148 translation.js:150
+#: translation.js:152 translation.js:154 translation.js:157 translation.js:456
 #: translation.js:690 translation.js:697 translation.js:704 translation.js:713
 msgid "Sys-reg"
 msgstr ""
@@ -228,7 +228,7 @@ msgstr ""
 msgid "Sys-reg-02: Two bits system register"
 msgstr ""
 
-#: translation.js:53 translation.js:160 translation.js:455 translation.js:712
+#: translation.js:53 translation.js:159 translation.js:455 translation.js:712
 msgid "Reg-rst"
 msgstr "Reg-rst"
 
@@ -288,8 +288,8 @@ msgstr ""
 msgid "Output"
 msgstr ""
 
-#: translation.js:68 translation.js:86 translation.js:100 translation.js:122
-#: translation.js:167 translation.js:454 translation.js:493 translation.js:523
+#: translation.js:68 translation.js:85 translation.js:99 translation.js:121
+#: translation.js:166 translation.js:454 translation.js:493 translation.js:523
 #: translation.js:586 translation.js:711
 msgid "Reg"
 msgstr ""
@@ -339,277 +339,277 @@ msgid "Not connected"
 msgstr ""
 
 #: translation.js:79
-msgid "Mux-2-1"
+msgid "2-to-1 Multplexer (2-bit channels). Verilog implementation"
 msgstr ""
 
-#: translation.js:80
-msgid "Init value"
-msgstr ""
-
-#: translation.js:82
+#: translation.js:81
 msgid "Sys-reg-3: 3 bits system register"
 msgstr ""
 
-#: translation.js:85
+#: translation.js:84
 msgid "Sys-reg-4: 4 bits system register"
 msgstr ""
 
-#: translation.js:87
+#: translation.js:86
 msgid "Reg-4: 4 bits Register with load input"
 msgstr ""
 
-#: translation.js:88
+#: translation.js:87
 msgid "2-to-1 Multplexer (4-bit channels)"
 msgstr ""
 
-#: translation.js:89
+#: translation.js:88
 msgid "Bus4-Join-all: Join all the wires into a 4-bits Bus"
 msgstr ""
 
-#: translation.js:90
+#: translation.js:89
 msgid "Bus4-Split-all: Split the 4-bits bus into its wires"
 msgstr ""
 
-#: translation.js:92
+#: translation.js:91
 msgid "Sys-reg-5: 5 bits system register"
 msgstr ""
 
-#: translation.js:94
+#: translation.js:93
 msgid "Sys-reg-6: 6 bits system register"
 msgstr ""
 
-#: translation.js:96
+#: translation.js:95
 msgid "Sys-reg-7: 7 bits system register"
 msgstr ""
 
-#: translation.js:99
+#: translation.js:98
 msgid "Sys-reg-8: 8 bits system register"
 msgstr ""
 
-#: translation.js:101
+#: translation.js:100
 msgid "Reg-8: 8 bits Register with load input"
 msgstr ""
 
-#: translation.js:102
+#: translation.js:101
 msgid "2-to-1 Multplexer (8-bit channels)"
 msgstr ""
 
-#: translation.js:103
+#: translation.js:102
 msgid "Bus8-Join-half: Join the two same halves into an 8-bits Bus"
 msgstr ""
 
-#: translation.js:104
+#: translation.js:103
 msgid "Bus8-Split-half: Split the 8-bits bus into two buses of the same size"
 msgstr ""
 
-#: translation.js:106
+#: translation.js:105
 msgid "Sys-reg-9: 9 bits system register"
 msgstr ""
 
-#: translation.js:108
+#: translation.js:107
 msgid "Sys-reg-10: 10 bits system register"
 msgstr ""
 
-#: translation.js:110
+#: translation.js:109
 msgid "Sys-reg-11: 11 bits system register"
 msgstr ""
 
-#: translation.js:112
+#: translation.js:111
 msgid "Sys-reg-12: 12 bits system register"
 msgstr ""
 
-#: translation.js:114
+#: translation.js:113
 msgid "Sys-reg-13: 13 bits system register"
 msgstr ""
 
-#: translation.js:116
+#: translation.js:115
 msgid "Sys-reg-14: 14 bits system register"
 msgstr ""
 
-#: translation.js:118
+#: translation.js:117
 msgid "Sys-reg-15: 15 bits system register"
 msgstr ""
 
-#: translation.js:121
+#: translation.js:120
 msgid "Sys-reg-16: 16 bits system register"
 msgstr ""
 
-#: translation.js:123
+#: translation.js:122
 msgid "Reg-16: 16 bits Register with load input"
 msgstr ""
 
-#: translation.js:124
+#: translation.js:123
 msgid "2-to-1 Multplexer (16-bit channels)"
 msgstr ""
 
-#: translation.js:125
+#: translation.js:124
 msgid "Bus16-Split-half: Split the 16-bits bus into two buses of the same size"
 msgstr ""
 
-#: translation.js:126
+#: translation.js:125
 msgid "Bus16-Join-half: Join the two same halves into an 16-bits Bus"
 msgstr ""
 
-#: translation.js:128
+#: translation.js:127
 msgid "Sys-reg-17: 17 bits system register"
 msgstr ""
 
-#: translation.js:130
+#: translation.js:129
 msgid "Sys-reg-18: 18 bits system register"
 msgstr ""
 
-#: translation.js:132
+#: translation.js:131
 msgid "Sys-reg-19: 19 bits system register"
 msgstr ""
 
-#: translation.js:134
+#: translation.js:133
 msgid "Sys-reg-20: 20 bits system register"
 msgstr ""
 
-#: translation.js:136
+#: translation.js:135
 msgid "Sys-reg-21: 21 bits system register"
 msgstr ""
 
-#: translation.js:138
+#: translation.js:137
 msgid "Sys-reg-22: 22 bits system register"
 msgstr ""
 
-#: translation.js:140
+#: translation.js:139
 msgid "Sys-reg-23: 23 bits system register"
 msgstr ""
 
-#: translation.js:142
+#: translation.js:141
 msgid "Sys-reg-24: 24 bits system register"
 msgstr ""
 
-#: translation.js:144
+#: translation.js:143
 msgid "Sys-reg-25: 25 bits system register"
 msgstr ""
 
-#: translation.js:146
+#: translation.js:145
 msgid "Sys-reg-26: 26 bits system register"
 msgstr ""
 
-#: translation.js:148
+#: translation.js:147
 msgid "Sys-reg-27: 27 bits system register"
 msgstr ""
 
-#: translation.js:150
+#: translation.js:149
 msgid "Sys-reg-28: 28 bits system register"
 msgstr ""
 
-#: translation.js:152
+#: translation.js:151
 msgid "Sys-reg-29: 29 bits system register"
 msgstr ""
 
-#: translation.js:154
+#: translation.js:153
 msgid "Sys-reg-30: 30 bits system register"
 msgstr ""
 
-#: translation.js:156
+#: translation.js:155
 msgid "Sys-reg-31: 31 bits system register"
 msgstr ""
 
-#: translation.js:159
+#: translation.js:158
 msgid "Sys-reg-32: 32 bits system register"
 msgstr ""
 
-#: translation.js:161
+#: translation.js:160
 msgid "Reg-rst-32: 32 bits Register with load and reset inputs"
 msgstr ""
 
-#: translation.js:162
+#: translation.js:161
 msgid "Sys-reg-rst-32: 32 bits system register with reset"
 msgstr ""
 
-#: translation.js:163
+#: translation.js:162
 msgid "2-to-1 Multplexer (32-bit channels)"
 msgstr ""
 
-#: translation.js:164
+#: translation.js:163
 msgid "Bus32-Join-quarter: Join the four buses into an 32-bits Bus"
 msgstr ""
 
-#: translation.js:165
+#: translation.js:164
 msgid "Bus32-Split-quarter: Split the 32-bits bus into four buses of 8 wires"
 msgstr ""
 
-#: translation.js:166
+#: translation.js:165
 msgid "Generic: 32-bits generic constant"
 msgstr ""
 
-#: translation.js:168
+#: translation.js:167
 msgid "Reg-32: 32 bits Register with load input"
 msgstr ""
 
-#: translation.js:170 translation.js:171 translation.js:727 translation.js:728
+#: translation.js:169 translation.js:170 translation.js:727 translation.js:728
 msgid "02-Bits"
 msgstr ""
 
-#: translation.js:172 translation.js:218 translation.js:729 translation.js:773
+#: translation.js:171 translation.js:218 translation.js:729 translation.js:773
 msgid "Left"
 msgstr ""
 
-#: translation.js:173 translation.js:219 translation.js:730 translation.js:774
+#: translation.js:172 translation.js:219 translation.js:730 translation.js:774
 msgid "Right"
 msgstr ""
 
-#: translation.js:174 translation.js:200 translation.js:220 translation.js:237
+#: translation.js:173 translation.js:200 translation.js:220 translation.js:237
 msgid "Verilog"
 msgstr "Verilog"
 
-#: translation.js:175 translation.js:732
+#: translation.js:174 translation.js:732
 msgid "SregL-ld-rst"
 msgstr ""
 
-#: translation.js:176
+#: translation.js:175
 msgid ""
 "SregL-ld-rst-02: Two bits Shift register to the left with load and reset "
 "inputs"
 msgstr ""
 
-#: translation.js:177
+#: translation.js:176
 msgid "SL1: Shift  a 2-bit value one bit left. LSB is filled with "
 msgstr ""
 
-#: translation.js:178
+#: translation.js:177
 msgid ""
 "Combinational  \n"
 "Shift-right"
 msgstr ""
 
-#: translation.js:179 translation.js:731
+#: translation.js:178 translation.js:731
 msgid "SregL-ld"
 msgstr ""
 
-#: translation.js:180
+#: translation.js:179
 msgid "SregL-ld-02: Two bits Shift register to the left with load input"
 msgstr ""
 
-#: translation.js:181
+#: translation.js:180
 msgid ""
 "Combinational  \n"
 "Shift-left"
 msgstr ""
 
-#: translation.js:182 translation.js:734
+#: translation.js:181 translation.js:734
 msgid "Sys-SregL-ld-rst"
 msgstr ""
 
-#: translation.js:183
+#: translation.js:182
 msgid ""
 "Sys-SregL-ld-rst-02: Two bits System Shift register to the left, with load "
 "and reset"
 msgstr ""
 
-#: translation.js:184
+#: translation.js:183
 msgid ""
 "Data to load from the  \n"
 "outside"
 msgstr ""
 
-#: translation.js:185
+#: translation.js:184
 msgid "Shifted internal data"
+msgstr ""
+
+#: translation.js:185
+msgid "Mux-2-1"
 msgstr ""
 
 #: translation.js:186
