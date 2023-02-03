@@ -82,6 +82,8 @@ gettext('Sys-reg-rst-03-verilog: Two bits system register with reset. Verilog im
 gettext('Sys-reg');
 gettext('Sys-reg-3: 3 bits system register');
 gettext('Blocks');
+gettext('Sys-reg-rst');
+gettext('Sys-reg-rst-04-verilog: Two bits system register with reset. Verilog implementation');
 gettext('Sys-reg');
 gettext('Sys-reg-4: 4 bits system register');
 gettext('Reg');
@@ -502,10 +504,14 @@ gettext('Bus4-Split-1-3: Split the 4-bits bus into two: 1-bit and 3-bits buses')
 gettext('# TEST: 3-bits Sys-reg: Manual testing\n\n');
 gettext('Reg');
 gettext('Sys-Reg');
+gettext('Sys-Reg-rst');
 gettext('Alhambra-II');
 gettext('01-manual-test');
 gettext('# TEST: 4-bits Reg: Manual testing\n\n');
 gettext('Alhambra-II');
+gettext('Alhambra-II');
+gettext('01-manual-test');
+gettext('# TEST: 4-bits Sys-reg-rst: Manual testing\n\n');
 gettext('01-manual-test');
 gettext('# TEST: 4-bits Sys-reg: Manual testing\n\n');
 gettext('Sys-Reg');
