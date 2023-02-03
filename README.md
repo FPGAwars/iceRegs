@@ -45,8 +45,9 @@ For installing and using this colection in Icestudio follow these steps:
   * **03-bits**
     * Sys-reg
   * **04-bits**
-    * Reg
     * Sys-reg
+    * **Blocks**
+      * Reg
   * **05-bits**
     * Sys-reg
   * **06-bits**
@@ -54,8 +55,9 @@ For installing and using this colection in Icestudio follow these steps:
   * **07-bits**
     * Sys-reg
   * **08-bits**
-    * Reg
     * Sys-reg
+    * **Blocks**
+      * Reg
   * **09-bits**
     * Sys-reg
   * **10-bits**
@@ -71,8 +73,9 @@ For installing and using this colection in Icestudio follow these steps:
   * **15-bits**
     * Sys-reg
   * **16-bits**
-    * Reg
     * Sys-reg
+    * **Blocks**
+      * Reg
   * **17-bits**
     * Sys-reg
   * **18-bits**
@@ -104,10 +107,11 @@ For installing and using this colection in Icestudio follow these steps:
   * **31-bits**
     * Sys-reg
   * **32-bits**
-    * Reg-rst
-    * Reg
-    * Sys-reg-rst
     * Sys-reg
+    * **Blocks**
+      * Reg-rst
+      * Reg
+      * Sys-reg-rst
 * **SRegs**
 * **SRegs-ld**
   * **02-Bits**
