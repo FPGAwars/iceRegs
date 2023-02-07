@@ -126,6 +126,8 @@ gettext('Sys-reg-14: 14 bits system register');
 gettext('Sys-reg');
 gettext('Sys-reg-15: 15 bits system register');
 gettext('Blocks');
+gettext('Sys-reg-rst');
+gettext('Sys-reg-rst-16-verilog: 16 bits system register with reset. Verilog implementation');
 gettext('Sys-reg');
 gettext('Sys-reg-16: 16 bits system register');
 gettext('Reg');

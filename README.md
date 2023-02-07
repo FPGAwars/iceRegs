@@ -77,6 +77,7 @@ For installing and using this colection in Icestudio follow these steps:
   * **15-bits**
     * Sys-reg
   * **16-bits**
+    * Sys-reg-rst
     * Sys-reg
     * **Blocks**
       * Reg
