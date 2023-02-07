@@ -164,6 +164,8 @@ gettext('Sys-reg-30: 30 bits system register');
 gettext('Sys-reg');
 gettext('Sys-reg-31: 31 bits system register');
 gettext('Blocks');
+gettext('Sys-reg-rst');
+gettext('Sys-reg-rst-32-verilog: 32 bits system register with reset. Verilog implementation');
 gettext('Sys-reg');
 gettext('Sys-reg-32: 32 bits system register');
 gettext('Reg-rst');

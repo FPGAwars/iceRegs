@@ -111,6 +111,7 @@ For installing and using this colection in Icestudio follow these steps:
   * **31-bits**
     * Sys-reg
   * **32-bits**
+    * Sys-reg-rst
     * Sys-reg
     * **Blocks**
       * Reg-rst
