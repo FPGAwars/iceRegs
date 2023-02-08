@@ -162,13 +162,13 @@
           "id": "f23e9c90-4bc2-4c0f-9a1d-fe2c2abc40ed",
           "type": "basic.constant",
           "data": {
-            "name": "",
+            "name": "cycle_0",
             "value": "'h55",
             "local": false
           },
           "position": {
             "x": 536,
-            "y": 272
+            "y": 280
           }
         },
         {
@@ -257,6 +257,150 @@
           "size": {
             "width": 96,
             "height": 64
+          }
+        },
+        {
+          "id": "8596f127-4245-42f7-b05f-f47bddca6c13",
+          "type": "basic.info",
+          "data": {
+            "info": "Cycle 1",
+            "readonly": true
+          },
+          "position": {
+            "x": 208,
+            "y": 280
+          },
+          "size": {
+            "width": 136,
+            "height": 40
+          }
+        },
+        {
+          "id": "822c6aaa-25a0-4dbd-92e1-a95f18bd00e8",
+          "type": "basic.info",
+          "data": {
+            "info": "Cycle 1",
+            "readonly": true
+          },
+          "position": {
+            "x": 280,
+            "y": 712
+          },
+          "size": {
+            "width": 136,
+            "height": 40
+          }
+        },
+        {
+          "id": "c7dd6e88-2d7c-42e3-aa5b-4d8577d345df",
+          "type": "basic.info",
+          "data": {
+            "info": "Cycle 0",
+            "readonly": true
+          },
+          "position": {
+            "x": 448,
+            "y": 688
+          },
+          "size": {
+            "width": 136,
+            "height": 40
+          }
+        },
+        {
+          "id": "8bd53b41-a227-4c40-9d13-70a402b9da14",
+          "type": "basic.info",
+          "data": {
+            "info": "Rst=1 in cycle 1",
+            "readonly": true
+          },
+          "position": {
+            "x": 576,
+            "y": 736
+          },
+          "size": {
+            "width": 224,
+            "height": 40
+          }
+        },
+        {
+          "id": "ee216de3-7b7a-406e-93fc-5959f28deaf8",
+          "type": "basic.info",
+          "data": {
+            "info": "LEDOscope  \n(4 samples)",
+            "readonly": true
+          },
+          "position": {
+            "x": 944,
+            "y": 512
+          },
+          "size": {
+            "width": 128,
+            "height": 56
+          }
+        },
+        {
+          "id": "8279e03f-c725-4846-aa09-a59653bd7ab4",
+          "type": "basic.info",
+          "data": {
+            "info": "Showing sample 0  \non the LEDs",
+            "readonly": true
+          },
+          "position": {
+            "x": 1072,
+            "y": 576
+          },
+          "size": {
+            "width": 160,
+            "height": 56
+          }
+        },
+        {
+          "id": "e5493f27-f88a-4084-bdaf-1bf1b85edfaf",
+          "type": "basic.info",
+          "data": {
+            "info": "The sequence is restared  \nin cycle 2",
+            "readonly": true
+          },
+          "position": {
+            "x": 712,
+            "y": 368
+          },
+          "size": {
+            "width": 200,
+            "height": 48
+          }
+        },
+        {
+          "id": "bbed020d-8a51-4ead-8d2b-8af08af5a46f",
+          "type": "basic.info",
+          "data": {
+            "info": "| cycle 0 | cycle 1 | cycle 2 | cycle 3 |\n|---------|---------|---------|---------|\n|  55     |   AA    |   55    |   AA    |",
+            "readonly": true
+          },
+          "position": {
+            "x": 880,
+            "y": 704
+          },
+          "size": {
+            "width": 336,
+            "height": 72
+          }
+        },
+        {
+          "id": "7c2c1d9e-6d78-433b-9bf6-eaf6bb69dcad",
+          "type": "basic.info",
+          "data": {
+            "info": "Reset",
+            "readonly": true
+          },
+          "position": {
+            "x": 1048,
+            "y": 784
+          },
+          "size": {
+            "width": 88,
+            "height": 40
           }
         }
       ],
