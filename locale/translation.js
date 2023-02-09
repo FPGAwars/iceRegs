@@ -236,8 +236,8 @@ gettext('Bus32-Split-quarter: Split the 32-bits bus into four buses of 8 wires')
 gettext('Generic: 32-bits generic constant');
 gettext('Reg');
 gettext('Reg-32: 32 bits Register with load input');
-gettext('Sys-reg-rst');
 gettext('2-to-1 Multplexer (32-bit channels). Verilog implementation');
+gettext('Sys-reg-rst');
 gettext('02-Bits');
 gettext('02-Bits');
 gettext('Left');
