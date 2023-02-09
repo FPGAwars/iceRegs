@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-09 20:58+0000\n"
+"POT-Creation-Date: 2023-02-09 21:31+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -209,7 +209,7 @@ msgstr ""
 #: translation.js:170 translation.js:174 translation.js:178 translation.js:182
 #: translation.js:186 translation.js:190 translation.js:194 translation.js:198
 #: translation.js:202 translation.js:206 translation.js:210 translation.js:214
-#: translation.js:218 translation.js:222 translation.js:226 translation.js:239
+#: translation.js:218 translation.js:222 translation.js:226 translation.js:240
 #: translation.js:532 translation.js:877 translation.js:888 translation.js:901
 msgid "Sys-reg-rst"
 msgstr ""
@@ -786,7 +786,7 @@ msgstr ""
 msgid "Reg-32: 32 bits Register with load input"
 msgstr ""
 
-#: translation.js:240
+#: translation.js:239
 msgid "2-to-1 Multplexer (32-bit channels). Verilog implementation"
 msgstr ""
 
