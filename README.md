@@ -109,6 +109,7 @@ For installing and using this colection in Icestudio follow these steps:
     * Sys-reg-rst
     * Sys-reg
   * **29-bits**
+    * Sys-reg-rst
     * Sys-reg
   * **30-bits**
     * Sys-reg-rst
