@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-10 11:01+0000\n"
+"POT-Creation-Date: 2023-02-10 11:12+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -201,7 +201,7 @@ msgid ""
 "Reg-02-verilog: Two bits Register with load input. Verilog implementation"
 msgstr ""
 
-#: translation.js:49 translation.js:78 translation.js:82 translation.js:89
+#: translation.js:49 translation.js:79 translation.js:82 translation.js:89
 #: translation.js:96 translation.js:99 translation.js:103 translation.js:109
 #: translation.js:116 translation.js:123 translation.js:126 translation.js:130
 #: translation.js:134 translation.js:138 translation.js:142 translation.js:146
@@ -309,35 +309,39 @@ msgstr ""
 msgid "Reg-02: Two bits Register with load input"
 msgstr ""
 
-#: translation.js:70 translation.js:546
+#: translation.js:70
+msgid "2-to-1 Multplexer (2-bit channels). Verilog implementation"
+msgstr ""
+
+#: translation.js:71 translation.js:546
 msgid "Sys-reg-dff"
 msgstr ""
 
-#: translation.js:71
+#: translation.js:72
 msgid ""
 "Sys-reg-dff-02: Two bits system register implemented directly from two D "
 "Flip-Flops"
 msgstr ""
 
-#: translation.js:72
+#: translation.js:73
 msgid ""
 "System - D Flip-flop. Capture data every system clock cycle. Verilog "
 "implementation"
 msgstr ""
 
-#: translation.js:73
+#: translation.js:74
 msgid "Parameter: Initial value"
 msgstr ""
 
-#: translation.js:74
+#: translation.js:75
 msgid "System clock"
 msgstr ""
 
-#: translation.js:75
+#: translation.js:76
 msgid "Input data"
 msgstr ""
 
-#: translation.js:76
+#: translation.js:77
 msgid ""
 "# D Flip-Flop  (system)\n"
 "\n"
@@ -345,12 +349,8 @@ msgid ""
 "Its output is shown in the cycle n+1"
 msgstr ""
 
-#: translation.js:77
+#: translation.js:78
 msgid "Not connected"
-msgstr ""
-
-#: translation.js:79
-msgid "2-to-1 Multplexer (2-bit channels). Verilog implementation"
 msgstr ""
 
 #: translation.js:81
