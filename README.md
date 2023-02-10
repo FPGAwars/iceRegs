@@ -34,7 +34,7 @@ For installing and using this colection in Icestudio follow these steps:
 * **Regs**
   * **02-bits**
     * Reg-rst-verilog
-    * Reg-verilog
+    * Reg
     * Sys-reg-rst
     * Sys-reg
     * **Blocks**
