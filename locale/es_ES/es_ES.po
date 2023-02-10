@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-10 11:12+0000\n"
+"POT-Creation-Date: 2023-02-10 11:16+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -192,14 +192,19 @@ msgid ""
 "implementation"
 msgstr ""
 
-#: translation.js:47
-msgid "Reg-verilog"
+#: translation.js:47 translation.js:68 translation.js:80 translation.js:87
+#: translation.js:93 translation.js:107 translation.js:114 translation.js:120
+#: translation.js:150 translation.js:157 translation.js:163 translation.js:225
+#: translation.js:231 translation.js:250 translation.js:543 translation.js:566
+#: translation.js:593 translation.js:627 translation.js:642 translation.js:727
+#: translation.js:742 translation.js:915 translation.js:930
+msgid "Reg"
 msgstr ""
 
 #: translation.js:48
-msgid ""
-"Reg-02-verilog: Two bits Register with load input. Verilog implementation"
-msgstr ""
+#, fuzzy
+msgid "Reg-2-verilog: 2 bits Register with load input. Verilog implementation"
+msgstr "Reg-rst-02: Registro de dos bits con entradas de load y reset"
 
 #: translation.js:49 translation.js:79 translation.js:82 translation.js:89
 #: translation.js:96 translation.js:99 translation.js:103 translation.js:109
@@ -294,15 +299,6 @@ msgstr ""
 
 #: translation.js:67
 msgid "Output"
-msgstr ""
-
-#: translation.js:68 translation.js:80 translation.js:87 translation.js:93
-#: translation.js:107 translation.js:114 translation.js:120 translation.js:150
-#: translation.js:157 translation.js:163 translation.js:225 translation.js:231
-#: translation.js:250 translation.js:543 translation.js:566 translation.js:593
-#: translation.js:627 translation.js:642 translation.js:727 translation.js:742
-#: translation.js:915 translation.js:930
-msgid "Reg"
 msgstr ""
 
 #: translation.js:69
