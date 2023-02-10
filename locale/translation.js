@@ -108,6 +108,8 @@ gettext('Sys-reg-rst-7-verilog: 7 bits system register with reset. Verilog imple
 gettext('Sys-reg');
 gettext('Sys-reg-7: 7 bits system register');
 gettext('Blocks');
+gettext('Reg');
+gettext('Reg-8-verilog: 8 bits Register with load input. Verilog implementation');
 gettext('Sys-reg-rst');
 gettext('Sys-reg-rst-08-verilog: Two bits system register with reset. Verilog implementation');
 gettext('Sys-reg');
