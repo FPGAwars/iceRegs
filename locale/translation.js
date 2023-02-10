@@ -150,6 +150,8 @@ gettext('Sys-reg-rst-15-verilog: 15 bits system register with reset. Verilog imp
 gettext('Sys-reg');
 gettext('Sys-reg-15: 15 bits system register');
 gettext('Blocks');
+gettext('Reg');
+gettext('Reg-16-verilog: 16 bits Register with load input. Verilog implementation');
 gettext('Sys-reg-rst');
 gettext('Sys-reg-rst-16-verilog: 16 bits system register with reset. Verilog implementation');
 gettext('Sys-reg');
