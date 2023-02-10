@@ -179,6 +179,22 @@
             "width": 96,
             "height": 96
           }
+        },
+        {
+          "id": "60e2c542-ee2b-439a-8a48-3dc5cca3327e",
+          "type": "basic.info",
+          "data": {
+            "info": "8-bit Register",
+            "readonly": true
+          },
+          "position": {
+            "x": 720,
+            "y": 536
+          },
+          "size": {
+            "width": 184,
+            "height": 32
+          }
         }
       ],
       "wires": [
