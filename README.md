@@ -203,6 +203,7 @@ For installing and using this colection in Icestudio follow these steps:
 * 01-Sys-Regs-two-values
 * 02-Sys-Regs-four-values
 * 03-Sys-Regs-rst-two-values
+* 04-Reg-values-on-LEDs
 * **TESTs**
   * **Regs**
     * **02-bits**
