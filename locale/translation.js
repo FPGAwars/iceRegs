@@ -82,6 +82,8 @@ gettext('Sys-reg-rst-03-verilog: Two bits system register with reset. Verilog im
 gettext('Sys-reg');
 gettext('Sys-reg-3: 3 bits system register');
 gettext('Blocks');
+gettext('Reg');
+gettext('Reg-4-verilog: 4 bits Register with load input. Verilog implementation');
 gettext('Sys-reg-rst');
 gettext('Sys-reg-rst-04-verilog: Two bits system register with reset. Verilog implementation');
 gettext('Sys-reg');
