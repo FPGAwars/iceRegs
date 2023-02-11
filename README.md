@@ -71,6 +71,7 @@ For installing and using this colection in Icestudio follow these steps:
       * Reg
       * Sys-reg-rst
   * **09-bits**
+    * Reg
     * Sys-reg-rst
     * Sys-reg
   * **10-bits**
@@ -295,6 +296,9 @@ For installing and using this colection in Icestudio follow these steps:
         * **Alhambra-II**
           * 01-manual-test
     * **09-bits**
+      * **Reg**
+        * **Alhambra-II**
+          * 01-manual-test
       * **Sys-Reg**
       * **Sys-Reg-rst**
         * **Alhambra-II**
