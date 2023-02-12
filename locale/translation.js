@@ -43,7 +43,7 @@ gettext('31-bits');
 gettext('32-bits');
 gettext('Blocks');
 gettext('Reg-rst');
-gettext('Reg-rst-02-verilog: Two bits Register with load and reset inputs. Verilog implementation');
+gettext('Reg-rst-02-verilog: 2-bits Register with load and reset inputs. Verilog implementation');
 gettext('Reg');
 gettext('Reg-2-verilog: 2 bits Register with load input. Verilog implementation');
 gettext('Sys-reg-rst');
