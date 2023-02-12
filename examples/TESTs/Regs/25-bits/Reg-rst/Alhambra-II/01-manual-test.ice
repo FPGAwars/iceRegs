@@ -175,7 +175,7 @@
           "id": "21cea661-86c3-456b-9a90-3f8e0758e95f",
           "type": "basic.info",
           "data": {
-            "info": "# TEST: 26-bits Reg-rst: Manual testing\n\n",
+            "info": "# TEST: 25-bits Reg-rst: Manual testing\n\n",
             "readonly": true
           },
           "position": {
