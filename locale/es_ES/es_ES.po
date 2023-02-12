@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-12 17:39+0000\n"
+"POT-Creation-Date: 2023-02-12 17:41+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -192,10 +192,11 @@ msgid "Reg-rst"
 msgstr "Reg-rst"
 
 #: translation.js:46
+#, fuzzy
 msgid ""
-"Reg-rst-02-verilog: Two bits Register with load and reset inputs. Verilog "
+"Reg-rst-02-verilog: 2-bits Register with load and reset inputs. Verilog "
 "implementation"
-msgstr ""
+msgstr "Reg-rst-02: Registro de dos bits con entradas de load y reset"
 
 #: translation.js:47 translation.js:56 translation.js:155 translation.js:164
 #: translation.js:173 translation.js:178 translation.js:184 translation.js:192
