@@ -582,6 +582,8 @@ gettext('04-Reg-values-on-LEDs');
 gettext('## Example 4: Showing information on the LEDs\n\nTwo different values are shown on the LEDs: 0xAA and 0x55. The first value is  \nshown initially. When the button `SW1` is pressed, the value 0x55 is displayed');
 gettext('Value shown when the  \nbutton is pressed');
 gettext('8-bit Register');
+gettext('05-Reg-rst-values-on-LEDs');
+gettext('## Example 5: Showing information on the LEDs\n\nTwo different values are shown on the LEDs: 0xAA and 0x55. The first value is  \nshown initially. When the button `SW1` is pressed, the value 0x55 is displayed  \nWhen the `SW2` is pressed, the register is reset and its initial value is displayed');
 gettext('Regs');
 gettext('SReg');
 gettext('SReg-ld');
