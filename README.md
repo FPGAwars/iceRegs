@@ -126,10 +126,9 @@ For installing and using this colection in Icestudio follow these steps:
     * Sys-reg
   * **19-bits**
     * Reg-rst
+    * Reg
     * Sys-reg-rst
     * Sys-reg
-    * **Reg.ice**
-      * 01-manual-test
   * **20-bits**
     * Reg-rst
     * Reg
