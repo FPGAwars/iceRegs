@@ -35,179 +35,111 @@ For installing and using this colection in Icestudio follow these steps:
   * **02-bits**
     * Reg-rst
     * Reg
-    * Sys-reg-rst
-    * Sys-reg
     * **Blocks**
       * Reg-rst
       * Reg
-      * Sys-reg-dff
-      * Sys-reg-rst
   * **03-bits**
     * Reg-rst
     * Reg
-    * Sys-reg-rst
-    * Sys-reg
   * **04-bits**
     * Reg-rst
     * Reg
-    * Sys-reg-rst
-    * Sys-reg
     * **Blocks**
       * Reg-rst
       * Reg
-      * Sys-reg-rst
   * **05-bits**
     * Reg-rst
     * Reg
-    * Sys-reg-rst
-    * Sys-reg
   * **06-bits**
     * Reg-rst
     * Reg
-    * Sys-reg-rst
-    * Sys-reg
   * **07-bits**
     * Reg-rst
     * Reg
-    * Sys-reg-rst
-    * Sys-reg
   * **08-bits**
     * Reg-rst
     * Reg
-    * Sys-reg-rst
-    * Sys-reg
     * **Blocks**
       * Reg-rst
       * Reg
-      * Sys-reg-rst
   * **09-bits**
     * Reg-rst
     * Reg
-    * Sys-reg-rst
-    * Sys-reg
   * **10-bits**
     * Reg-rst
     * Reg
-    * Sys-reg-rst
-    * Sys-reg
   * **11-bits**
     * Reg-rst
     * Reg
-    * Sys-reg-rst
-    * Sys-reg
   * **12-bits**
     * Reg-rst
     * Reg
-    * Sys-reg-rst
-    * Sys-reg
   * **13-bits**
     * Reg-rst
     * Reg
-    * Sys-reg-rst
-    * Sys-reg
   * **14-bits**
     * Reg-rst
     * Reg
-    * Sys-reg-rst
-    * Sys-reg
   * **15-bits**
     * Reg-rst
     * Reg
-    * Sys-reg-rst
-    * Sys-reg
   * **16-bits**
     * Reg-rst
     * Reg
-    * Sys-reg-rst
-    * Sys-reg
     * **Blocks**
       * Reg-rst
       * Reg
-      * Sys-reg-rst
   * **17-bits**
     * Reg-rst
     * Reg
-    * Sys-reg-rst
-    * Sys-reg
   * **18-bits**
     * Reg-rst
     * Reg
-    * Sys-reg-rst
-    * Sys-reg
   * **19-bits**
     * Reg-rst
     * Reg
-    * Sys-reg-rst
-    * Sys-reg
   * **20-bits**
     * Reg-rst
     * Reg
-    * Sys-reg-rst
-    * Sys-reg
   * **21-bits**
     * Reg-rst
     * Reg
-    * Sys-reg-rst
-    * Sys-reg
   * **22-bits**
     * Reg-rst
     * Reg
-    * Sys-reg-rst
-    * Sys-reg
   * **23-bits**
     * Reg-rst
     * Reg
-    * Sys-reg-rst
-    * Sys-reg
   * **24-bits**
     * Reg-rst
     * Reg
-    * Sys-reg-rst
-    * Sys-reg
   * **25-bits**
     * Reg-rst
     * Reg
-    * Sys-reg-rst
-    * Sys-reg
   * **26-bits**
     * Reg-rst
     * Reg
-    * Sys-reg-rst
-    * Sys-reg
   * **27-bits**
     * Reg-rst
     * Reg
-    * Sys-reg-rst
-    * Sys-reg
   * **28-bits**
     * Reg-rst
     * Reg
-    * Sys-reg-rst
-    * Sys-reg
   * **29-bits**
     * Reg-rst
     * Reg
-    * Sys-reg-rst
-    * Sys-reg
   * **30-bits**
     * Reg-rst
     * Reg
-    * Sys-reg-rst
-    * Sys-reg
   * **31-bits**
     * Reg-rst
     * Reg
-    * Sys-reg-rst
-    * Sys-reg
   * **32-bits**
     * Reg-rst
     * Reg
-    * Sys-reg-rst
-    * Sys-reg
     * **Blocks**
       * Reg-rst
       * Reg
-      * Sys-reg-rst
 * **Sys-Regs**
   * **02-bits**
     * Sys-reg-rst
