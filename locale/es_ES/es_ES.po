@@ -286,83 +286,92 @@ msgid "Sys-reg-4: 4 bits system register"
 msgstr "Sys-reg-4: Registro del sistema de 4 bits"
 
 #: translation.js:72
-#, fuzzy
 msgid ""
 "Reg-rst-5-verilog: 5-bits Register with load and reset inputs. Verilog "
 "implementation"
-msgstr "Reg-rst-02: Registro de dos bits con entradas de load y reset"
+msgstr ""
+"Reg-rst-5-verilog: Registro de 5 bits con entradas de load y reset. "
+"Implementación en verilog"
 
 #: translation.js:74
-#, fuzzy
 msgid "Reg-5-verilog: 5 bits Register with load input. Verilog implementation"
-msgstr "Reg-rst-02: Registro de dos bits con entradas de load y reset"
+msgstr ""
+"Reg-5-verilog: Registro de 5 bits con entradas de load y reset. "
+"Implementacion en verilog"
 
 #: translation.js:76
-#, fuzzy
 msgid ""
 "Reg-rst-6-verilog: 6-bits Register with load and reset inputs. Verilog "
 "implementation"
-msgstr "Reg-rst-02: Registro de dos bits con entradas de load y reset"
+msgstr ""
+"Reg-rst-06-verilog: Registro de 6 bits con entradas de load y reset. "
+"Implementación en verilog"
 
 #: translation.js:78
-#, fuzzy
 msgid "Reg-6-verilog: 6 bits Register with load input. Verilog implementation"
-msgstr "Reg-rst-02: Registro de dos bits con entradas de load y reset"
+msgstr ""
+"Reg-6-verilog: Registro de 6 bits con entradas de load y reset. "
+"Implementación en verilog"
 
 #: translation.js:80
-#, fuzzy
 msgid ""
 "Reg-rst-7-verilog: 7-bits Register with load and reset inputs. Verilog "
 "implementation"
-msgstr "Reg-rst-02: Registro de dos bits con entradas de load y reset"
+msgstr ""
+"Reg-rst-07-verilog: Registro de 7 bits con entradas de load y reset. "
+"Implementación en Verilog"
 
 #: translation.js:82
-#, fuzzy
 msgid "Reg-7-verilog: 7 bits Register with load input. Verilog implementation"
-msgstr "Reg-rst-02: Registro de dos bits con entradas de load y reset"
+msgstr ""
+"Reg-7-verilog: Registro de 7 bits con entradas de load y reset. "
+"Implementacion en Verilog"
 
 #: translation.js:85
-#, fuzzy
 msgid ""
 "Reg-rst-8-verilog: 8-bits Register with load and reset inputs. Verilog "
 "implementation"
-msgstr "Reg-rst-02: Registro de dos bits con entradas de load y reset"
+msgstr ""
+"Reg-rst-8-verilog: Registro de 8 bits con entradas de load y reset. "
+"Implementacion en verilog"
 
 #: translation.js:87
-#, fuzzy
 msgid "Reg-8-verilog: 8 bits Register with load input. Verilog implementation"
-msgstr "Reg-rst-02: Registro de dos bits con entradas de load y reset"
+msgstr ""
+"Reg-8-verilog: Registro de 8 bits con entradas de load y reset. "
+"Implementación en Verilog"
 
 #: translation.js:89
-#, fuzzy
 msgid "Reg-rst-8: 8 bits Register with load and reset inputs"
-msgstr "Reg-rst-02: Registro de dos bits con entradas de load y reset"
+msgstr "Reg-rst-8: Registro de 8 bits con entradas de load y reset"
 
 #: translation.js:90
 msgid "2-to-1 Multplexer (8-bit channels). Verilog implementation"
-msgstr ""
+msgstr "Multiplexor 2-1 (canales de 8 bits). Implementación en Verilog"
 
 #: translation.js:91
-#, fuzzy
 msgid ""
 "Sys-reg-rst-08-verilog: Two bits system register with reset. Verilog "
 "implementation"
-msgstr "Reg-rst-02: Registro de dos bits con entradas de load y reset"
+msgstr ""
+"Sys-reg-rst-08-verilog: Registro de 2 bits con entradas de load y reset. "
+"Implementación en Verilog"
 
 #: translation.js:93
 msgid "Reg-8: 8 bits Register with load input"
-msgstr ""
+msgstr "Reg-8: Registro de 8 bits con entrada de load"
 
 #: translation.js:94
 msgid "Sys-reg-8: 8 bits system register"
-msgstr ""
+msgstr "Sys-reg-8: Registro del sistema de 8 bits"
 
 #: translation.js:96
-#, fuzzy
 msgid ""
 "Reg-rst-9-verilog: 9-bits Register with load and reset inputs. Verilog "
 "implementation"
-msgstr "Reg-rst-02: Registro de dos bits con entradas de load y reset"
+msgstr ""
+"Reg-rst-9-verilog: Registro de 9 bits con entradas de load y reset. "
+"Implementación en Verilog"
 
 #: translation.js:98
 #, fuzzy
