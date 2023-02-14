@@ -208,50 +208,6 @@ For installing and using this colection in Icestudio follow these steps:
       * Reg-rst
       * Reg
       * Sys-reg-rst
-* **SRegs**
-* **SRegs-ld**
-  * **02-Bits**
-    * **Left**
-      * SregL-ld-rst
-      * SregL-ld
-      * Sys-SregL-ld-rst
-      * Sys-SregL-ld
-      * **Verilog**
-        * SregL-ld-rst-verilog
-        * SregL-ld-verilog
-        * Sys-SregL-ld-rst-verilog
-        * Sys-SregL-ld-verilog
-    * **Right**
-      * SregR-ld-rst
-      * SregR-ld
-      * Sys-SregR-ld-rst
-      * Sys-SregR-ld
-      * **Verilog**
-        * SregR-ld-rst-verilog
-        * SregR-ld-verilog
-        * Sys-SregR-ld-rst-verilog
-        * Sys-SregR-ld-verilog
-  * **02-Bits**
-    * **Left**
-      * SregL-rst
-      * SregL
-      * Sys-SregL-rst
-      * Sys-SregL
-      * **Verilog**
-        * SregL-rst-verilog
-        * SregL-verilog
-        * Sys-SregL-rst-verilog
-        * Sys-SregL-verilog
-    * **Right**
-      * SregR-rst
-      * SregR
-      * Sys-SregR-rst
-      * Sys-SregR
-      * **Verilog**
-        * SregR-rst-verilog
-        * SregR-verilog
-        * Sys-SregR-rst-verilog
-        * Sys-SregR-verilog
 
 ## Examples
 * 00-Index
@@ -661,60 +617,6 @@ For installing and using this colection in Icestudio follow these steps:
         * **Alhambra-II**
           * 01-manual-test
         * **Alhambra-II**
-          * 01-manual-test
-  * **SReg**
-  * **SReg-ld**
-    * **02-Bits**
-      * **Left**
-        * **SregL-ld**
-        * **SregL-ld-rst**
-          * **Alhambra-II**
-            * 01-manual-test
-          * **Alhambra-II**
-            * 01-manual-test
-        * **Sys-SregL-ld**
-        * **Sys-SregL-ld-rst**
-          * **Alhambra-II**
-            * 01-manual-test
-          * **Alhambra-II**
-            * 01-manual-test
-      * **Right**
-        * **SregR-ld**
-        * **SregR-ld-rst**
-          * **Alhambra-II**
-            * 01-manual-test
-          * **Alhambra-II**
-            * 01-manual-test
-        * **Sys-SregR-ld**
-        * **Sys-SregR-ld-rst**
-          * **Alhambra-II**
-            * 01-manual-test
-          * **Alhambra-II**
-            * 01-manual-test
-    * **02-Bits**
-      * **Left**
-        * **SregL**
-        * **SregL-rst**
-          * **Alhambra-II**
-            * 01-manual-test
-          * **Alhambra-II**
-            * 01-manual-test
-        * **Sys-sregL**
-        * **Sys-sregL-rst**
-          * **Alhambra-II**
-            * 01-manual-test
-          * **Alhambra-II**
-            * 01-manual-test
-      * **Right**
-        * **SregR**
-        * **SregR-rst**
-          * **Alhambra-II**
-            * 01-manual-test
-          * **Alhambra-II**
-            * 01-manual-test
-        * **Sys-sregR**
-          * 01-manual-test
-        * **Sys-sregR-rst**
           * 01-manual-test
 
 ## Authors
