@@ -485,28 +485,28 @@ msgstr ""
 "Implementación en Verilog"
 
 #: translation.js:129
-#, fuzzy
 msgid "Reg-rst-16: 16 bits Register with load and reset inputs"
-msgstr "Reg-rst-02: Registro de dos bits con entradas de load y reset"
+msgstr "Reg-rst-16: Registro de 16 bits con entradas de load y reset"
 
 #: translation.js:130
 msgid "2-to-1 Multplexer (16-bit channels). Verilog implementation"
-msgstr ""
+msgstr "Multiplexor 2-1 (canales de 16-bits). Implementación en Verilog"
 
 #: translation.js:131
-#, fuzzy
 msgid ""
 "Sys-reg-rst-16-verilog: 16 bits system register with reset. Verilog "
 "implementation"
-msgstr "Reg-rst-02: Registro de dos bits con entradas de load y reset"
+msgstr ""
+"Sys-reg-rst-16-verilog: Registro del sistema de 16-bits con reset. "
+"Implementación en Verilog"
 
 #: translation.js:133
 msgid "Reg-16: 16 bits Register with load input"
-msgstr ""
+msgstr "Reg-16-: Registro de 16 bits con entradas de load y reset"
 
 #: translation.js:134
 msgid "Sys-reg-16: 16 bits system register"
-msgstr ""
+msgstr "Sys-reg-16: Registro del sistema de 16 bits"
 
 #: translation.js:136
 msgid ""
@@ -750,26 +750,27 @@ msgstr ""
 
 #: translation.js:201
 msgid "Reg-rst-32: 32 bits Register with load and reset inputs"
-msgstr ""
+msgstr "Reg-rst-32: Registro de 32 bits con entradas de load y reset"
 
 #: translation.js:202
-#, fuzzy
 msgid ""
 "Sys-reg-rst-32-verilog: 32 bits system register with reset. Verilog "
 "implementation"
-msgstr "Reg-rst-02: Registro de dos bits con entradas de load y reset"
+msgstr ""
+"Sys-reg-rst-32-verilog: Registro del sistema de 32-bits con reset. "
+"Implementación en Verilog"
 
 #: translation.js:203
 msgid "2-to-1 Multplexer (32-bit channels). Verilog implementation"
-msgstr ""
+msgstr "Multiplexor 2-1 (canales de 32-bits). Implementación en Verilog"
 
 #: translation.js:205
 msgid "Reg-32: 32 bits Register with load input"
-msgstr ""
+msgstr "Reg-32: Registro de 32 bits con entrada de load"
 
 #: translation.js:206
 msgid "Sys-reg-32: 32 bits system register"
-msgstr ""
+msgstr "Sys-Reg-32: Registro del sistema de 32-bits"
 
 #: translation.js:239 translation.js:252 translation.js:255 translation.js:260
 #: translation.js:262 translation.js:265 translation.js:269 translation.js:273
@@ -783,7 +784,7 @@ msgstr ""
 #: translation.js:605 translation.js:1163 translation.js:1182
 #: translation.js:1201
 msgid "Sys-reg-rst"
-msgstr ""
+msgstr "Sys-reg-rst"
 
 #: translation.js:240 translation.js:257 translation.js:261 translation.js:267
 #: translation.js:271 translation.js:275 translation.js:279 translation.js:285
@@ -796,17 +797,19 @@ msgstr ""
 #: translation.js:1147 translation.js:1162 translation.js:1181
 #: translation.js:1200
 msgid "Sys-reg"
-msgstr ""
+msgstr "Sys-reg"
 
 #: translation.js:241 translation.js:604
 msgid "Sys-reg-dff"
-msgstr ""
+msgstr "Sys-reg-dff"
 
 #: translation.js:242
 msgid ""
 "Sys-reg-dff-02: Two bits system register implemented directly from two D "
 "Flip-Flops"
 msgstr ""
+"Sys-reg-dff-92: Registro del sistema de 2-bits implementado directamente a "
+"partir de dos biestables D"
 
 #: translation.js:243
 msgid "Bus2-Split-all: Split the 2-bits bus into two wires"
