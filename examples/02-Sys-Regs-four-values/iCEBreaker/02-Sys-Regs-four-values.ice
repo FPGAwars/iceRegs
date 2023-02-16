@@ -213,8 +213,8 @@
             "clock": false
           },
           "position": {
-            "x": 944,
-            "y": 728
+            "x": 936,
+            "y": 840
           }
         },
         {
@@ -270,6 +270,19 @@
           }
         },
         {
+          "id": "c9cb24fd-b370-44e5-a988-057109a46c55",
+          "type": "basic.constant",
+          "data": {
+            "name": "",
+            "value": "1",
+            "local": false
+          },
+          "position": {
+            "x": 1104,
+            "y": 712
+          }
+        },
+        {
           "id": "304702e1-1d61-4553-8266-250f3462a605",
           "type": "basic.info",
           "data": {
@@ -321,8 +334,8 @@
           "id": "40624504-fe53-494f-8ddf-3709ae698fa4",
           "type": "f343ddae2d2d482122701507323b17ee02880898",
           "position": {
-            "x": 1088,
-            "y": 712
+            "x": 1080,
+            "y": 824
           },
           "size": {
             "width": 96,
@@ -752,6 +765,16 @@
             "port": "in"
           },
           "size": 8
+        },
+        {
+          "source": {
+            "block": "c9cb24fd-b370-44e5-a988-057109a46c55",
+            "port": "constant-out"
+          },
+          "target": {
+            "block": "40624504-fe53-494f-8ddf-3709ae698fa4",
+            "port": "1ff8ad12-4df4-4aee-922b-c0c0fb449926"
+          }
         }
       ]
     }
