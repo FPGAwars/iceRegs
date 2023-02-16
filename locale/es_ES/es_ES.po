@@ -1952,7 +1952,7 @@ msgstr ""
 
 #: translation.js:513
 msgid "Enable the capture "
-msgstr "Habilitar la captura"
+msgstr "Habilitar la captura "
 
 #: translation.js:514
 msgid "This signal is 1 initially"
@@ -2276,6 +2276,13 @@ msgid ""
 "When the `SW2` is pressed, the register is reset and its initial value is "
 "displayed"
 msgstr ""
+"## Ejemplo 5: Mostrando información en los LEDs\n"
+"\n"
+"Se muestran dos valores diferentes en los LEDs: 0xAA y 0x55. El primer "
+"valor  \n"
+"se muestra inicialmente. Cuando el botón `SW1` se aprieta, se muestra el "
+"valor 0x55  \n"
+"Cuando se aprieta `SW2`, el registro se resetea y se muestra el valor inicial"
 
 #: translation.js:606 translation.js:607 translation.js:613 translation.js:614
 #: translation.js:618 translation.js:628 translation.js:629 translation.js:642
@@ -2312,7 +2319,7 @@ msgstr ""
 #: translation.js:1193 translation.js:1202 translation.js:1203
 #: translation.js:1208 translation.js:1209
 msgid "Alhambra-II"
-msgstr ""
+msgstr "Alhambra-II"
 
 #: translation.js:608 translation.js:611 translation.js:615 translation.js:619
 #: translation.js:622 translation.js:630 translation.js:638 translation.js:644
@@ -2350,49 +2357,59 @@ msgstr ""
 #: translation.js:1196 translation.js:1204 translation.js:1206
 #: translation.js:1210 translation.js:1212
 msgid "01-manual-test"
-msgstr ""
+msgstr "01-manual-test"
 
 #: translation.js:609
 msgid ""
 "# TEST: 2-bits Reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg-rst de 2-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:610
 msgid "Next"
-msgstr ""
+msgstr "Siguiente"
 
 #: translation.js:612
 msgid ""
 "# TEST: 2-bits Reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg de 2-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:616
 msgid "2bits constant value: 0"
-msgstr ""
+msgstr "Valor constante de 2-bits: 0"
 
 #: translation.js:617
 msgid ""
 "# TEST: 2-bits Sys-reg-dff: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg-dff de 2-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:620
 msgid "2bits constant value: 3"
-msgstr ""
+msgstr "Valor constante de 2-bits: 3"
 
 #: translation.js:621
 msgid ""
 "# TEST: 2-bits Sys-reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg-rst de 2-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:623
 msgid ""
 "# TEST: 2-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg de 2-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:626 translation.js:662 translation.js:678 translation.js:698
 #: translation.js:715 translation.js:734 translation.js:750 translation.js:775
@@ -2402,7 +2419,7 @@ msgstr ""
 #: translation.js:1032 translation.js:1052 translation.js:1072
 #: translation.js:1091 translation.js:1109 translation.js:1128
 msgid "Sys-Reg"
-msgstr ""
+msgstr "Sys-Reg"
 
 #: translation.js:627 translation.js:663 translation.js:679 translation.js:699
 #: translation.js:716 translation.js:751 translation.js:776 translation.js:795
@@ -2411,87 +2428,95 @@ msgstr ""
 #: translation.js:973 translation.js:993 translation.js:1013
 #: translation.js:1033 translation.js:1053 translation.js:1073
 #: translation.js:1092 translation.js:1110 translation.js:1129
-#, fuzzy
 msgid "Sys-Reg-rst"
-msgstr "Reg-rst"
+msgstr "Sys-Reg"
 
 #: translation.js:631
 msgid ""
 "Direct connection of a button. The button should not have any external "
 "circuit"
 msgstr ""
+"Conexión directa de un botón. El botón no debe tener ningún circuito externo"
 
 #: translation.js:632
 msgid "UINT8-3bits:  Extend a 3-bits unsigned integer to 8-bits "
-msgstr ""
+msgstr "UINT8-3bits: Extender un entero sin signo de 3-bits a 8 bits"
 
 #: translation.js:633
 msgid "Bus8-Join-5-3: Join the two buses into an 8-bits Bus"
-msgstr ""
+msgstr "Bus8-Join-5-3: Agrupar dos mitades en un bus de 8-bits"
 
 #: translation.js:634
 msgid "5bits constant value: 0"
-msgstr ""
+msgstr "Valor constante de 5-bits: 0"
 
 #: translation.js:635
 msgid "Generic: 5-bits generic constant (0-31)"
-msgstr ""
+msgstr "Genérico: Constante genérica de 5 bits (0-31)"
 
 #: translation.js:636
 msgid "Generic: 3-bits generic constant (0-7)"
-msgstr ""
+msgstr "Genérico: Constante genérica de 3 bits (0-7)"
 
 #: translation.js:637
 msgid ""
 "# TEST: 3-bits Reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg-rst de 3-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:639
 msgid "UINT4-3bit:  Extend a 3-bit unsigned integer to 4-bits "
-msgstr ""
+msgstr "UINT4-3bit: Extender un entero sin signo de 3-bits a 4-bits"
 
 #: translation.js:640
 msgid "Bus4-Join-1-3: Join the two buses into a 4-bits Bus"
-msgstr ""
+msgstr "Bus8-Join-1-3: Agrupar dos buses en un bus de 4-bits"
 
 #: translation.js:641
 msgid ""
 "# TEST: 3-bits Reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg de 3-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:645
 msgid ""
 "Data Ledoscope. 2 samples of 4bits data are taken initially, at the system "
 "clock rate"
 msgstr ""
+"Ledoscopio de datos. Se toman inicialmente dos muestras de 4 bits, a la "
+"velocidad del reloj del sistema"
 
 #: translation.js:646
 msgid "System TFF: It toogles its output on every system cycle"
-msgstr ""
+msgstr "Biestable T del sistema: Cambia su salida en cada ciclo del sistema"
 
 #: translation.js:647
 msgid "Counter-x01: 1-bit counter"
-msgstr ""
+msgstr "Counter-x01: Contador de 1-bit"
 
 #: translation.js:648
 msgid "UINT8-4bits:  Extend a 4-bits unsigned integer to 8-bits "
-msgstr ""
+msgstr "UINT8-4bits: Extender un entero sin signo de 4-bits a 8 bits "
 
 #: translation.js:649
 msgid "4bits constant value: 0"
-msgstr ""
+msgstr "Valor constante de 4-bits: 0"
 
 #: translation.js:650
 msgid "3bits constant value: 7"
-msgstr ""
+msgstr "Valor constante de 3-bits: 7"
 
 #: translation.js:651
 msgid ""
 "# TEST: 3-bits Sys-reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg-rst de 3-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:652
 msgid ""
@@ -2499,177 +2524,217 @@ msgid ""
 "channels are captured  \n"
 "(Samples at cycles 0 and 1)"
 msgstr ""
+"Las dos primeras muestras en  \n"
+"los canales se capturan  \n"
+"(Muestras en los ciclos 0 y 1)"
 
 #: translation.js:653
 msgid "T flip-flop"
-msgstr ""
+msgstr "Flip-flop T"
 
 #: translation.js:654
 msgid "Cycle number: 0 and 1"
-msgstr ""
+msgstr "Número de ciclo: 0 y 1"
 
 #: translation.js:655
 msgid ""
 "The Flip-flips is reset  \n"
 "at the end of cycle 1"
 msgstr ""
+"El biestable se inicializa  \n"
+"al final del ciclo 1"
 
 #: translation.js:656
 msgid "2-cycles with pulse"
-msgstr ""
+msgstr "Pulso de 2 ciclos de anchura"
 
 #: translation.js:658
 msgid "Bus4-Split-1-3: Split the 4-bits bus into two: 1-bit and 3-bits buses"
-msgstr ""
+msgstr "Bus4-Split-1-3: Separar un bus de 4 bits en dos buses de 1 y 3 bits"
 
 #: translation.js:659
 msgid ""
 "# TEST: 3-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg de 3-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:667
 msgid ""
 "# TEST: 4-bits Reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg-rst de 4-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:669
 msgid ""
 "# TEST: 4-bits Reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg de 4-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:673
 msgid ""
 "# TEST: 4-bits Sys-reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg-rst de 4-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:675
 msgid ""
 "# TEST: 4-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg de 4-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:683
 msgid "UINT8-5bits:  Extend a 5-bits unsigned integer to 8-bits "
-msgstr ""
+msgstr "UINT8-5bits: Extender un entero sin signo de 5-bits a 8 bits "
 
 #: translation.js:684
 msgid "Bus8-Join-3-5: Join the two buses into an 8-bits Bus"
-msgstr ""
+msgstr "Bus8-Join-3-5: Agrupar dos buses en un bus de 8-bits"
 
 #: translation.js:685
 msgid "3bits constant value: 0"
-msgstr ""
+msgstr "Valor constante de 3-bits: 0"
 
 #: translation.js:686
 msgid ""
 "# TEST: 5-bits Reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg-rst de 5-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:688
 msgid ""
 "# TEST: 5-bits Reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg de 5-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:692
 msgid ""
 "# TEST: 5-bits Sys-reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg-rst de 5-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:694
 msgid ""
 "Data Ledoscope. 2 samples of 8bits data are taken initially, at the system "
 "clock rate"
 msgstr ""
+"Ledoscopio de datos.Se toman inicialmente 2 muestras de 8 bits de datos, a "
+"la velocidad del reloj del sistema"
 
 #: translation.js:695
 msgid ""
 "# TEST: 5-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg de 5-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:703
 msgid "Generic: 6-bits generic constant (0-63)"
-msgstr ""
+msgstr "Genérico: Constante genérica de 6 bits (0-63)"
 
 #: translation.js:704
 msgid "UINT8-6bits:  Extend a 6-bits unsigned integer to 8-bits "
-msgstr ""
+msgstr "UINT8-6bits: Extender un entero sin signo de 6-bits a 8 bits  "
 
 #: translation.js:705
 msgid "Bus8-Join-2-6: Join the two buses into an 8-bits Bus"
-msgstr ""
+msgstr "Bus8-Join-2-6: Agrupar dos buses en un bus de 8-bits"
 
 #: translation.js:706
 msgid ""
 "# TEST: 6-bits Reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg-rst de 6-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:708
 msgid ""
 "# TEST: 6-bits Reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg de 6-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:710
 msgid ""
 "# TEST: 6-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg de 6-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:712
 msgid ""
 "# TEST: 6-bits Sys-reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg-rst de 6-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:720
 msgid "UINT8-7bits:  Extend a 7-bits unsigned integer to 8-bits "
-msgstr ""
+msgstr "UINT8-7bits: Extender un entero sin signo de 7-bits a 8 bits  "
 
 #: translation.js:721
 msgid "Bus7-Join-1-7: Join the two buses into an 8-bits Bus"
-msgstr ""
+msgstr "Bus8-Join-1-7: Agrupar dos buses en un bus de 8-bits"
 
 #: translation.js:722
 msgid "Generic: 7-bits generic constant (0-127)"
-msgstr ""
+msgstr "Genérico: Constante genérica de 7 bits (0-127)"
 
 #: translation.js:723
 msgid ""
 "# TEST: 7-bits Reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg-rst de 7-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:725
 msgid ""
 "# TEST: 7-bits Reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg de 7-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:729
 msgid ""
 "# TEST: 7-bits Sys-reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg-rst de 7-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:731
 msgid ""
 "# TEST: 7-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg de 7-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:735
-#, fuzzy
 msgid "Sys-Reg-Rst"
-msgstr "Reg-rst"
+msgstr "Sys-Reg-Rst"
 
 #: translation.js:739
 msgid ""
