@@ -1509,38 +1509,42 @@ msgstr "Bit 0 constante"
 
 #: translation.js:453
 msgid "Bus8-Join-half: Join the two same halves into an 8-bits Bus"
-msgstr ""
+msgstr "Bus8-Join-half: Agrupar dos mitades en un bus de 8-bits"
 
 #: translation.js:454
 msgid "AdderC-4bits: Adder of two operands of 4 bits and Carry in"
-msgstr ""
+msgstr "Adder-4bits: Sumador de dos operandos de 4-bits y acarreo de entrada"
 
 #: translation.js:455
 msgid "AdderC-8bits: Adder of two operands of 8 bits and Carry in"
-msgstr ""
+msgstr "AdderC-8bits: Sumador de dos operandos de 8-bits y acarreo de entrada"
 
 #: translation.js:456
 msgid "Bus16-Join-half: Join the two same halves into an 16-bits Bus"
-msgstr ""
+msgstr "Bus16-Join-half: Agrupar dos mitades en un bus de 16-bits"
 
 #: translation.js:457
 msgid ""
 "Edges detector. It generates a 1-period pulse (tic) when either a rising "
 "edge or a falling edge is detected on the input"
 msgstr ""
+"Detector de flancos. Se genera un pulso de 1-ciclo (tic) cuando se detecta "
+"un flanco de subida o de bajada en la entrada"
 
 #: translation.js:458
 msgid "Sync 1-bit input with the system clock domain"
-msgstr ""
+msgstr "Sincronizar la entrada de 1-bit con el dominio del reloj del sistema"
 
 #: translation.js:459
 msgid ""
 "Select positive or negative logic for the input (0=positive, 1=negative)"
 msgstr ""
+"Seleccionar lógica positiva o negativa para la entrada (0=positiva, "
+"1=negativa)"
 
 #: translation.js:460
 msgid "1-bit generic constant (0/1)"
-msgstr ""
+msgstr "Constante genérica de 1-bit (0/1)"
 
 #: translation.js:461
 msgid ""
