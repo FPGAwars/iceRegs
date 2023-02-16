@@ -281,6 +281,8 @@ For installing and using this colection in Icestudio follow these steps:
     * 05-Reg-rst-values-on-LEDs
   * **Nandland-go-board**
     * 05-Reg-rst-values-on-LEDs
+  * **ULX3S-12F**
+    * 05-Reg-rst-values-on-LEDs
 * **TESTs**
   * **Regs**
     * **02-bits**
