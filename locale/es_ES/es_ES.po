@@ -2774,7 +2774,7 @@ msgid ""
 "the byte to display "
 msgstr ""
 "Display16-8: Mostrar un valor de 16-bits en 8 LEDs. La entrada sel "
-"selecciona el byte a mostrar"
+"selecciona el byte a mostrar  "
 
 #: translation.js:756
 msgid "Generic: 9-bits generic constant"
@@ -2782,7 +2782,7 @@ msgstr "Genérico: Constante genérica de 9 bits"
 
 #: translation.js:757
 msgid "UINT16-9bits:  Extend a 9-bits unsigned integer to 16-bits "
-msgstr "UINT16-9bits: Extender un entero sin signo de 9 bits a 16-bits"
+msgstr "UINT16-9bits: Extender un entero sin signo de 9 bits a 16-bits  "
 
 #: translation.js:758
 msgid "7bits constant value: 0"
@@ -2806,7 +2806,7 @@ msgid ""
 "(least significant)  "
 msgstr ""
 "Byte 0  \n"
-"(Menos significativo)"
+"(Menos significativo)  "
 
 #: translation.js:763
 msgid ""
@@ -2997,124 +2997,156 @@ msgid ""
 "# TEST: 13-bits Reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg-rst de 13-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:842
 msgid ""
 "# TEST: 13-bits Reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg de 13-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:846
 msgid ""
 "# TEST: 13-bits Sys-reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg-rst de 13-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:848
 msgid ""
 "# TEST: 13-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg de 13-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:856
 msgid "Generic: 14-bits generic constant"
-msgstr ""
+msgstr "Genérico: Constante genérica de 14 bits"
 
 #: translation.js:857
 msgid "UINT16-14bits:  Extend a 14-bits unsigned integer to 16-bits "
-msgstr ""
+msgstr "UINT16-14bits: Extender un entero sin signo de 14 bits a 16-bits  "
 
 #: translation.js:858
 msgid "Bus16-Join-2-14: Join the two buses into a 16-bits Bus"
-msgstr ""
+msgstr "Bus8-Join-2-14: Agrupar dos buses de 2 y 14 bits en uno de 8-bits"
 
 #: translation.js:859
 msgid ""
 "# TEST: 14-bits Reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg-rst de 14-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:861
 msgid ""
 "# TEST: 14-bits Reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg de 14-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:865
 msgid ""
 "# TEST: 14-bits Sys-reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg-rst de 14-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:867
 msgid ""
 "# TEST: 14-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg de 14-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:875
 msgid "UINT16-15bits:  Extend a 12-bits unsigned integer to 16-bits "
-msgstr ""
+msgstr "UINT16-15bits: Extender un entero sin signo de 12 bits a 16-bits  "
 
 #: translation.js:876
 msgid "Bus16-Join-1-15: Join the two buses into a 16-bits Bus"
-msgstr ""
+msgstr "Bus8-Join-1-15: Agrupar dos buses de 1 y 15 bits en uno de 16-bits"
 
 #: translation.js:877
 msgid "Generic: 15-bits generic constant"
-msgstr ""
+msgstr "Genérico: Constante genérica de 15 bits"
 
 #: translation.js:878
 msgid ""
 "# TEST: 15-bits Reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg-rst de 15-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:880
 msgid ""
 "# TEST: 15-bits Reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg de 15-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:884
 msgid ""
 "# TEST: 15-bits Sys-reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg-rst de 15-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:886
 msgid ""
 "# TEST: 15-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg de 15-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:894
 msgid ""
 "# TEST: 16-bits Reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg-rst de 16-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:896
 msgid ""
 "# TEST: 16-bits Reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg de 16-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:900
 msgid ""
 "# TEST: 16-bits Sys-reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg-rst de 16-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:902
 msgid ""
 "# TEST: 16-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg de 16-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:908
 msgid "Alhamb ra-II"
-msgstr ""
+msgstr "Alhambra-II"
 
 #: translation.js:910
 msgid ""
