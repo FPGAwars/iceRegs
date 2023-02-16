@@ -248,11 +248,21 @@ For installing and using this colection in Icestudio follow these steps:
 
 ## Examples
 * 00-Index
-* 01-Sys-Regs-two-values
-* 02-Sys-Regs-four-values
-* 03-Sys-Regs-rst-two-values
-* 04-Reg-values-on-LEDs
-* 05-Reg-rst-values-on-LEDs
+* **01-Sys-Regs-two-values**
+  * **Alhambra-II**
+    * 01-Sys-Regs-two-values
+* **02-Sys-Regs-four-values**
+  * **Alhambra-II**
+    * 02-Sys-Regs-four-values
+* **03-Sys-Regs-rst-two-values**
+  * **Alhambra-II**
+    * 03-Sys-Regs-rst-two-values
+* **04-Reg-values-on-LEDs**
+  * **Alhambra-II**
+    * 04-Reg-values-on-LEDs
+* **05-Reg-rst-values-on-LEDs**
+  * **Alhambra-II**
+    * 05-Reg-rst-values-on-LEDs
 * **TESTs**
   * **Regs**
     * **02-bits**
