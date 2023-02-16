@@ -2016,7 +2016,7 @@ msgid ""
 "clock rate"
 msgstr ""
 "Ledoscopio de datos.Se toman inicialmente cuatro muestras de 8 bits de "
-"datos, a la velocidad del reloj del sistema "
+"datos, a la velocidad del reloj del sistema"
 
 #: translation.js:526
 msgid "Reg-x08: 8-bits register"
@@ -2052,19 +2052,19 @@ msgstr "Multiplexor 4-1 (canales de 8 bits)"
 
 #: translation.js:534
 msgid "2-to-1 Multplexer (8-bit channels)"
-msgstr ""
+msgstr "Multiplexor 2-1 (canales de 8 bits)"
 
 #: translation.js:535
 msgid "2-to-1 Multplexer (4-bit channels)"
-msgstr ""
+msgstr "Multiplexor 2-1 (Canales de 4-bits)"
 
 #: translation.js:536
 msgid "Counter-x02: 2-bits counter"
-msgstr ""
+msgstr "Counter-x02: Contador de 2-bits"
 
 #: translation.js:537
 msgid "OR-BUS2: OR gate with 2-bits bus input"
-msgstr ""
+msgstr "OR-BUS2: Puerta OR de 2 bits de entrada"
 
 #: translation.js:538
 msgid ""
@@ -2074,10 +2074,16 @@ msgid ""
 "the cycles 0,1,2 and 3 respectivelly\n"
 "The four captured values can be observed with the Data LEDOscope block"
 msgstr ""
+"## Ejemplo. Sys-Reg: Cuatro valores\n"
+"\n"
+"Este circuito genera cuatro valores de 8-bits: 0x80, 0x20, 0x08 y 0x02 en "
+"los ciclos 0,1,2 y 3 respectivamente\n"
+"Los cuatro valores capturados se pueden observar con el bloque de LEDOscopio "
+"de datos"
 
 #: translation.js:539
 msgid "8-bits Sys-Reg"
-msgstr ""
+msgstr "8-bits Sys-Reg"
 
 #: translation.js:540
 msgid ""
@@ -2086,22 +2092,30 @@ msgid ""
 "It stores four samples taken at the first four cycles  \n"
 "(cycle 0 - cycle 3)"
 msgstr ""
+"## Medir con el LEDOSCOPIO de datos\n"
+"\n"
+"Almacena cuatro muestras tomadas en los primeros  \n"
+"cuatro ciclos (ciclo 0 - ciclo 3)"
 
 #: translation.js:541
 msgid ""
 "Select the 8-bit sample to show  \n"
 "on the LEDs"
 msgstr ""
+"Seleccionar la muestra de 8-bit a  \n"
+"mostrar en los LEDs"
 
 #: translation.js:542
 msgid "Value for cycles >= 3"
-msgstr ""
+msgstr "Valor en los ciclos >=3"
 
 #: translation.js:543
 msgid ""
 "Show the stable value  \n"
 "(permanent regime)"
 msgstr ""
+"Mostrar el valor estable  \n"
+"(Régimen permanente)"
 
 #: translation.js:544
 msgid ""
@@ -2109,32 +2123,37 @@ msgid ""
 "channels are captured  \n"
 "(Samples at cycles 0 to 3)"
 msgstr ""
+"Capturar las primeras cuatro muestras en  \n"
+"el canal  \n"
+"(Muesttras en los ciclos de 0 a 3)"
 
 #: translation.js:545
 msgid "Cycle number: 0-3"
-msgstr ""
+msgstr "Número de ciclo: 0-3"
 
 #: translation.js:546
 msgid "Sample 2"
-msgstr ""
+msgstr "Muestra 2"
 
 #: translation.js:547
 msgid "Sample 3"
-msgstr ""
+msgstr "Muestra 3"
 
 #: translation.js:548
 msgid "Priority for the set"
-msgstr ""
+msgstr "Prioridad en el set"
 
 #: translation.js:549
 msgid "03-Sys-Regs-rst-two-values"
-msgstr ""
+msgstr "03-Sys-Regs-rst-two-values"
 
 #: translation.js:550
 msgid ""
 "start: Start signal: It goes from 1 to 0 when the system clock starts. 1 "
 "cycle pulse witch"
 msgstr ""
+"start: Señal de start. Transita de 1 a 0 cuando arranca el reloj del "
+"sistema. Anchura de 1 ciclo"
 
 #: translation.js:551
 msgid ""
@@ -2143,36 +2162,46 @@ msgid ""
 "A string of two values, 0x55 and 0xAA is generated. Then the register  \n"
 "is **reset** to its initial value (0x55) and the sequence is generated again"
 msgstr ""
+"## Ejemplo 3:  Flujo de 4 valores de 8 bits, con reset\n"
+"\n"
+"Se genera un chorro de dos valores: 0x55 y 0xAA.  Después  \n"
+"el registro se inicializa a su valor inicial (0x55) y la secuencia se repite"
 
 #: translation.js:552
 msgid "Cycle 1"
-msgstr ""
+msgstr "Ciclo 1"
 
 #: translation.js:553
 msgid "Cycle 0"
-msgstr ""
+msgstr "Ciclo 0"
 
 #: translation.js:554
 msgid "Rst=1 in cycle 1"
-msgstr ""
+msgstr "Rst=1 en el ciclo 1"
 
 #: translation.js:555
 msgid ""
 "LEDOscope  \n"
 "(4 samples)"
 msgstr ""
+"LEDOscopio  \n"
+"(4 muestras)"
 
 #: translation.js:556
 msgid ""
 "Showing sample 0  \n"
 "on the LEDs"
 msgstr ""
+"Mostrar la muestra 0  \n"
+"en los LEDs"
 
 #: translation.js:557
 msgid ""
 "The sequence is restared  \n"
 "in cycle 2"
 msgstr ""
+"La secuencia se reinicia  \n"
+"en el ciclo 2"
 
 #: translation.js:558
 msgid ""
@@ -2180,26 +2209,29 @@ msgid ""
 "|---------|---------|---------|---------|\n"
 "|  55     |   AA    |   55    |   AA    |"
 msgstr ""
+"| ciclo 0 | ciclo 1 | ciclo 2 | ciclo 3 |\n"
+"|---------|---------|---------|---------|\n"
+"|  55     |   AA    |   55    |   AA    |"
 
 #: translation.js:559
 msgid "Reset"
-msgstr ""
+msgstr "Reset"
 
 #: translation.js:560
 msgid "Initial value: 1"
-msgstr ""
+msgstr "Valor inicial: 1"
 
 #: translation.js:561
 msgid "Initial value: 0"
-msgstr ""
+msgstr "Valor inicial: 0"
 
 #: translation.js:562
 msgid "Falling edge"
-msgstr ""
+msgstr "Flanco de bajada"
 
 #: translation.js:563
 msgid "04-Reg-values-on-LEDs"
-msgstr ""
+msgstr "04-Reg-values-on-LEDs"
 
 #: translation.js:564
 msgid ""
@@ -2210,20 +2242,28 @@ msgid ""
 "shown initially. When the button `SW1` is pressed, the value 0x55 is "
 "displayed"
 msgstr ""
+"## Ejemplo 4: Mostrando información en los LEDs\n"
+"\n"
+"Dos valores diferentes se muestran en los LEDs: 0xAA y 0x55. El primer "
+"valor  \n"
+"se muestra inicialmente. Cuando el botón `SW1` se aprieta, se muestra el "
+"valor 0x55"
 
 #: translation.js:565
 msgid ""
 "Value shown when the  \n"
 "button is pressed"
 msgstr ""
+"Mostrar los valores cuando  \n"
+"se aprieta el botón"
 
 #: translation.js:566
 msgid "8-bit Register"
-msgstr ""
+msgstr "8-bit Register"
 
 #: translation.js:567
 msgid "05-Reg-rst-values-on-LEDs"
-msgstr ""
+msgstr "05-Reg-rst-values-on-LEDs"
 
 #: translation.js:568
 msgid ""
