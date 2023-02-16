@@ -3419,12 +3419,16 @@ msgid ""
 "# TEST: 21-bits Sys-reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg-rst de 21-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1009
 msgid ""
 "# TEST: 21-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg de 21-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1017
 msgid "Generic: 22-bits generic constant"
@@ -3432,7 +3436,7 @@ msgstr "Genérico: Constante genérica de 22 bits"
 
 #: translation.js:1018
 msgid "UINT32-22bits:  Extend a 22-bits unsigned integer to 32-bits "
-msgstr ""
+msgstr "UINT32-22bits: Extender un entero sin signo de 22 bits a 32-bits  "
 
 #: translation.js:1019
 msgid "Bus32-Join-10-22: Join the two buses into an 32-bits Bus"
@@ -3463,16 +3467,20 @@ msgid ""
 "# TEST: 22-bits Sys-reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg-rst de 22-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1029
 msgid ""
 "# TEST: 22-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg de 22-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1037
 msgid "UINT32-23bits:  Extend a 23-bits unsigned integer to 32-bits "
-msgstr ""
+msgstr "UINT32-23bits: Extender un entero sin signo de 23 bits a 32-bits  "
 
 #: translation.js:1038
 msgid "Bus32-Join-9-23: Join the two buses into an 32-bits Bus"
@@ -3507,6 +3515,8 @@ msgid ""
 "# TEST: 23-bits Sys-reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg de 23-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1049
 msgid ""
@@ -3516,7 +3526,7 @@ msgstr ""
 
 #: translation.js:1057
 msgid "UINT32-24bits:  Extend a 24-bits unsigned integer to 32-bits "
-msgstr ""
+msgstr "UINT32-24bits: Extender un entero sin signo de 24 bits a 32-bits  "
 
 #: translation.js:1058
 msgid "Bus32-Join-8-24: Join the two buses into an 32-bits Bus"
@@ -3551,16 +3561,20 @@ msgid ""
 "# TEST: 24-bits Sys-reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg-rst de 24-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1069
 msgid ""
 "# TEST: 24-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg de 24-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1077
 msgid "UINT32-25bits:  Extend a 25-bits unsigned integer to 32-bits "
-msgstr ""
+msgstr "UINT32-25bits: Extender un entero sin signo de 25 bits a 32-bits  "
 
 #: translation.js:1078
 msgid "Bus32-Join-7-25: Join the two buses into an 32-bits Bus"
@@ -3591,12 +3605,16 @@ msgid ""
 "# TEST: 25-bits Sys-reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg-rst de 25-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1088
 msgid ""
 "# TEST: 25-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg de 25-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1096
 msgid "Generic: 26-bits generic constant"
@@ -3604,7 +3622,7 @@ msgstr "Genérico: Constante genérica de 26 bits"
 
 #: translation.js:1097
 msgid "UINT32-26bits:  Extend a 26-bits unsigned integer to 32-bits "
-msgstr ""
+msgstr "UINT32-26bits: Extender un entero sin signo de 26 bits a 32-bits  "
 
 #: translation.js:1098
 msgid "Bus32-Join-6-26: Join the two buses into an 32-bits Bus"
@@ -3631,12 +3649,16 @@ msgid ""
 "# TEST: 26-bits Sys-reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg-rst de 26-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1106
 msgid ""
 "# TEST: 26-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg de 26-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1114
 msgid "Generic: 27-bits generic constant"
@@ -3644,7 +3666,7 @@ msgstr "Genérico: Constante genérica de 27 bits"
 
 #: translation.js:1115
 msgid "UINT32-27bits:  Extend a 27-bits unsigned integer to 32-bits "
-msgstr ""
+msgstr "UINT32-27bits: Extender un entero sin signo de 27 bits a 32-bits  "
 
 #: translation.js:1116
 msgid "Bus32-Join-5-27: Join the two buses into an 32-bits Bus"
@@ -3671,16 +3693,20 @@ msgid ""
 "# TEST: 27-bits Sys-reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg-rst de 27-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1125
 msgid ""
 "# TEST: 27-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg de 27-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1133
 msgid "UINT32-28bits:  Extend a 28-bits unsigned integer to 32-bits "
-msgstr ""
+msgstr "UINT32-28bits: Extender un entero sin signo de 28 bits a 32-bits  "
 
 #: translation.js:1134
 msgid "Bus32-Join-4-28: Join the two buses into an 32-bits Bus"
@@ -3711,16 +3737,20 @@ msgid ""
 "# TEST: 28-bits Sys-reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg-rst de 28-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1144
 msgid ""
 "# TEST: 28-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg de 28-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1151
 msgid "UINT32-29bits:  Extend a 29-bits unsigned integer to 32-bits "
-msgstr ""
+msgstr "UINT32-29bits: Extender un entero sin signo de 29 bits a 32-bits  "
 
 #: translation.js:1152
 msgid "Bus32-Join-3-29: Join the two buses into an 32-bits Bus"
@@ -3751,10 +3781,12 @@ msgid ""
 "# TEST: 29-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg de 29-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1167
 msgid "UINT32-30bits:  Extend a 30-bits unsigned integer to 32-bits "
-msgstr ""
+msgstr "UINT32-30bits: Extender un entero sin signo de 30 bits a 32-bits  "
 
 #: translation.js:1168
 msgid "Bus32-Join-2-30: Join the two buses into an 32-bits Bus"
@@ -3785,16 +3817,20 @@ msgid ""
 "# TEST: 29-bits Sys-reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg-rst de 29-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1178
 msgid ""
 "# TEST: 30-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg de 30-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1186
 msgid "UINT32-31bits:  Extend a 31-bits unsigned integer to 32-bits "
-msgstr ""
+msgstr "UINT32-31bits: Extender un entero sin signo de 31 bits a 32-bits  "
 
 #: translation.js:1187
 msgid "Bus32-Join-1-31: Join the two buses into an 32-bits Bus"
@@ -3825,12 +3861,16 @@ msgid ""
 "# TEST: 31-bits Sys-reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg-rst de 31-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1197
 msgid ""
 "# TEST: 31-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg de 31-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1205
 msgid ""
@@ -3853,12 +3893,16 @@ msgid ""
 "# TEST: 32-bits Sys-reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg-rst de 32-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1213
 msgid ""
 "# TEST: 32-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg de 32-bits: Prueba manual\n"
+"\n"
 
 #~ msgid "Reg-rst-02: Two bits Register with load and reset inputs"
 #~ msgstr "Reg-rst-02: Registro de dos bits con entradas de load y reset"
