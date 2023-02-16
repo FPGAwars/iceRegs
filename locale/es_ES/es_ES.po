@@ -1903,6 +1903,10 @@ msgid ""
 "When k=1, it act as a not gate\n"
 "(The output is the inverse of the input)"
 msgstr ""
+"Cuando k=0,  funciona como un cable  \n"
+"(La salida es igual a la entrada)  \n"
+"Cuando k=1, Se comporta como una puerta NOT\n"
+"(La salida es la inversa de la entrada)"
 
 #: translation.js:509
 msgid ""
@@ -1915,16 +1919,26 @@ msgid ""
 "| 1 | 0     |  1     | Not      |\n"
 "| 1 | 1     |  0     | Not      |"
 msgstr ""
+"### Tabla de verdad para el XOR\n"
+"\n"
+"|k|Entrada|Salida|Función|\n"
+"|--|-------------|-----------|------------|\n"
+"|0|0               | 0           | cable  |\n"
+"|0|1               | 1           | cable |\n"
+"|1|0               | 1           | NOT  |\n"
+"|1|1               | 0           | NOT |"
 
 #: translation.js:510
 msgid ""
 "Select which sample is shown  \n"
 "on the LEDs"
 msgstr ""
+"Seleccionar qué muestra se  \n"
+"en los LEDs"
 
 #: translation.js:511
 msgid "Sample 0"
-msgstr ""
+msgstr "Muestra 0"
 
 #: translation.js:512
 msgid ""
@@ -1932,98 +1946,109 @@ msgid ""
 "channels are captured  \n"
 "(Samples at cycles 0 to 1)"
 msgstr ""
+"Las dos primeras muestras en  \n"
+"los canales se capturan  \n"
+"(Muestras en los ciclos 0 y 1)"
 
 #: translation.js:513
 msgid "Enable the capture "
-msgstr ""
+msgstr "Habilitar la captura"
 
 #: translation.js:514
 msgid "This signal is 1 initially"
-msgstr ""
+msgstr "Esta señal es 1 inicialmente"
 
 #: translation.js:515
 msgid "RS-flip-flop"
-msgstr ""
+msgstr "Flip-flop RS"
 
 #: translation.js:516
 msgid "Cycle number: 0-1"
-msgstr ""
+msgstr "Número de ciclo: 0-1"
 
 #: translation.js:517
 msgid ""
 "The Flip-flips is reset  \n"
 "at the end of cycle 3"
 msgstr ""
+"El biestable se inicializa  \n"
+"al final del ciclo 3"
 
 #: translation.js:518
 msgid "4-cycles with pulse"
-msgstr ""
+msgstr "Pulso de 4 ciclos de ancho"
 
 #: translation.js:519
 msgid "Sample 1"
-msgstr ""
+msgstr "Muestra 1"
 
 #: translation.js:520
 msgid ""
 "Sample number currently  \n"
 "displayed"
 msgstr ""
+"Número de muestra actualmente  \n"
+"mostrado"
 
 #: translation.js:521
 msgid "Mux 2-1"
-msgstr ""
+msgstr "Mux 2-1"
 
 #: translation.js:522
 msgid ""
 "D Flip-flip\n"
 "(System)"
 msgstr ""
+"Biestable D\n"
+"(Sistema)"
 
 #: translation.js:523
 msgid "Priority on set"
-msgstr ""
+msgstr "Prioridad en el set"
 
 #: translation.js:524 translation.js:691
 msgid "02-Sys-Regs-four-values"
-msgstr ""
+msgstr "02-Sys-Regs-four-values"
 
 #: translation.js:525
 msgid ""
 "Data Ledoscope. 4 samples of 8bits data are taken initially, at the system "
 "clock rate"
 msgstr ""
+"Ledoscopio de datos.Se toman inicialmente cuatro muestras de 8 bits de "
+"datos, a la velocidad del reloj del sistema "
 
 #: translation.js:526
 msgid "Reg-x08: 8-bits register"
-msgstr ""
+msgstr "Reg-x08: Registro de 8-bits"
 
 #: translation.js:527
 msgid "Reg-x04: 4-bits register"
-msgstr ""
+msgstr "Reg-x04: Registro de 4-bits"
 
 #: translation.js:528
 msgid "2-bits Syscounter"
-msgstr ""
+msgstr "2-bits Syscounter"
 
 #: translation.js:529
 msgid "Inc1-2bit: Increment a 2-bits number by one"
-msgstr ""
+msgstr "Inc1-2bit: Incrementar un número de 2-bits en uno"
 
 #: translation.js:530
 msgid "AdderK-2bit: Adder of 2-bit operand and 2-bit constant"
-msgstr ""
+msgstr "AdderK-2bit:  Sumador de un operando con constante de 2-bits"
 
 #: translation.js:531
 msgid "Adder-2bits: Adder of two operands of 2 bits"
-msgstr ""
+msgstr "Adder-2bits: Sumador de dos operandos de 2bits"
 
 #: translation.js:532
 msgid "DFF-02: Two D flip-flops in paralell"
-msgstr ""
+msgstr "DFF-02: Dos biestables D en paralelo"
 
 #: translation.js:533
 msgid "4-to-1 Multplexer (8-bit channels)"
-msgstr ""
+msgstr "Multiplexor 4-1 (canales de 8 bits)"
 
 #: translation.js:534
 msgid "2-to-1 Multplexer (8-bit channels)"
