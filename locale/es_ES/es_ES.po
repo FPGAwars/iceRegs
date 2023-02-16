@@ -3336,71 +3336,83 @@ msgstr ""
 
 #: translation.js:977
 msgid "Generic: 20-bits generic constant"
-msgstr ""
+msgstr "Genérico: Constante genérica de 20 bits"
 
 #: translation.js:978
 msgid "UINT32-20bits:  Extend a 20-bits unsigned integer to 32-bits "
-msgstr ""
+msgstr "UINT32-20bits: Extender un entero sin signo de 20 bits a 32-bits  "
 
 #: translation.js:979
 msgid "Bus32-Join-12-20: Join the two buses into an 32-bits Bus"
-msgstr ""
+msgstr "Bus32-Join-12-20: Agrupar dos buses de 12 y 20 bits en uno de 32-bits"
 
 #: translation.js:980
 msgid "12bits constant value: 0"
-msgstr ""
+msgstr "Valor constante de 12-bits: 0"
 
 #: translation.js:981
 msgid ""
 "# TEST: 20-bits Reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg-rst de 20-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:983
 msgid ""
 "# TEST: 20-bits Reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg de 20-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:987
 msgid ""
 "# TEST: 20-bits Sys-reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg-rst de 20-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:989
 msgid ""
 "# TEST: 20-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg de 20-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:997
 msgid "UINT32-21bits:  Extend a 21-bits unsigned integer to 32-bits "
-msgstr ""
+msgstr "UINT32-21bits: Extender un entero sin signo de 21 bits a 32-bits  "
 
 #: translation.js:998
 msgid "Bus32-Join-11-21: Join the two buses into an 32-bits Bus"
-msgstr ""
+msgstr "Bus32-Join-11-21: Agrupar dos buses de 11 y 21 bits en uno de 32-bits"
 
 #: translation.js:999
 msgid "11bits constant value: 0"
-msgstr ""
+msgstr "Valor constante de 11-bits: 0"
 
 #: translation.js:1000
 msgid "Generic: 21-bits generic constant"
-msgstr ""
+msgstr "Genérico: Constante genérica de 21 bits"
 
 #: translation.js:1001
 msgid ""
 "# TEST: 21-bits Reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg-rst de 21-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1003
 msgid ""
 "# TEST: 21-bits Reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg de 21-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1007
 msgid ""
@@ -3416,7 +3428,7 @@ msgstr ""
 
 #: translation.js:1017
 msgid "Generic: 22-bits generic constant"
-msgstr ""
+msgstr "Genérico: Constante genérica de 22 bits"
 
 #: translation.js:1018
 msgid "UINT32-22bits:  Extend a 22-bits unsigned integer to 32-bits "
@@ -3435,12 +3447,16 @@ msgid ""
 "# TEST: 22-bits Reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg-rst de 22-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1023
 msgid ""
 "# TEST: 22-bits Reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg de 22-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1027
 msgid ""
@@ -3468,19 +3484,23 @@ msgstr ""
 
 #: translation.js:1040
 msgid "Generic: 23-bits generic constant"
-msgstr ""
+msgstr "Genérico: Constante genérica de 23 bits"
 
 #: translation.js:1041
 msgid ""
 "# TEST: 23-bits Reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg-rst de 23-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1043
 msgid ""
 "# TEST: 23-bits Reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg de 23-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1047
 msgid ""
@@ -3508,19 +3528,23 @@ msgstr ""
 
 #: translation.js:1060
 msgid "Generic: 24-bits generic constant"
-msgstr ""
+msgstr "Genérico: Constante genérica de 24 bits"
 
 #: translation.js:1061
 msgid ""
 "# TEST: 24-bits Reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg-rst de 24-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1063
 msgid ""
 "# TEST: 24-bits Reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg de 24-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1067
 msgid ""
@@ -3544,19 +3568,23 @@ msgstr ""
 
 #: translation.js:1079
 msgid "Generic: 25-bits generic constant"
-msgstr ""
+msgstr "Genérico: Constante genérica de 25 bits"
 
 #: translation.js:1080
 msgid ""
 "# TEST: 25-bits Reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg-rst de 25-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1082
 msgid ""
 "# TEST: 25-bits Reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg de 25-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1086
 msgid ""
@@ -3572,7 +3600,7 @@ msgstr ""
 
 #: translation.js:1096
 msgid "Generic: 26-bits generic constant"
-msgstr ""
+msgstr "Genérico: Constante genérica de 26 bits"
 
 #: translation.js:1097
 msgid "UINT32-26bits:  Extend a 26-bits unsigned integer to 32-bits "
@@ -3587,12 +3615,16 @@ msgid ""
 "# TEST: 26-bits Reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg-rst de 26-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1101
 msgid ""
 "# TEST: 26-bits Reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg de 26-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1104
 msgid ""
@@ -3608,7 +3640,7 @@ msgstr ""
 
 #: translation.js:1114
 msgid "Generic: 27-bits generic constant"
-msgstr ""
+msgstr "Genérico: Constante genérica de 27 bits"
 
 #: translation.js:1115
 msgid "UINT32-27bits:  Extend a 27-bits unsigned integer to 32-bits "
@@ -3623,12 +3655,16 @@ msgid ""
 "# TEST: 27-bits Reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg-rst de 27-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1119
 msgid ""
 "# TEST: 27-bits Reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg de 27-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1123
 msgid ""
@@ -3652,19 +3688,23 @@ msgstr ""
 
 #: translation.js:1135
 msgid "Generic: 28-bits generic constant"
-msgstr ""
+msgstr "Genérico: Constante genérica de 28 bits"
 
 #: translation.js:1136
 msgid ""
 "# TEST: 28-bits Reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg-rst de 28-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1138
 msgid ""
 "# TEST: 28-bits Reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg de 28-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1142
 msgid ""
@@ -3688,19 +3728,23 @@ msgstr ""
 
 #: translation.js:1153
 msgid "Generic: 29-bits generic constant"
-msgstr ""
+msgstr "Genérico: Constante genérica de 29 bits"
 
 #: translation.js:1154
 msgid ""
 "# TEST: 29-bits Reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg-rst de 29-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1156
 msgid ""
 "# TEST: 29-bits Reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg de 29-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1159
 msgid ""
@@ -3718,19 +3762,23 @@ msgstr ""
 
 #: translation.js:1169
 msgid "Generic: 30-bits generic constant"
-msgstr ""
+msgstr "Genérico: Constante genérica de 30 bits"
 
 #: translation.js:1170
 msgid ""
 "# TEST: 30-bits Reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg-rst de 30-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1172
 msgid ""
 "# TEST: 30-bits Reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg de 30-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1176
 msgid ""
@@ -3754,19 +3802,23 @@ msgstr ""
 
 #: translation.js:1188
 msgid "Generic: 31-bits generic constant"
-msgstr ""
+msgstr "Genérico: Constante genérica de 31 bits"
 
 #: translation.js:1189
 msgid ""
 "# TEST: 31-bits Reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg-rst de 31-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1191
 msgid ""
 "# TEST: 31-bits Reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg de 31-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1195
 msgid ""
@@ -3785,12 +3837,16 @@ msgid ""
 "# TEST: 32-bits Reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg-rst de 32-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1207
 msgid ""
 "# TEST: 32-bits Reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg de 32-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1211
 msgid ""
