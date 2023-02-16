@@ -28,7 +28,7 @@ For installing and using this colection in Icestudio follow these steps:
 | Language | Locale | Translated strings |
 |----------|--------|--------------------|
 | English  |  en    | ![](https://progress-bar.dev/100) |
-| Spanish |  es_ES | ![](https://progress-bar.dev/100) |
+| Spanish |  es_ES | ![](https://progress-bar.dev/98) |
 
 ## Blocks
 * **Regs**
@@ -251,8 +251,12 @@ For installing and using this colection in Icestudio follow these steps:
 * **01-Sys-Regs-two-values**
   * **Alhambra-II**
     * 01-Sys-Regs-two-values
+  * **Nandland-go-board**
+    * 01-Sys-Regs-two-values
 * **02-Sys-Regs-four-values**
   * **Alhambra-II**
+    * 02-Sys-Regs-four-values
+  * **Nandland-go-board**
     * 02-Sys-Regs-four-values
 * **03-Sys-Regs-rst-two-values**
   * **Alhambra-II**
