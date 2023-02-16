@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-16 08:49+0000\n"
+"POT-Creation-Date: 2023-02-16 08:47+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -1550,32 +1550,36 @@ msgid ""
 "Data Ledoscope. 2 samples of 2bits data are taken initially, at the system "
 "clock rate"
 msgstr ""
+"Ledoscopio de datos. Se toman inicialmente 2 muestras de 2-bits, a la "
+"velocidad del reloj del sistema"
 
 #: translation.js:462
 msgid "Generic component with clk input"
-msgstr ""
+msgstr "Componente genérico con entrada de reloj"
 
 #: translation.js:463
 msgid "Reg: 1-Bit register"
-msgstr ""
+msgstr "Reg: Registro de 1-bit"
 
 #: translation.js:464
 msgid "2-to-1 Multplexer (1-bit channels). Fippled version"
-msgstr ""
+msgstr "Multiplexor 2-1 (canales de 1-bit). Versión invertida"
 
 #: translation.js:465
 msgid ""
 "System TFF with toggle input: It toogles on every system cycle if the input "
 "is active"
 msgstr ""
+"Biestable T del sistema con entrada de cambio: Cambia en cada ciclo del "
+"sistema si la entrada está activa"
 
 #: translation.js:466
 msgid "RS-FF-set. RS Flip-flop with priority set"
-msgstr ""
+msgstr "RS-FF-set: Biestable RS con prioridad en el set"
 
 #: translation.js:467
 msgid "Constant bit 1"
-msgstr ""
+msgstr "Bit 1 contante"
 
 #: translation.js:468
 msgid ""
@@ -1586,14 +1590,20 @@ msgid ""
 "second value (2) at cycle 1 \n"
 "The two captured values can be observed with the Data LEDOscope"
 msgstr ""
+"## Ejemplo. Sys-Reg: Dos valores\n"
+"\n"
+"Este circuito genera dos valores de 2-bits: 2 y 2. El primer valor (1) se "
+"genera en el ciclo 0 y el  \n"
+"segundo valor (2) en el ciclo 1  \n"
+"Los dos valores capturados se observan con el Ledoscopio de datos"
 
 #: translation.js:469
 msgid "Initial value: cycle 0"
-msgstr ""
+msgstr "Valor inicial: Ciclo 0"
 
 #: translation.js:470
 msgid "2-bits Sys-Reg"
-msgstr ""
+msgstr "Sys-Reg de 2-bits"
 
 #: translation.js:471
 msgid ""
@@ -1602,40 +1612,46 @@ msgid ""
 "It stores two samples taken at the first two cycles  \n"
 "(cycle 0 and cycle 1)"
 msgstr ""
+"## Medida con el LEDOSCOPIO de datos\n"
+"\n"
+"Almacena dos muestras tomadas en los primeros dos ciclos  \n"
+"(Ciclo 0 y ciclo 1)"
 
 #: translation.js:472
 msgid ""
 "Select the 2-bit sample to show  \n"
 "on the LEDs (sample 0 or sample 1)"
 msgstr ""
+"Seleccionar la muestra de 2-bits a mostrar  \n"
+"en los LEDs (muestra 0 o muestra 1)"
 
 #: translation.js:473
 msgid "Showing the sample 0"
-msgstr ""
+msgstr "Mostrando la muestra 0"
 
 #: translation.js:474
 msgid "Value for cycles >= 1"
-msgstr ""
+msgstr "Valore para los ciclos >= 1"
 
 #: translation.js:475
 msgid "Button state signal"
-msgstr ""
+msgstr "Señal de estado del pulsador"
 
 #: translation.js:476
 msgid "Tic: button pressed"
-msgstr ""
+msgstr "Tic: Botón apretado"
 
 #: translation.js:477
 msgid "Rising edge detector"
-msgstr ""
+msgstr "Detector de flanco de subida"
 
 #: translation.js:478
 msgid "Pull up on/off"
-msgstr ""
+msgstr "Botón configurable (pull-up on/off. Not on/off)"
 
 #: translation.js:479
 msgid "Not on/off"
-msgstr ""
+msgstr "Not on/off"
 
 #: translation.js:480
 msgid ""
