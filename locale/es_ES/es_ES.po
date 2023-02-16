@@ -3153,154 +3153,186 @@ msgid ""
 "Display32-8: Display a 32-bits value on an  8-LEDs. The sel input selects "
 "the byte to display "
 msgstr ""
+"Display32-8: Mostrar un valor de 32-bits en 8 LEDs. La entrada sel "
+"selecciona el byte a mostrar  "
 
 #: translation.js:911
 msgid "Bus32-Split-quarter: Split the 32-bits bus into four buses of 8 wires"
-msgstr ""
+msgstr "Bus32-Split-quarter: Separar el bus de 32-bits en 4 buses de 8 cables"
 
 #: translation.js:912
 msgid "UINT32-17bits:  Extend a 17-bits unsigned integer to 32-bits "
-msgstr ""
+msgstr "UINT32-17bits: Extender un entero sin signo de 17 bits a 32-bits  "
 
 #: translation.js:913
 msgid "Bus32-Join-15-17: Join the two buses into an 32-bits Bus"
-msgstr ""
+msgstr "Bus32-Join-15-17: Agrupar dos buses de 15 y 17 bits en uno de 32-bits"
 
 #: translation.js:914
 msgid "15bits constant value: 0"
-msgstr ""
+msgstr "Valor constante de 15-bits: 0"
 
 #: translation.js:915
 msgid "Generic: 17-bits generic constant"
-msgstr ""
+msgstr "Genérico: Constante genérica de 17 bits"
 
 #: translation.js:916
 msgid ""
 "# TEST: 17-bits Reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg-rst de 17-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:918
 msgid ""
 "# TEST: 17-bits Reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg de 17-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:922
 msgid ""
 "# TEST: 17-bits Sys-reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg-rst de 17-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:924
 msgid ""
 "Data Ledoscope. 2 samples of 32bits data are taken initially, at the system "
 "clock rate"
 msgstr ""
+"Ledoscopio de datos. Se toman inicialmente dos muestras de 32 bits, a la "
+"velocidad del reloj del sistema"
 
 #: translation.js:925
 msgid "Reg-x32: 32bits register"
-msgstr ""
+msgstr "Reg-x32: Registro de 32-bits"
 
 #: translation.js:926
 msgid "Bus32-Join-quarter: Join the four buses into an 32-bits Bus"
 msgstr ""
+"Bus32-Join-quarter: Agrupar cuatro buses del mismo tamaño en un bus de 32-"
+"bits"
 
 #: translation.js:927
 msgid "2-to-1 Multplexer (32-bit channels)"
-msgstr ""
+msgstr "Multiplexor 2-1 (canales de 32-bits)"
 
 #: translation.js:928
 msgid ""
 "# TEST: 17-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg de 17-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:929
 msgid ""
 "It is 1 if the sample 0 is  \n"
 "the current sample"
 msgstr ""
+"Vale 1 si la muestra 0  \n"
+"es la muestra actual"
 
 #: translation.js:937
 msgid "Generic: 18-bits generic constant"
-msgstr ""
+msgstr "Genérico: Constante genérica de 18 bits"
 
 #: translation.js:938
 msgid "UINT32-18bits:  Extend a 18-bits unsigned integer to 32-bits "
-msgstr ""
+msgstr "UINT32-18bits: Extender un entero sin signo de 18 bits a 32-bits  "
 
 #: translation.js:939
 msgid "Bus32-Join-14-18: Join the two buses into an 32-bits Bus"
-msgstr ""
+msgstr "Bus32-Join-14-18: Agrupar dos buses de 14 y 18 bits en uno de 32-bits"
 
 #: translation.js:940
 msgid "14bits constant value: 0"
-msgstr ""
+msgstr "Valor constante de 14-bits: 0"
 
 #: translation.js:941
 msgid ""
 "# TEST: 18-bits Reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg-rst de 18-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:943
 msgid ""
 "# TEST: 18-bits Reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg de 18-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:947
 msgid ""
 "# TEST: 18-bits Sys-reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg-rst de 18-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:949
 msgid ""
 "# TEST: 18-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg-rst de 18-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:957
 msgid "UINT32-19bits:  Extend a 19-bits unsigned integer to 32-bits "
-msgstr ""
+msgstr "UINT32-19bits: Extender un entero sin signo de 19 bits a 32-bits  "
 
 #: translation.js:958
 msgid "Bus32-Join-13-19: Join the two buses into an 32-bits Bus"
-msgstr ""
+msgstr "Bus32-Join-13-19: Agrupar dos buses de 13 y 19 bits en uno de 32-bits"
 
 #: translation.js:959
 msgid "13bits constant value: 0"
-msgstr ""
+msgstr "Valor constante de 13-bits: 0"
 
 #: translation.js:960
 msgid "Generic: 19-bits generic constant"
-msgstr ""
+msgstr "Genérico: Constante genérica de 19 bits"
 
 #: translation.js:961
 msgid ""
 "# TEST: 19-bits Reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg-rst de 19-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:963
 msgid ""
 "# TEST: 19-bits Reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Reg de 19-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:967
 msgid ""
 "# TEST: 19-bits Sys-reg-rst: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg-rst de 19-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:969
 msgid ""
 "# TEST: 19-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg de 19-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:977
 msgid "Generic: 20-bits generic constant"
