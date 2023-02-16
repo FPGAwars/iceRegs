@@ -3440,11 +3440,11 @@ msgstr "UINT32-22bits: Extender un entero sin signo de 22 bits a 32-bits  "
 
 #: translation.js:1019
 msgid "Bus32-Join-10-22: Join the two buses into an 32-bits Bus"
-msgstr ""
+msgstr "Bus32-Join-10-22: Agrupar dos buses de 10 y 22 bits en uno de 32-bits"
 
 #: translation.js:1020
 msgid "10bits constant value: 0"
-msgstr ""
+msgstr "Valor constante de 10-bits: 0"
 
 #: translation.js:1021
 msgid ""
@@ -3484,11 +3484,11 @@ msgstr "UINT32-23bits: Extender un entero sin signo de 23 bits a 32-bits  "
 
 #: translation.js:1038
 msgid "Bus32-Join-9-23: Join the two buses into an 32-bits Bus"
-msgstr ""
+msgstr "Bus32-Join-9-23: Agrupar dos buses de 9 y 23 bits en uno de 32-bits"
 
 #: translation.js:1039
 msgid "9bits constant value: 0"
-msgstr ""
+msgstr "Valor constante de 9-bits: 0"
 
 #: translation.js:1040
 msgid "Generic: 23-bits generic constant"
@@ -3523,6 +3523,8 @@ msgid ""
 "# TEST: 23-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
+"# TEST: Sys-Reg de 23-bits: Prueba manual\n"
+"\n"
 
 #: translation.js:1057
 msgid "UINT32-24bits:  Extend a 24-bits unsigned integer to 32-bits "
@@ -3530,11 +3532,11 @@ msgstr "UINT32-24bits: Extender un entero sin signo de 24 bits a 32-bits  "
 
 #: translation.js:1058
 msgid "Bus32-Join-8-24: Join the two buses into an 32-bits Bus"
-msgstr ""
+msgstr "Bus32-Join-8-24: Agrupar dos buses de 8 y 24 bits en uno de 32-bits"
 
 #: translation.js:1059
 msgid "8bits constant value: 0"
-msgstr ""
+msgstr "Valor constante de 8-bits: 0"
 
 #: translation.js:1060
 msgid "Generic: 24-bits generic constant"
@@ -3578,7 +3580,7 @@ msgstr "UINT32-25bits: Extender un entero sin signo de 25 bits a 32-bits  "
 
 #: translation.js:1078
 msgid "Bus32-Join-7-25: Join the two buses into an 32-bits Bus"
-msgstr ""
+msgstr "Bus32-Join-7-25: Agrupar dos buses de 7 y 25 bits en uno de 32-bits"
 
 #: translation.js:1079
 msgid "Generic: 25-bits generic constant"
@@ -3626,7 +3628,7 @@ msgstr "UINT32-26bits: Extender un entero sin signo de 26 bits a 32-bits  "
 
 #: translation.js:1098
 msgid "Bus32-Join-6-26: Join the two buses into an 32-bits Bus"
-msgstr ""
+msgstr "Bus32-Join-6-26: Agrupar dos buses de 6 y 26 bits en uno de 32-bits"
 
 #: translation.js:1099
 msgid ""
@@ -3670,7 +3672,7 @@ msgstr "UINT32-27bits: Extender un entero sin signo de 27 bits a 32-bits  "
 
 #: translation.js:1116
 msgid "Bus32-Join-5-27: Join the two buses into an 32-bits Bus"
-msgstr ""
+msgstr "Bus32-Join-5-27: Agrupar dos buses de 5 y 27 bits en uno de 32-bits"
 
 #: translation.js:1117
 msgid ""
@@ -3710,7 +3712,7 @@ msgstr "UINT32-28bits: Extender un entero sin signo de 28 bits a 32-bits  "
 
 #: translation.js:1134
 msgid "Bus32-Join-4-28: Join the two buses into an 32-bits Bus"
-msgstr ""
+msgstr "Bus32-Join-4-28: Agrupar dos buses de 4 y 28 bits en uno de 32-bits"
 
 #: translation.js:1135
 msgid "Generic: 28-bits generic constant"
@@ -3754,7 +3756,7 @@ msgstr "UINT32-29bits: Extender un entero sin signo de 29 bits a 32-bits  "
 
 #: translation.js:1152
 msgid "Bus32-Join-3-29: Join the two buses into an 32-bits Bus"
-msgstr ""
+msgstr "Bus32-Join-3-29: Agrupar dos buses de 3 y 29 bits en uno de 32-bits"
 
 #: translation.js:1153
 msgid "Generic: 29-bits generic constant"
@@ -3790,7 +3792,7 @@ msgstr "UINT32-30bits: Extender un entero sin signo de 30 bits a 32-bits  "
 
 #: translation.js:1168
 msgid "Bus32-Join-2-30: Join the two buses into an 32-bits Bus"
-msgstr ""
+msgstr "Bus32-Join-2-30: Agrupar dos buses de 2 y 30 bits en uno de 32-bits"
 
 #: translation.js:1169
 msgid "Generic: 30-bits generic constant"
@@ -3834,7 +3836,7 @@ msgstr "UINT32-31bits: Extender un entero sin signo de 31 bits a 32-bits  "
 
 #: translation.js:1187
 msgid "Bus32-Join-1-31: Join the two buses into an 32-bits Bus"
-msgstr ""
+msgstr "Bus32-Join-1-31: Agrupar dos buses de 1 y 31 bits en uno de 32-bits"
 
 #: translation.js:1188
 msgid "Generic: 31-bits generic constant"
