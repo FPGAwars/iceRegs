@@ -1660,22 +1660,30 @@ msgid ""
 "It generates a 1-period pulse (tic) when a rising edge is detected on the  \n"
 "input signal"
 msgstr ""
+"## Detector de flanco de subida\n"
+"\n"
+"Genera un pulso de 1-ciclo (tic) cuando se detecta el flanco de subida  \n"
+" en la señal de entrada"
 
 #: translation.js:481
 msgid "Input signal"
-msgstr ""
+msgstr "Señal de entrada"
 
 #: translation.js:482
 msgid ""
 "Current signal  \n"
 "state"
 msgstr ""
+"Estado actual  \n"
+"de la señal"
 
 #: translation.js:483
 msgid ""
 "Signal state in the previous  \n"
 "clock cycle"
 msgstr ""
+"Estado de la señal en el  ciclo  \n"
+"de reloj previo"
 
 #: translation.js:484
 msgid ""
@@ -1686,6 +1694,12 @@ msgid ""
 "\n"
 "In any other case the output is 0"
 msgstr ""
+"Si la señal actual es 1 y su valor en  \n"
+"el ciclo de reloj previo era 0, significa  \n"
+"que se ha detectado un flanco de subida!  \n"
+"la salida es 1\n"
+"\n"
+"En cualquier otro caso la salida es 0"
 
 #: translation.js:485
 msgid ""
@@ -1694,6 +1708,10 @@ msgid ""
 "There is no delay between the arrival of a rising edge  \n"
 "and its detection"
 msgstr ""
+"**Delay**: 0 ciclos de reloj  \n"
+"\n"
+"No hay retraso entre la llegada de un flanco de subida  \n"
+"y su detección"
 
 #: translation.js:486
 msgid ""
@@ -1702,6 +1720,10 @@ msgid ""
 "It stores the input data that arrives at cycle n  \n"
 "Its output is shown in the cycle n+1"
 msgstr ""
+"# Biestable D  \n"
+"\n"
+"Almacena el dato de entrada que llega en el ciclo n  \n"
+"Su salida se muestra en el ciclo n+1"
 
 #: translation.js:487
 msgid ""
@@ -1709,10 +1731,13 @@ msgid ""
 "* 0: OFF\n"
 "* 1: ON"
 msgstr ""
+"Pull-up Interno  \n"
+"* 0: OFF\n"
+"* 1: ON"
 
 #: translation.js:488
 msgid "Synchronization stage"
-msgstr ""
+msgstr "Fase de sincronización"
 
 #: translation.js:489
 msgid ""
@@ -1721,10 +1746,14 @@ msgid ""
 "* 0: Wire\n"
 "* 1: signal inverted"
 msgstr ""
+"Etapa de normalización\n"
+"\n"
+"* 0: Cable\n"
+"* 1: Señal invertida"
 
 #: translation.js:490
 msgid "Debouncing stage"
-msgstr ""
+msgstr "Etapa antirrebotes"
 
 #: translation.js:491
 msgid ""
@@ -1733,28 +1762,38 @@ msgid ""
 "0: No pull-up  \n"
 "1: Pull-up activated"
 msgstr ""
+"### Parámetro Pull-up:\n"
+"\n"
+"0: Sin pull-up  \n"
+"1: Pull-up activado"
 
 #: translation.js:492
 msgid ""
 "Only an FPGA pin can  \n"
 "be connected here!!!"
 msgstr ""
+"Sólo se puede conectar  \n"
+"aquí un pin de la FPGA!!!"
 
 #: translation.js:493
 msgid ""
 "The pull-up is connected  \n"
 "by default"
 msgstr ""
+"El pull-up está conectado  \n"
+"por defecto"
 
 #: translation.js:494
 msgid "Edge detector"
-msgstr ""
+msgstr "Detector de flancos"
 
 #: translation.js:495
 msgid ""
 "Whenever there is a change in  \n"
 "the input, the counter is started"
 msgstr ""
+"En cuanto hay un cambio en la  \n"
+"entrada, el contador arranca"
 
 #: translation.js:496
 msgid ""
@@ -1762,6 +1801,9 @@ msgid ""
 "value, the input is considered stable  \n"
 "and it is captured"
 msgstr ""
+"Si el contador alcanza su valor máximo  \n"
+"la entrada se considera estable  \n"
+"y se captura"
 
 #: translation.js:497
 msgid ""
@@ -1772,6 +1814,12 @@ msgid ""
 "IF more time is needed for debouncing,  \n"
 "use a counter with more bits (17, 18...)"
 msgstr ""
+"### Cálculo del tiempo\n"
+"\n"
+"Para CLK=12MHZ, un contador de 16-bits alcanza  \n"
+"su máximo cada 2 ** 16 * 1 / F = 5.5ms aprox  \n"
+"Si se necesita más tiempo para el antirrebots,  \n"
+"usa un contador con más bits (17, 18...)"
 
 #: translation.js:498
 msgid ""
@@ -1782,34 +1830,44 @@ msgid ""
 "aprox. When a value is stable it is  \n"
 "captured on the output flip-flop"
 msgstr ""
+"## Antirrebotes  \n"
+"\n"
+"Un valor se considera estable cuando  \n"
+"no hay cambios durante 5.5ms  aprox.  \n"
+"Cuando un valor es estable, se  \n"
+"captura en el biestable de salida"
 
 #: translation.js:499
 msgid "Stable output"
-msgstr ""
+msgstr "Salida estable"
 
 #: translation.js:500
 msgid "Counter"
-msgstr ""
+msgstr "Contador"
 
 #: translation.js:501
 msgid "Initial value"
-msgstr ""
+msgstr "Valor inicial"
 
 #: translation.js:502
 msgid ""
 "Reset input: Active high  \n"
 "When rst = 1, the DFF is reset to 0"
 msgstr ""
+"Entrada Reset: Activa a nivel alto  \n"
+"Cuando rst=1, el biestable se resetea a 0"
 
 #: translation.js:503
 msgid "Data input"
-msgstr ""
+msgstr "Entrada de datos"
 
 #: translation.js:504
 msgid ""
 "Initial default  \n"
 "value: 0"
 msgstr ""
+"Valor inicial  \n"
+"por defecto"
 
 #: translation.js:505
 msgid ""
@@ -1819,6 +1877,11 @@ msgid ""
 "detected on the  \n"
 "input signal"
 msgstr ""
+"## Detector de flancos\n"
+"\n"
+"Se genera un pulso de 1-ciclo (tic) cuando un flanco (de subida o bajada) se "
+"detecta  \n"
+"en la señal de entrada"
 
 #: translation.js:506
 msgid ""
@@ -1826,10 +1889,12 @@ msgid ""
 "previous 0, or if the current value is 0 and the  \n"
 "previous 1\n"
 msgstr ""
+"La salida es 1 si el valor actual es 1 y el anterior  \n"
+"0, o si el valor actual es 0 y el previo 1\n"
 
 #: translation.js:507
 msgid "In any other case the output is 0"
-msgstr ""
+msgstr "En cualquier caso, la salida es 0"
 
 #: translation.js:508
 msgid ""
