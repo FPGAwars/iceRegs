@@ -1214,248 +1214,231 @@ msgstr "00-Index"
 #: translation.js:384
 msgid "System - D Flip-flop. Capture data every system clock cycle"
 msgstr ""
+"Biestable D del sistema. Captura datos en cada ciclo del reloj del sistema"
 
 #: translation.js:385
 msgid "2-to-1 Multplexer (2-bit channels)"
-msgstr ""
+msgstr "Multiplexor 2-1 (canales de 2-bits)"
 
 #: translation.js:386
 msgid "2-to-1 Multplexer (1-bit channels)"
-msgstr ""
+msgstr "Multiplexor 2-1 (canales de 1-bit)"
 
 #: translation.js:387
 msgid "OR2: Two bits input OR gate"
-msgstr ""
+msgstr "OR2: Puerta O de dos entradas"
 
 #: translation.js:388
 msgid "Two bits input And gate"
-msgstr ""
+msgstr "Puerta AND de dos entradas"
 
 #: translation.js:389
 msgid "NOT gate (Verilog implementation)"
-msgstr ""
+msgstr "Puerta NOT (Implementación en verilog)"
 
 #: translation.js:390
 msgid "# INDEX: IceRegs Collection"
-msgstr ""
+msgstr "# ÍNDICE: Colección IceRegs"
 
 #: translation.js:391
 msgid "### 2-bits"
-msgstr ""
+msgstr "### 2-bits"
 
 #: translation.js:392
 msgid "### 3-bits"
-msgstr ""
+msgstr "### 3-bits"
 
 #: translation.js:393
 msgid "### 4-bits"
-msgstr ""
+msgstr "### 4-bits"
 
 #: translation.js:394
 msgid "### 5-bits"
-msgstr ""
+msgstr "### 5-bits"
 
 #: translation.js:395
 msgid "### 6-bits"
-msgstr ""
+msgstr "### 6-bits"
 
 #: translation.js:396
 msgid "### 7-bits"
-msgstr ""
+msgstr "### 7-bits"
 
 #: translation.js:397
 msgid "### 16-bits"
-msgstr ""
+msgstr "### 16-bits"
 
 #: translation.js:398
 msgid "### 8-bits"
-msgstr ""
+msgstr "### 8-bits"
 
 #: translation.js:399
 msgid "### 32-bits"
-msgstr ""
+msgstr "### 32-bits"
 
 #: translation.js:400
 msgid ""
 "Sys-reg-dff  \n"
 "(Didactic purposes)"
 msgstr ""
+"Sys-reg-dff  \n"
+"(Propósito didáctico)"
 
 #: translation.js:401
-#, fuzzy
 msgid "### 12-bits"
-msgstr "02-bits"
+msgstr "### 12-bits"
 
 #: translation.js:402
-#, fuzzy
 msgid "### 20-bits"
-msgstr "02-bits"
+msgstr "### 20-bits"
 
 #: translation.js:403
-#, fuzzy
 msgid "### 24-bits"
-msgstr "02-bits"
+msgstr "### 24-bits"
 
 #: translation.js:404
-#, fuzzy
 msgid "### 28-bits"
-msgstr "02-bits"
+msgstr "### 28-bits"
 
 #: translation.js:405
-#, fuzzy
 msgid "### 31-bits"
-msgstr "02-bits"
+msgstr "### 31-bits"
 
 #: translation.js:406
-#, fuzzy
 msgid "### 30-bits"
-msgstr "02-bits"
+msgstr "### 30-bits"
 
 #: translation.js:407
-#, fuzzy
 msgid "### 29-bits"
-msgstr "02-bits"
+msgstr "### 29-bits"
 
 #: translation.js:408
-#, fuzzy
 msgid "### 27-bits"
-msgstr "02-bits"
+msgstr "### 27-bits"
 
 #: translation.js:409
-#, fuzzy
 msgid "### 26-bits"
-msgstr "02-bits"
+msgstr "### 26-bits"
 
 #: translation.js:410
-#, fuzzy
 msgid "### 25-bits"
-msgstr "02-bits"
+msgstr "### 25-bits"
 
 #: translation.js:411
-#, fuzzy
 msgid "### 23-bits"
-msgstr "02-bits"
+msgstr "### 23-bits"
 
 #: translation.js:412
-#, fuzzy
 msgid "### 22-bits"
-msgstr "02-bits"
+msgstr "### 22-bits"
 
 #: translation.js:413
-#, fuzzy
 msgid "### 21-bits"
-msgstr "02-bits"
+msgstr "### 21-bits"
 
 #: translation.js:414
-#, fuzzy
 msgid "### 19-bits"
-msgstr "02-bits"
+msgstr "### 19-bits"
 
 #: translation.js:415
-#, fuzzy
 msgid "### 18-bits"
-msgstr "02-bits"
+msgstr "### 18-bits"
 
 #: translation.js:416
-#, fuzzy
 msgid "### 17-bits"
-msgstr "02-bits"
+msgstr "### 17-bits"
 
 #: translation.js:417
-#, fuzzy
 msgid "### 15-bits"
-msgstr "02-bits"
+msgstr "### 15-bits"
 
 #: translation.js:418
-#, fuzzy
 msgid "### 14-bits"
-msgstr "02-bits"
+msgstr "### 14-bits"
 
 #: translation.js:419
-#, fuzzy
 msgid "### 13-bits"
-msgstr "02-bits"
+msgstr "### 13-bits"
 
 #: translation.js:420
-#, fuzzy
 msgid "### 11-bits"
-msgstr "02-bits"
+msgstr "### 11-bits"
 
 #: translation.js:421
-#, fuzzy
 msgid "### 10-bits"
-msgstr "02-bits"
+msgstr "### 10-bits"
 
 #: translation.js:422
-#, fuzzy
 msgid "### 9-bits"
-msgstr "02-bits"
+msgstr "### 9-bits"
 
 #: translation.js:423
 msgid "Channel A"
-msgstr ""
+msgstr "Canal A"
 
 #: translation.js:424
 msgid "Channel B"
-msgstr ""
+msgstr "Canal B"
 
 #: translation.js:425
 msgid "Input"
-msgstr ""
+msgstr "Entrada"
 
 #: translation.js:426
 msgid "01-Sys-Regs-two-values"
-msgstr ""
+msgstr "01-Sys-Regs-two-values"
 
 #: translation.js:427
 msgid "Button-tic: Configurable button that emits a tic when it is pressed"
-msgstr ""
+msgstr "Button-tic: Botón configurable que emite un tic cuando se aprieta"
 
 #: translation.js:428
 msgid ""
 "Rising-edge detector. It generates a 1-period pulse (tic) when a rising edge "
 "is detected on the input"
 msgstr ""
+"Detector de flanco de subida. Genera un pulso de un ciclo (tic) cuando se "
+"detecta un flanco de subida en la entrada"
 
 #: translation.js:429
 msgid "D Flip-flop (verilog implementation)"
-msgstr ""
+msgstr "Biestable D (Implementación en Verilog)"
 
 #: translation.js:430
 msgid "Configurable button (pull-up on/off. Not on/off)"
-msgstr ""
+msgstr "Botón configurable (pull-up on/off. Not on/off)"
 
 #: translation.js:431
 msgid "FPGA internal pull-up configuration on the input port"
-msgstr ""
+msgstr "Configuración del Pull-up interno de la FPGA en el puerto de entrada"
 
 #: translation.js:432
 msgid "Remove the rebound on a mechanical switch"
-msgstr ""
+msgstr "Eliminar los rebotes del interruptor mecánico"
 
 #: translation.js:433
 msgid "1bit register (implemented in verilog)"
-msgstr ""
+msgstr "Registro de 1bit (Implementación en Verilog)"
 
 #: translation.js:434
 msgid "16-bits Syscounter with reset"
-msgstr ""
+msgstr "Contador del sistema de 16-bits con reset"
 
 #: translation.js:435
 msgid "DFF-rst-x16: 16 D flip-flops in paralell with reset"
-msgstr ""
+msgstr "DFF-rst-x16: 16 Biestables D en paralelo, con reset"
 
 #: translation.js:436
 msgid "DFF-rst-x04: Three D flip-flops in paralell with reset"
-msgstr ""
+msgstr "DFF-rst-x04: Tres biestables D en paralelo con reset"
 
 #: translation.js:437
 msgid "Bus4-Split-all: Split the 4-bits bus into its wires"
-msgstr ""
+msgstr "Bus4-Split-all: Separar un bus de 4-bits en su cables"
 
 #: translation.js:438
 msgid "Bus4-Join-all: Join all the wires into a 4-bits Bus"
-msgstr ""
+msgstr "Bus4-Join-all: Agrupar todos los cables en un bus de 4-bits"
 
 #: translation.js:439
 msgid "DFF-rst-x01: D Flip flop with reset input. When rst=1, the DFF is 0"
