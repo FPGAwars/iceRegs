@@ -265,6 +265,8 @@ For installing and using this colection in Icestudio follow these steps:
 * **03-Sys-Regs-rst-two-values**
   * **Alhambra-II**
     * 03-Sys-Regs-rst-two-values
+  * **Nandland-go-board**
+    * 03-Sys-Regs-rst-two-values
 * **04-Reg-values-on-LEDs**
   * **Alhambra-II**
     * 04-Reg-values-on-LEDs
