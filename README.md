@@ -260,6 +260,8 @@ For installing and using this colection in Icestudio follow these steps:
     * 02-Sys-Regs-four-values
   * **Nandland-go-board**
     * 02-Sys-Regs-four-values
+  * **ULX3S-12F**
+    * 02-Sys-Regs-four-values
 * **03-Sys-Regs-rst-two-values**
   * **Alhambra-II**
     * 03-Sys-Regs-rst-two-values

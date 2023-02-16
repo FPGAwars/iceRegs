@@ -535,6 +535,7 @@ gettext('Button-tic: Configurable button that emits a tic when it is pressed. EC
 gettext('Configurable button (pull-up on/off. Not on/off). ECP5 FPGA family');
 gettext('Alhambra-II');
 gettext('Nandland-go-board');
+gettext('ULX3S-12F');
 gettext('02-Sys-Regs-four-values');
 gettext('Data Ledoscope. 4 samples of 8bits data are taken initially, at the system clock rate');
 gettext('Reg-x08: 8-bits register');
@@ -569,6 +570,7 @@ gettext('LED4');
 gettext('LED3\n');
 gettext('LED2');
 gettext('LED1');
+gettext('02-Sys-Regs-four-values');
 gettext('Alhambra-II');
 gettext('03-Sys-Regs-rst-two-values');
 gettext('start: Start signal: It goes from 1 to 0 when the system clock starts. 1 cycle pulse witch');
