@@ -282,6 +282,8 @@ For installing and using this colection in Icestudio follow these steps:
     * 04-Reg-values-on-LEDs
   * **ULX3S-12F**
     * 04-Reg-values-on-LEDs
+  * **iCEBreaker**
+    * 04-Reg-values-on-LEDs
 * **05-Reg-rst-values-on-LEDs**
   * **Alhambra-II**
     * 05-Reg-rst-values-on-LEDs
