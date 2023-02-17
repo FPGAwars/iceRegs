@@ -268,6 +268,8 @@ For installing and using this colection in Icestudio follow these steps:
     * 02-Sys-Regs-four-values
   * **iCEBreaker**
     * 02-Sys-Regs-four-values
+  * **iCESugar-1.5**
+    * 02-Sys-Regs-four-values
 * **03-Sys-Regs-rst-two-values**
   * **Alhambra-II**
     * 03-Sys-Regs-rst-two-values
