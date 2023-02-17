@@ -279,6 +279,8 @@ For installing and using this colection in Icestudio follow these steps:
     * 03-Sys-Regs-rst-two-values
   * **iCEBreaker**
     * 03-Sys-Regs-rst-two-values
+  * **iCESugar-1.5**
+    * 03-Sys-Regs-rst-two-values
 * **04-Reg-values-on-LEDs**
   * **Alhambra-II**
     * 04-Reg-values-on-LEDs
