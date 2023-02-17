@@ -301,6 +301,8 @@ For installing and using this colection in Icestudio follow these steps:
     * 05-Reg-rst-values-on-LEDs
   * **iCEBreaker**
     * 05-Reg-rst-values-on-LEDs
+  * **iCESugar-1.5**
+    * 05-Reg-rst-values-on-LEDs
 * **TESTs**
   * **Regs**
     * **02-bits**
