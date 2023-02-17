@@ -187,14 +187,14 @@
             "pins": [
               {
                 "index": "0",
-                "name": "LED_G",
-                "value": "40"
+                "name": "LEDG",
+                "value": "37"
               }
             ]
           },
           "position": {
-            "x": 1384,
-            "y": 656
+            "x": 1560,
+            "y": 736
           }
         },
         {
@@ -382,8 +382,8 @@
             "readonly": true
           },
           "position": {
-            "x": 1392,
-            "y": 624
+            "x": 1528,
+            "y": 696
           },
           "size": {
             "width": 192,
@@ -625,6 +625,18 @@
             "width": 64,
             "height": 32
           }
+        },
+        {
+          "id": "93f7cb43-db9c-4dd7-9570-1fdedde317a6",
+          "type": "3676a00f3a70e406487ed14b901daf3e4984e63d",
+          "position": {
+            "x": 1392,
+            "y": 736
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
         }
       ],
       "wires": [
@@ -748,16 +760,6 @@
         {
           "source": {
             "block": "bedd42d3-6a09-4346-9f74-6a27965f369b",
-            "port": "0348cc69-419e-44fe-9459-4e3c4581590e"
-          },
-          "target": {
-            "block": "ecc6f248-ddc1-4fc5-aeeb-7addc587ddd8",
-            "port": "in"
-          }
-        },
-        {
-          "source": {
-            "block": "bedd42d3-6a09-4346-9f74-6a27965f369b",
             "port": "81715030-58db-4362-87c3-9c2a2ed2e65d"
           },
           "target": {
@@ -774,6 +776,26 @@
           "target": {
             "block": "40624504-fe53-494f-8ddf-3709ae698fa4",
             "port": "1ff8ad12-4df4-4aee-922b-c0c0fb449926"
+          }
+        },
+        {
+          "source": {
+            "block": "bedd42d3-6a09-4346-9f74-6a27965f369b",
+            "port": "0348cc69-419e-44fe-9459-4e3c4581590e"
+          },
+          "target": {
+            "block": "93f7cb43-db9c-4dd7-9570-1fdedde317a6",
+            "port": "18c2ebc7-5152-439c-9b3f-851c59bac834"
+          }
+        },
+        {
+          "source": {
+            "block": "93f7cb43-db9c-4dd7-9570-1fdedde317a6",
+            "port": "664caf9e-5f40-4df4-800a-b626af702e62"
+          },
+          "target": {
+            "block": "ecc6f248-ddc1-4fc5-aeeb-7addc587ddd8",
+            "port": "in"
           }
         }
       ]
