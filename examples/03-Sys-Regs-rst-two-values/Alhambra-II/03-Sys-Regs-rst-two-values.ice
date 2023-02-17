@@ -8,11 +8,11 @@
     "image": ""
   },
   "design": {
-    "board": "go-board",
+    "board": "alhambra-ii",
     "graph": {
       "blocks": [
         {
-          "id": "b6aba736-b1ed-412f-8d2b-1ce7a0967bb6",
+          "id": "dc15ee30-3e85-41eb-87da-ed5e2b74afaf",
           "type": "basic.output",
           "data": {
             "name": "LED",
@@ -21,43 +21,43 @@
             "pins": [
               {
                 "index": "7",
-                "name": "PMOD1",
-                "value": "65"
+                "name": "D7",
+                "value": "9"
               },
               {
                 "index": "6",
-                "name": "PMOD2",
-                "value": "64"
+                "name": "D6",
+                "value": "10"
               },
               {
                 "index": "5",
-                "name": "PMOD3",
-                "value": "63"
+                "name": "D5",
+                "value": "7"
               },
               {
                 "index": "4",
-                "name": "PMOD4",
-                "value": "62"
+                "name": "D4",
+                "value": "8"
               },
               {
                 "index": "3",
-                "name": "PMOD7",
-                "value": "78"
+                "name": "D3",
+                "value": "3"
               },
               {
                 "index": "2",
-                "name": "PMOD8",
-                "value": "79"
+                "name": "D2",
+                "value": "4"
               },
               {
                 "index": "1",
-                "name": "PMOD9",
-                "value": "80"
+                "name": "D1",
+                "value": "1"
               },
               {
                 "index": "0",
-                "name": "PMOD10",
-                "value": "81"
+                "name": "D0",
+                "value": "2"
               }
             ]
           },
@@ -95,8 +95,8 @@
             "pins": [
               {
                 "index": "0",
-                "name": "LED1",
-                "value": "56"
+                "name": "DD5",
+                "value": "119"
               }
             ]
           },
@@ -115,7 +115,7 @@
               {
                 "index": "0",
                 "name": "SW1",
-                "value": "53"
+                "value": "34"
               }
             ],
             "clock": false
@@ -404,7 +404,7 @@
           }
         },
         {
-          "id": "f865d634-339e-4852-8c7e-9ebabeee3bfa",
+          "id": "16fa8ce5-3a5a-446d-98bb-78638e011612",
           "type": "basic.info",
           "data": {
             "info": "LED7\n\n",
@@ -420,7 +420,7 @@
           }
         },
         {
-          "id": "46d1795f-c94e-47e6-a3fa-58af08545d52",
+          "id": "4f95d2e0-4e63-4284-afee-6d3a4051254f",
           "type": "basic.info",
           "data": {
             "info": "LED6\n",
@@ -436,7 +436,7 @@
           }
         },
         {
-          "id": "01a454e3-6adc-45bf-90ab-eebf982b60ba",
+          "id": "2c1aa9b7-ae34-49ea-a1eb-77b601994821",
           "type": "basic.info",
           "data": {
             "info": "LED0",
@@ -452,7 +452,7 @@
           }
         },
         {
-          "id": "ae739aaa-3c87-45f7-befe-d0f3baf54706",
+          "id": "292eec78-a08c-42ba-b338-ae6bad2fa5e3",
           "type": "basic.info",
           "data": {
             "info": "LED5",
@@ -468,7 +468,7 @@
           }
         },
         {
-          "id": "b24fda76-f519-4a57-b33a-7ea64fc421ab",
+          "id": "02f3f574-01f2-424b-83cb-f1f9f1841786",
           "type": "basic.info",
           "data": {
             "info": "LED4",
@@ -484,7 +484,7 @@
           }
         },
         {
-          "id": "49b05b57-7b1c-45da-9712-cc1af3c8ce9c",
+          "id": "6937931d-3d02-44c0-a5f6-d4da951c75d9",
           "type": "basic.info",
           "data": {
             "info": "LED3\n",
@@ -500,7 +500,7 @@
           }
         },
         {
-          "id": "b9b73e20-bf00-4e85-877a-96655124268f",
+          "id": "52c1059c-5ffd-4f72-85dd-df62ffa46a81",
           "type": "basic.info",
           "data": {
             "info": "LED2",
@@ -516,7 +516,7 @@
           }
         },
         {
-          "id": "3d9d1bdd-7213-413e-aa76-41ae48d531cf",
+          "id": "c65a737a-5281-48cc-a720-c389dd81fad8",
           "type": "basic.info",
           "data": {
             "info": "LED1",
@@ -533,6 +533,32 @@
         }
       ],
       "wires": [
+        {
+          "source": {
+            "block": "757f7ddd-2693-4705-a717-169b50dbebd8",
+            "port": "aa84d31e-cd92-44c7-bb38-c7a4cd903a78"
+          },
+          "target": {
+            "block": "47f6f0d8-04ae-4cd2-8782-5d433ce7928f",
+            "port": "inlabel"
+          }
+        },
+        {
+          "source": {
+            "block": "35023e1b-ea89-4943-9110-26760f52ca75",
+            "port": "outlabel"
+          },
+          "target": {
+            "block": "aa80093e-d551-495f-97ec-23da931970a7",
+            "port": "892d93f1-9c4c-46c1-82c7-ff9702a5725a"
+          },
+          "vertices": [
+            {
+              "x": 472,
+              "y": 408
+            }
+          ]
+        },
         {
           "source": {
             "block": "04a9d18e-e932-4bb8-8c99-d8da8c9fc43e",
@@ -572,32 +598,6 @@
             "block": "bf405308-d00f-4323-85b0-2eb4affd3aea",
             "port": "in"
           }
-        },
-        {
-          "source": {
-            "block": "757f7ddd-2693-4705-a717-169b50dbebd8",
-            "port": "aa84d31e-cd92-44c7-bb38-c7a4cd903a78"
-          },
-          "target": {
-            "block": "47f6f0d8-04ae-4cd2-8782-5d433ce7928f",
-            "port": "inlabel"
-          }
-        },
-        {
-          "source": {
-            "block": "35023e1b-ea89-4943-9110-26760f52ca75",
-            "port": "outlabel"
-          },
-          "target": {
-            "block": "aa80093e-d551-495f-97ec-23da931970a7",
-            "port": "892d93f1-9c4c-46c1-82c7-ff9702a5725a"
-          },
-          "vertices": [
-            {
-              "x": 472,
-              "y": 408
-            }
-          ]
         },
         {
           "source": {
@@ -647,7 +647,7 @@
             "port": "81715030-58db-4362-87c3-9c2a2ed2e65d"
           },
           "target": {
-            "block": "b6aba736-b1ed-412f-8d2b-1ce7a0967bb6",
+            "block": "dc15ee30-3e85-41eb-87da-ed5e2b74afaf",
             "port": "in"
           },
           "size": 8
