@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-18 08:17+0000\n"
+"POT-Creation-Date: 2023-02-18 09:19+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -1451,22 +1451,22 @@ msgstr "Alhambra-II"
 #: translation.js:432 translation.js:551 translation.js:588 translation.js:611
 #: translation.js:624
 msgid "Nandland-go-board"
-msgstr ""
+msgstr "Nandland-go-board"
 
 #: translation.js:433 translation.js:552 translation.js:589 translation.js:612
 #: translation.js:625
 msgid "ULX3S-12F"
-msgstr ""
+msgstr "ULX3S-12F"
 
 #: translation.js:434 translation.js:553 translation.js:590 translation.js:613
 #: translation.js:626
 msgid "iCEBreaker"
-msgstr ""
+msgstr "ULX3S-12F"
 
 #: translation.js:435 translation.js:554 translation.js:591 translation.js:614
 #: translation.js:627
 msgid "iCESugar-1.5"
-msgstr ""
+msgstr "iCESugar-1.5"
 
 #: translation.js:437
 msgid "Button-tic: Configurable button that emits a tic when it is pressed"
@@ -2087,16 +2087,16 @@ msgid "Priority on set"
 msgstr "Prioridad en el set"
 
 #: translation.js:536
-#, fuzzy
 msgid ""
 "Button-tic: Configurable button that emits a tic when it is pressed. ECP5 "
 "FPGA Family"
-msgstr "Button-tic: Botón configurable que emite un tic cuando se aprieta"
+msgstr ""
+"Button-tic: Botón configurable que emite un tic cuando se aprieta. Familia "
+"de FPGAs ECP5"
 
 #: translation.js:537
-#, fuzzy
 msgid "Configurable button (pull-up on/off. Not on/off). ECP5 FPGA family"
-msgstr "Botón configurable (pull-up on/off. Not on/off)"
+msgstr "Botón configurable (pull-up on/off. Not on/off). Familia de FPGA ECP5"
 
 #: translation.js:540
 msgid "6bits constant value: 0"
@@ -2108,35 +2108,35 @@ msgstr "Genérico: Constante genérica de 6 bits (0-63)"
 
 #: translation.js:542
 msgid "LED0"
-msgstr ""
+msgstr "LED0"
 
 #: translation.js:543
 msgid "LED1"
-msgstr ""
+msgstr "LED1"
 
 #: translation.js:544
 msgid "LED2"
-msgstr ""
+msgstr "LED2"
 
 #: translation.js:545
 msgid "LED3"
-msgstr ""
+msgstr "LED3"
 
 #: translation.js:546
 msgid "LED4"
-msgstr ""
+msgstr "LED4"
 
 #: translation.js:547
 msgid "LED5"
-msgstr ""
+msgstr "LED5"
 
 #: translation.js:548
 msgid "LED6"
-msgstr ""
+msgstr "LED6"
 
 #: translation.js:549
 msgid "LED7"
-msgstr ""
+msgstr "LED7"
 
 #: translation.js:556
 msgid ""
@@ -2276,14 +2276,18 @@ msgid ""
 "LED7\n"
 "\n"
 msgstr ""
+"LED7\n"
+"\n"
 
 #: translation.js:582
 msgid "LED6\n"
-msgstr ""
+msgstr "LED6\n"
 
 #: translation.js:583
 msgid "LED3\n"
 msgstr ""
+"LED3\n"
+"d\n"
 
 #: translation.js:593
 msgid ""
