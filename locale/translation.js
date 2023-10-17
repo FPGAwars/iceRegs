@@ -238,6 +238,7 @@ gettext('32-bits');
 gettext('Blocks');
 gettext('Sys-reg-rst');
 gettext('Sys-reg');
+gettext('Sys-reg-02: Two bits system register. Verilog implementation');
 gettext('Sys-reg-dff');
 gettext('Sys-reg-dff-02-block: Two bits system register. Block implementation');
 gettext('Bus2-Split-all: Split the 2-bits bus into two wires');
