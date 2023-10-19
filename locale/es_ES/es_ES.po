@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-19 11:58+0000\n"
+"POT-Creation-Date: 2023-10-19 12:11+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -27,27 +27,27 @@ msgstr "Sys-Regs"
 msgid "02-bits"
 msgstr "02-bits"
 
-#: translation.js:13 translation.js:208
+#: translation.js:13 translation.js:208 translation.js:989
 msgid "03-bits"
 msgstr "03-bits"
 
-#: translation.js:14 translation.js:209
+#: translation.js:14 translation.js:209 translation.js:990
 msgid "04-bits"
 msgstr "04-bits"
 
-#: translation.js:15 translation.js:210
+#: translation.js:15 translation.js:210 translation.js:991
 msgid "05-bits"
 msgstr "05-bits"
 
-#: translation.js:16 translation.js:211
+#: translation.js:16 translation.js:211 translation.js:992
 msgid "06-bits"
 msgstr "06-bits"
 
-#: translation.js:17 translation.js:212
+#: translation.js:17 translation.js:212 translation.js:993
 msgid "07-bits"
 msgstr "07-bits"
 
-#: translation.js:18 translation.js:213
+#: translation.js:18 translation.js:213 translation.js:994
 msgid "08-bits"
 msgstr "08-bits"
 
@@ -1382,7 +1382,9 @@ msgstr "### 9-bits"
 #: translation.js:920 translation.js:930 translation.js:937 translation.js:938
 #: translation.js:947 translation.js:948 translation.js:957 translation.js:958
 #: translation.js:966 translation.js:967 translation.js:976 translation.js:977
-#: translation.js:982 translation.js:983 translation.js:989
+#: translation.js:982 translation.js:983 translation.js:995 translation.js:999
+#: translation.js:1006 translation.js:1009 translation.js:1015
+#: translation.js:1020 translation.js:1025
 msgid "Alhambra-II"
 msgstr "Alhambra-II"
 
@@ -2425,7 +2427,9 @@ msgstr "Alhambra-II"
 #: translation.js:921 translation.js:928 translation.js:931 translation.js:939
 #: translation.js:945 translation.js:949 translation.js:951 translation.js:959
 #: translation.js:964 translation.js:968 translation.js:970 translation.js:978
-#: translation.js:980 translation.js:984 translation.js:986 translation.js:990
+#: translation.js:980 translation.js:984 translation.js:986 translation.js:996
+#: translation.js:1000 translation.js:1007 translation.js:1010
+#: translation.js:1016 translation.js:1021 translation.js:1026
 msgid "01-manual-test"
 msgstr "01-manual-test"
 
@@ -3300,19 +3304,119 @@ msgstr ""
 "# TEST: Sys-Reg de 32-bits: Prueba manual\n"
 "\n"
 
-#: translation.js:991
+#: translation.js:997
 #, fuzzy
 msgid "block_name: Two bits system register. Verilog implementation"
 msgstr ""
 "Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
 "Implementación en Verilog"
 
-#: translation.js:992
+#: translation.js:998
 msgid ""
 "# TEST: 2-bits Sys-reg: Manual testing\n"
 "\n"
 msgstr ""
 "# TEST: Sys-Reg de 2-bits: Prueba manual\n"
+"\n"
+
+#: translation.js:1001
+msgid ""
+"Data Ledoscope. 2 samples of 4bits data are taken initially, at the system "
+"clock rate"
+msgstr ""
+"Ledoscopio de datos. Se toman inicialmente dos muestras de 4 bits, a la "
+"velocidad del reloj del sistema"
+
+#: translation.js:1002
+msgid "UINT4-3bit:  Extend a 3-bit unsigned integer to 4-bits "
+msgstr "UINT4-3bit: Extender un entero sin signo de 3-bits a 4-bits  "
+
+#: translation.js:1003
+msgid "Bus4-Join-1-3: Join the two buses into a 4-bits Bus"
+msgstr "Bus8-Join-1-3: Agrupar dos buses en un bus de 4-bits"
+
+#: translation.js:1004
+msgid "Bus4-Split-1-3: Split the 4-bits bus into two: 1-bit and 3-bits buses"
+msgstr "Bus4-Split-1-3: Separar un bus de 4 bits en dos buses de 1 y 3 bits"
+
+#: translation.js:1005
+msgid ""
+"# TEST: 3-bits Sys-reg: Manual testing\n"
+"\n"
+msgstr ""
+"# TEST: Sys-Reg de 3-bits: Prueba manual\n"
+"\n"
+
+#: translation.js:1008
+msgid ""
+"# TEST: 4-bits Sys-reg: Manual testing\n"
+"\n"
+msgstr ""
+"# TEST: Sys-Reg de 4-bits: Prueba manual\n"
+"\n"
+
+#: translation.js:1011
+msgid ""
+"Data Ledoscope. 2 samples of 8bits data are taken initially, at the system "
+"clock rate"
+msgstr ""
+"Ledoscopio de datos.Se toman inicialmente 2 muestras de 8 bits de datos, a "
+"la velocidad del reloj del sistema"
+
+#: translation.js:1012
+msgid "UINT8-5bits:  Extend a 5-bits unsigned integer to 8-bits "
+msgstr "UINT8-5bits: Extender un entero sin signo de 5-bits a 8 bits "
+
+#: translation.js:1013
+msgid "Bus8-Join-3-5: Join the two buses into an 8-bits Bus"
+msgstr "Bus8-Join-3-5: Agrupar dos buses en un bus de 8-bits"
+
+#: translation.js:1014
+msgid ""
+"# TEST: 5-bits Sys-reg: Manual testing\n"
+"\n"
+msgstr ""
+"# TEST: Sys-Reg de 5-bits: Prueba manual\n"
+"\n"
+
+#: translation.js:1017
+msgid "UINT8-6bits:  Extend a 6-bits unsigned integer to 8-bits "
+msgstr "UINT8-6bits: Extender un entero sin signo de 6-bits a 8 bits  "
+
+#: translation.js:1018
+msgid "Bus8-Join-2-6: Join the two buses into an 8-bits Bus"
+msgstr "Bus8-Join-2-6: Agrupar dos buses en un bus de 8-bits"
+
+#: translation.js:1019
+msgid ""
+"# TEST: 6-bits Sys-reg: Manual testing\n"
+"\n"
+msgstr ""
+"# TEST: Sys-Reg de 6-bits: Prueba manual\n"
+"\n"
+
+#: translation.js:1022
+msgid "UINT8-7bits:  Extend a 7-bits unsigned integer to 8-bits "
+msgstr "UINT8-7bits: Extender un entero sin signo de 7-bits a 8 bits  "
+
+#: translation.js:1023
+msgid "Bus7-Join-1-7: Join the two buses into an 8-bits Bus"
+msgstr "Bus8-Join-1-7: Agrupar dos buses en un bus de 8-bits"
+
+#: translation.js:1024
+msgid ""
+"# TEST: 7-bits Sys-reg: Manual testing\n"
+"\n"
+msgstr ""
+"# TEST: Sys-Reg de 7-bits: Prueba manual\n"
+"\n"
+
+#: translation.js:1027
+msgid ""
+"# TEST: 8-bits Sys-reg: Manual testing\n"
+"\n"
+msgstr ""
+"# TEST: Sys-Reg de 8-bits: Prueba manual\n"
 "\n"
 
 #~ msgid ""
@@ -3652,25 +3756,12 @@ msgstr ""
 #~ "# TEST: Reg-rst de 3-bits: Prueba manual\n"
 #~ "\n"
 
-#~ msgid "UINT4-3bit:  Extend a 3-bit unsigned integer to 4-bits "
-#~ msgstr "UINT4-3bit: Extender un entero sin signo de 3-bits a 4-bits  "
-
-#~ msgid "Bus4-Join-1-3: Join the two buses into a 4-bits Bus"
-#~ msgstr "Bus8-Join-1-3: Agrupar dos buses en un bus de 4-bits"
-
 #~ msgid ""
 #~ "# TEST: 3-bits Reg: Manual testing\n"
 #~ "\n"
 #~ msgstr ""
 #~ "# TEST: Reg de 3-bits: Prueba manual\n"
 #~ "\n"
-
-#~ msgid ""
-#~ "Data Ledoscope. 2 samples of 4bits data are taken initially, at the "
-#~ "system clock rate"
-#~ msgstr ""
-#~ "Ledoscopio de datos. Se toman inicialmente dos muestras de 4 bits, a la "
-#~ "velocidad del reloj del sistema"
 
 #~ msgid "UINT8-4bits:  Extend a 4-bits unsigned integer to 8-bits "
 #~ msgstr "UINT8-4bits: Extender un entero sin signo de 4-bits a 8 bits "
@@ -3683,17 +3774,6 @@ msgstr ""
 #~ "\n"
 #~ msgstr ""
 #~ "# TEST: Sys-Reg-rst de 3-bits: Prueba manual\n"
-#~ "\n"
-
-#~ msgid ""
-#~ "Bus4-Split-1-3: Split the 4-bits bus into two: 1-bit and 3-bits buses"
-#~ msgstr "Bus4-Split-1-3: Separar un bus de 4 bits en dos buses de 1 y 3 bits"
-
-#~ msgid ""
-#~ "# TEST: 3-bits Sys-reg: Manual testing\n"
-#~ "\n"
-#~ msgstr ""
-#~ "# TEST: Sys-Reg de 3-bits: Prueba manual\n"
 #~ "\n"
 
 #~ msgid ""
@@ -3718,19 +3798,6 @@ msgstr ""
 #~ "\n"
 
 #~ msgid ""
-#~ "# TEST: 4-bits Sys-reg: Manual testing\n"
-#~ "\n"
-#~ msgstr ""
-#~ "# TEST: Sys-Reg de 4-bits: Prueba manual\n"
-#~ "\n"
-
-#~ msgid "UINT8-5bits:  Extend a 5-bits unsigned integer to 8-bits "
-#~ msgstr "UINT8-5bits: Extender un entero sin signo de 5-bits a 8 bits "
-
-#~ msgid "Bus8-Join-3-5: Join the two buses into an 8-bits Bus"
-#~ msgstr "Bus8-Join-3-5: Agrupar dos buses en un bus de 8-bits"
-
-#~ msgid ""
 #~ "# TEST: 5-bits Reg-rst: Manual testing\n"
 #~ "\n"
 #~ msgstr ""
@@ -3752,26 +3819,6 @@ msgstr ""
 #~ "\n"
 
 #~ msgid ""
-#~ "Data Ledoscope. 2 samples of 8bits data are taken initially, at the "
-#~ "system clock rate"
-#~ msgstr ""
-#~ "Ledoscopio de datos.Se toman inicialmente 2 muestras de 8 bits de datos, "
-#~ "a la velocidad del reloj del sistema"
-
-#~ msgid ""
-#~ "# TEST: 5-bits Sys-reg: Manual testing\n"
-#~ "\n"
-#~ msgstr ""
-#~ "# TEST: Sys-Reg de 5-bits: Prueba manual\n"
-#~ "\n"
-
-#~ msgid "UINT8-6bits:  Extend a 6-bits unsigned integer to 8-bits "
-#~ msgstr "UINT8-6bits: Extender un entero sin signo de 6-bits a 8 bits  "
-
-#~ msgid "Bus8-Join-2-6: Join the two buses into an 8-bits Bus"
-#~ msgstr "Bus8-Join-2-6: Agrupar dos buses en un bus de 8-bits"
-
-#~ msgid ""
 #~ "# TEST: 6-bits Reg-rst: Manual testing\n"
 #~ "\n"
 #~ msgstr ""
@@ -3786,24 +3833,11 @@ msgstr ""
 #~ "\n"
 
 #~ msgid ""
-#~ "# TEST: 6-bits Sys-reg: Manual testing\n"
-#~ "\n"
-#~ msgstr ""
-#~ "# TEST: Sys-Reg de 6-bits: Prueba manual\n"
-#~ "\n"
-
-#~ msgid ""
 #~ "# TEST: 6-bits Sys-reg-rst: Manual testing\n"
 #~ "\n"
 #~ msgstr ""
 #~ "# TEST: Sys-Reg-rst de 6-bits: Prueba manual\n"
 #~ "\n"
-
-#~ msgid "UINT8-7bits:  Extend a 7-bits unsigned integer to 8-bits "
-#~ msgstr "UINT8-7bits: Extender un entero sin signo de 7-bits a 8 bits  "
-
-#~ msgid "Bus7-Join-1-7: Join the two buses into an 8-bits Bus"
-#~ msgstr "Bus8-Join-1-7: Agrupar dos buses en un bus de 8-bits"
 
 #~ msgid ""
 #~ "# TEST: 7-bits Reg-rst: Manual testing\n"
@@ -3824,13 +3858,6 @@ msgstr ""
 #~ "\n"
 #~ msgstr ""
 #~ "# TEST: Reg-rst de 7-bits: Prueba manual\n"
-#~ "\n"
-
-#~ msgid ""
-#~ "# TEST: 7-bits Sys-reg: Manual testing\n"
-#~ "\n"
-#~ msgstr ""
-#~ "# TEST: Sys-Reg de 7-bits: Prueba manual\n"
 #~ "\n"
 
 #~ msgid "Sys-Reg-Rst"
@@ -3855,13 +3882,6 @@ msgstr ""
 #~ "\n"
 #~ msgstr ""
 #~ "# TEST: Sys-Reg-rst de 8-bits: Prueba manual\n"
-#~ "\n"
-
-#~ msgid ""
-#~ "# TEST: 8-bits Sys-reg: Manual testing\n"
-#~ "\n"
-#~ msgstr ""
-#~ "# TEST: Sys-Reg de 8-bits: Prueba manual\n"
 #~ "\n"
 
 #~ msgid "Reg-rst-02: Two bits Register with load and reset inputs"
