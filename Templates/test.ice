@@ -59,7 +59,7 @@
             "virtual": true,
             "range": "[1:0]",
             "pins": [
-              {}, {}
+              {},{}
             ],
             "clock": false
           },
