@@ -7,7 +7,7 @@
 def generate_sys_reg(nbits : int,
                      version: str, 
                      target_folder=".",
-                     template="test.ice"):
+                     template="Sys-reg-template.ice"):
     """Generate one system register icestudio block"""
 
     #-- Nombre del fichero destino
