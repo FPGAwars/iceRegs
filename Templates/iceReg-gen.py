@@ -21,6 +21,7 @@ def generate_sys_reg(nbits : int,
     new_ice = ice_orig.replace(f"Sys-reg-02", f"block_name")
     new_ice = new_ice.replace("0.4", f"{version}")
     new_ice = new_ice.replace(f"[1:0]", f"[{nbits-1}:0]")
+    new_ice = new_ice.replace(f'"size": 2', f'"size": {nbits}')
     new_ice = new_ice.replace(r"{},{}",
                                 r"{}," * (nbits-1) + r"{}")
     new_ice = new_ice.replace("localparam N = 2", 
@@ -38,7 +39,7 @@ def generate_sys_reg(nbits : int,
 
 #-- Main
 TARGET = "../blocks/Sys-Regs"
-VERSION = "0.5"
+VERSION = "0.6"
 for i in range(2,33):
     generate_sys_reg(i, VERSION, TARGET)
 

@@ -151,7 +151,7 @@
             "block": "21e329c4-b83c-4fdd-abd1-21d0b45b980a",
             "port": "in"
           },
-          "size": 4
+          "size": 2
         },
         {
           "source": {
@@ -162,7 +162,7 @@
             "block": "a488e8ac-cd04-4656-9880-218437a4aba0",
             "port": "d"
           },
-          "size": 4
+          "size": 2
         }
       ]
     }
