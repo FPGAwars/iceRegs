@@ -305,98 +305,6 @@ For installing and using this colection in Icestudio follow these steps:
     * 05-Reg-rst-values-on-LEDs
 * **TESTs**
   * **Regs**
-    * **02-bits**
-      * **Reg**
-      * **Reg-rst**
-        * **Alhambra-II**
-          * 01-manual-test
-        * **Alhambra-II**
-          * 01-manual-test
-      * **Sys-reg**
-      * **Sys-reg-dff**
-        * **Alhambra-II**
-          * 01-manual-test
-      * **Sys-reg-rst**
-        * **Alhambra-II**
-          * 01-manual-test
-        * **Alhambra-II**
-          * 01-manual-test
-    * **03-bits**
-      * **Reg**
-      * **Reg-rst**
-        * **Alhambra-II**
-          * 01-manual-test
-        * **Alhambra-II**
-          * 01-manual-test
-      * **Sys-Reg**
-      * **Sys-Reg-rst**
-        * **Alhambra-II**
-          * 01-manual-test
-        * **Alhambra-II**
-          * 01-manual-test
-    * **04-bits**
-      * **Reg**
-      * **Reg-rst**
-        * **Alhambra-II**
-          * 01-manual-test
-        * **Alhambra-II**
-          * 01-manual-test
-      * **Sys-Reg**
-      * **Sys-Reg-rst**
-        * **Alhambra-II**
-          * 01-manual-test
-        * **Alhambra-II**
-          * 01-manual-test
-    * **05-bits**
-      * **Reg**
-      * **Reg-rst**
-        * **Alhambra-II**
-          * 01-manual-test
-        * **Alhambra-II**
-          * 01-manual-test
-      * **Sys-Reg**
-      * **Sys-Reg-rst**
-        * **Alhambra-II**
-          * 02-Sys-Regs-four-values
-        * **Alhambra-II**
-          * 01-manual-test
-    * **06-bits**
-      * **Reg**
-      * **Reg-rst**
-        * **Alhambra-II**
-          * 01-manual-test
-        * **Alhambra-II**
-          * 01-manual-test
-      * **Sys-Reg**
-        * 01-manual-test
-      * **Sys-Reg-rst**
-        * 01-manual-test
-    * **07-bits**
-      * **Reg**
-      * **Reg-rst**
-        * **Alhambra-II**
-          * 01-manual-test
-        * **Alhambra-II**
-          * 01-manual-test
-      * **Sys-Reg**
-      * **Sys-Reg-rst**
-        * **Alhambra-II**
-          * 01-manual-test
-        * **Alhambra-II**
-          * 01-manual-test
-    * **08-bits**
-      * **Reg**
-      * **Reg-rst**
-        * **Alhambra-II**
-          * 01-manual-test
-        * **Alhambra-II**
-          * 01-manual-test
-      * **Sys-Reg**
-      * **Sys-Reg-Rst**
-        * **Alhambra-II**
-          * 01-manual-test
-        * **Alhambra-II**
-          * 01-manual-test
     * **09-bits**
       * **Reg**
       * **Reg-rst**
@@ -705,6 +613,10 @@ For installing and using this colection in Icestudio follow these steps:
           * 01-manual-test
         * **Alhambra-II**
           * 01-manual-test
+  * **Sys-Reg**
+    * **02-bits**
+      * **Alhambra-II**
+        * 01-manual-test
 
 ## Authors
 * [Juan Gonzalez-Gomez (Obijuan)](https://github.com/Obijuan)
