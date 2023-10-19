@@ -37,7 +37,7 @@ def generate_sys_reg(nbits : int,
 
 
 #-- Main
-TARGET = "../blocks/Sys-Regs-test"
+TARGET = "../blocks/Sys-Regs"
 VERSION = "0.5"
 for i in range(2,33):
     generate_sys_reg(i, VERSION, TARGET)
