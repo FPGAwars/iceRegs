@@ -344,10 +344,7 @@ For installing and using this colection in Icestudio follow these steps:
           * 01-manual-test
         * **Alhambra-II**
           * 01-manual-test
-      * **Sys-Reg**
       * **Sys-Reg-rst**
-        * **Alhambra-II**
-          * 01-manual-test
         * **Alhambra-II**
           * 01-manual-test
     * **18-bits**
@@ -357,10 +354,7 @@ For installing and using this colection in Icestudio follow these steps:
           * 01-manual-test
         * **Alhambra-II**
           * 01-manual-test
-      * **Sys-Reg**
       * **Sys-Reg-rst**
-        * **Alhambra-II**
-          * 01-manual-test
         * **Alhambra-II**
           * 01-manual-test
     * **19-bits**
@@ -370,10 +364,7 @@ For installing and using this colection in Icestudio follow these steps:
           * 01-manual-test
         * **Alhambra-II**
           * 01-manual-test
-      * **Sys-Reg**
       * **Sys-Reg-rst**
-        * **Alhambra-II**
-          * 01-manual-test
         * **Alhambra-II**
           * 01-manual-test
     * **20-bits**
@@ -383,10 +374,7 @@ For installing and using this colection in Icestudio follow these steps:
           * 01-manual-test
         * **Alhambra-II**
           * 01-manual-test
-      * **Sys-Reg**
       * **Sys-Reg-rst**
-        * **Alhambra-II**
-          * 01-manual-test
         * **Alhambra-II**
           * 01-manual-test
     * **21-bits**
@@ -396,10 +384,7 @@ For installing and using this colection in Icestudio follow these steps:
           * 01-manual-test
         * **Alhambra-II**
           * 01-manual-test
-      * **Sys-Reg**
       * **Sys-Reg-rst**
-        * **Alhambra-II**
-          * 01-manual-test
         * **Alhambra-II**
           * 01-manual-test
     * **22-bits**
@@ -409,10 +394,7 @@ For installing and using this colection in Icestudio follow these steps:
           * 01-manual-test
         * **Alhambra-II**
           * 01-manual-test
-      * **Sys-Reg**
       * **Sys-Reg-rst**
-        * **Alhambra-II**
-          * 01-manual-test
         * **Alhambra-II**
           * 01-manual-test
     * **23-bits**
@@ -422,10 +404,7 @@ For installing and using this colection in Icestudio follow these steps:
           * 01-manual-test
         * **Alhambra-II**
           * 01-manual-test
-      * **Sys-Reg**
       * **Sys-Reg-rst**
-        * **Alhambra-II**
-          * 01-manual-test
         * **Alhambra-II**
           * 01-manual-test
     * **24-bits**
@@ -435,10 +414,7 @@ For installing and using this colection in Icestudio follow these steps:
           * 01-manual-test
         * **Alhambra-II**
           * 01-manual-test
-      * **Sys-Reg**
       * **Sys-Reg-rst**
-        * **Alhambra-II**
-          * 01-manual-test
         * **Alhambra-II**
           * 01-manual-test
     * **25-bits**
@@ -448,10 +424,7 @@ For installing and using this colection in Icestudio follow these steps:
           * 01-manual-test
         * **Alhambra-II**
           * 01-manual-test
-      * **Sys-Reg**
       * **Sys-Reg-rst**
-        * **Alhambra-II**
-          * 01-manual-test
         * **Alhambra-II**
           * 01-manual-test
     * **26-bits**
@@ -461,11 +434,8 @@ For installing and using this colection in Icestudio follow these steps:
           * 01-manual-test
         * **Alhambra-II**
           * 01-manual-test
-      * **Sys-Reg**
       * **Sys-Reg-rst**
         * 01-manual-test
-        * **Alhambra-II**
-          * 01-manual-test
     * **27-bits**
       * **Reg**
       * **Reg-rst**
@@ -473,10 +443,7 @@ For installing and using this colection in Icestudio follow these steps:
           * 01-manual-test
         * **Alhambra-II**
           * 01-manual-test
-      * **Sys-Reg**
       * **Sys-Reg-rst**
-        * **Alhambra-II**
-          * 01-manual-test
         * **Alhambra-II**
           * 01-manual-test
     * **28-bits**
@@ -486,10 +453,7 @@ For installing and using this colection in Icestudio follow these steps:
           * 01-manual-test
         * **Alhambra-II**
           * 01-manual-test
-      * **Sys-Reg**
       * **Sys-Reg-rst**
-        * **Alhambra-II**
-          * 01-manual-test
         * **Alhambra-II**
           * 01-manual-test
     * **29-bits**
@@ -499,9 +463,6 @@ For installing and using this colection in Icestudio follow these steps:
           * 01-manual-test
         * **Alhambra-II**
           * 01-manual-test
-      * **Sys-reg**
-        * **Alhambra-II**
-          * 01-manual-test
     * **30-bits**
       * **Reg**
       * **Reg-rst**
@@ -509,10 +470,7 @@ For installing and using this colection in Icestudio follow these steps:
           * 01-manual-test
         * **Alhambra-II**
           * 01-manual-test
-      * **Sys-reg**
       * **Sys-reg-rst**
-        * **Alhambra-II**
-          * 01-manual-test
         * **Alhambra-II**
           * 01-manual-test
     * **31-bits**
@@ -522,10 +480,7 @@ For installing and using this colection in Icestudio follow these steps:
           * 01-manual-test
         * **Alhambra-II**
           * 01-manual-test
-      * **Sys-reg**
       * **Sys-reg-rst**
-        * **Alhambra-II**
-          * 01-manual-test
         * **Alhambra-II**
           * 01-manual-test
     * **32-bits**
@@ -535,10 +490,7 @@ For installing and using this colection in Icestudio follow these steps:
           * 01-manual-test
         * **Alhambra-II**
           * 01-manual-test
-      * **Sys-reg**
       * **Sys-reg-rst**
-        * **Alhambra-II**
-          * 01-manual-test
         * **Alhambra-II**
           * 01-manual-test
   * **Sys-Reg**
@@ -561,6 +513,78 @@ For installing and using this colection in Icestudio follow these steps:
       * **Alhambra-II**
         * 01-manual-test
     * **08-bits**
+      * **Alhambra-II**
+        * 01-manual-test
+    * **09-bits**
+      * **Alhambra-II**
+        * 01-manual-test
+    * **10-bits**
+      * **Alhambra-II**
+        * 01-manual-test
+    * **11-bits**
+      * **Alhambra-II**
+        * 01-manual-test
+    * **12-bits**
+      * **Alhambra-II**
+        * 01-manual-test
+    * **13-bits**
+      * **Alhambra-II**
+        * 01-manual-test
+    * **14-bits**
+      * **Alhambra-II**
+        * 01-manual-test
+    * **15-bits**
+      * **Alhambra-II**
+        * 01-manual-test
+    * **16-bits**
+      * **Alhambra-II**
+        * 01-manual-test
+    * **17-bits**
+      * **Alhambra-II**
+        * 01-manual-test
+    * **18-bits**
+      * **Alhambra-II**
+        * 01-manual-test
+    * **19-bits**
+      * **Alhambra-II**
+        * 01-manual-test
+    * **20-bits**
+      * **Alhambra-II**
+        * 01-manual-test
+    * **21-bits**
+      * **Alhambra-II**
+        * 01-manual-test
+    * **22-bits**
+      * **Alhambra-II**
+        * 01-manual-test
+    * **23-bits**
+      * **Alhambra-II**
+        * 01-manual-test
+    * **24-bits**
+      * **Alhambra-II**
+        * 01-manual-test
+    * **25-bits**
+      * **Alhambra-II**
+        * 01-manual-test
+    * **26-bits**
+      * **Alhambra-II**
+        * 01-manual-test
+    * **27-bits**
+      * **Alhambra-II**
+        * 01-manual-test
+    * **28-bits**
+      * **Alhambra-II**
+        * 01-manual-test
+    * **29-bits**
+      * **Alhambra-II**
+        * 01-manual-test
+    * **30-bits**
+      * **Alhambra-II**
+        * 01-manual-test
+    * **31-bits**
+      * **Alhambra-II**
+        * 01-manual-test
+    * **32-bits**
       * **Alhambra-II**
         * 01-manual-test
 
