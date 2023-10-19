@@ -177,7 +177,6 @@ For installing and using this colection in Icestudio follow these steps:
     * Sys-reg-rst
     * Sys-reg
     * **Blocks**
-      * Sys-reg-dff
       * Sys-reg-rst
   * **03-bits**
     * Sys-reg-rst
@@ -277,6 +276,8 @@ For installing and using this colection in Icestudio follow these steps:
     * Sys-reg
     * **Blocks**
       * Sys-reg-rst
+  * **Block**
+    * 02-Sys-reg
 
 ## Examples
 * 00-Index
