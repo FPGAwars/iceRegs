@@ -28,7 +28,7 @@ For installing and using this colection in Icestudio follow these steps:
 | Language | Locale | Translated strings |
 |----------|--------|--------------------|
 | English  |  en    | ![](https://progress-bar.dev/100) |
-| Spanish |  es_ES | ![](https://progress-bar.dev/94) |
+| Spanish |  es_ES | ![](https://progress-bar.dev/93) |
 
 ## Blocks
 * **Regs**
@@ -541,54 +541,56 @@ For installing and using this colection in Icestudio follow these steps:
       * **16-bits**
         * **Alhambra-II**
           * 01-manual-test
-    * **17-bits**
-      * **Alhambra-II**
-        * 01-manual-test
-    * **18-bits**
-      * **Alhambra-II**
-        * 01-manual-test
-    * **19-bits**
-      * **Alhambra-II**
-        * 01-manual-test
-    * **20-bits**
-      * **Alhambra-II**
-        * 01-manual-test
-    * **21-bits**
-      * **Alhambra-II**
-        * 01-manual-test
-    * **22-bits**
-      * **Alhambra-II**
-        * 01-manual-test
-    * **23-bits**
-      * **Alhambra-II**
-        * 01-manual-test
-    * **24-bits**
-      * **Alhambra-II**
-        * 01-manual-test
-    * **25-bits**
-      * **Alhambra-II**
-        * 01-manual-test
-    * **26-bits**
-      * **Alhambra-II**
-        * 01-manual-test
-    * **27-bits**
-      * **Alhambra-II**
-        * 01-manual-test
-    * **28-bits**
-      * **Alhambra-II**
-        * 01-manual-test
-    * **29-bits**
-      * **Alhambra-II**
-        * 01-manual-test
-    * **30-bits**
-      * **Alhambra-II**
-        * 01-manual-test
-    * **31-bits**
-      * **Alhambra-II**
-        * 01-manual-test
-    * **32-bits**
-      * **Alhambra-II**
-        * 01-manual-test
+    * **17-24-bits**
+      * **17-bits**
+        * **Alhambra-II**
+          * 01-manual-test
+      * **18-bits**
+        * **Alhambra-II**
+          * 01-manual-test
+      * **19-bits**
+        * **Alhambra-II**
+          * 01-manual-test
+      * **20-bits**
+        * **Alhambra-II**
+          * 01-manual-test
+      * **21-bits**
+        * **Alhambra-II**
+          * 01-manual-test
+      * **22-bits**
+        * **Alhambra-II**
+          * 01-manual-test
+      * **23-bits**
+        * **Alhambra-II**
+          * 01-manual-test
+      * **24-bits**
+        * **Alhambra-II**
+          * 01-manual-test
+    * **25-32-bits**
+      * **25-bits**
+        * **Alhambra-II**
+          * 01-manual-test
+      * **26-bits**
+        * **Alhambra-II**
+          * 01-manual-test
+      * **27-bits**
+        * **Alhambra-II**
+          * 01-manual-test
+      * **28-bits**
+        * **Alhambra-II**
+          * 01-manual-test
+      * **29-bits**
+        * **Alhambra-II**
+          * 01-manual-test
+      * **30-bits**
+        * **Alhambra-II**
+          * 01-manual-test
+      * **31-bits**
+        * **Alhambra-II**
+          * 01-manual-test
+      * **32-bits**
+        * **Alhambra-II**
+          * 01-manual-test
 
 ## Authors
 * [Juan Gonzalez-Gomez (Obijuan)](https://github.com/Obijuan)
