@@ -28,7 +28,7 @@ For installing and using this colection in Icestudio follow these steps:
 | Language | Locale | Translated strings |
 |----------|--------|--------------------|
 | English  |  en    | ![](https://progress-bar.dev/100) |
-| Spanish |  es_ES | ![](https://progress-bar.dev/93) |
+| Spanish |  es_ES | ![](https://progress-bar.dev/89) |
 
 ## Blocks
 * **Regs**
@@ -276,6 +276,38 @@ For installing and using this colection in Icestudio follow these steps:
     * Sys-reg
     * **Blocks**
       * Sys-reg-rst
+* **Sys-Regs-rst**
+  * 02-Sys-reg-rst
+  * 03-Sys-reg-rst
+  * 04-Sys-reg-rst
+  * 05-Sys-reg-rst
+  * 06-Sys-reg-rst
+  * 07-Sys-reg-rst
+  * 08-Sys-reg-rst
+  * 09-Sys-reg-rst
+  * 10-Sys-reg-rst
+  * 11-Sys-reg-rst
+  * 12-Sys-reg-rst
+  * 13-Sys-reg-rst
+  * 14-Sys-reg-rst
+  * 15-Sys-reg-rst
+  * 16-Sys-reg-rst
+  * 17-Sys-reg-rst
+  * 18-Sys-reg-rst
+  * 19-Sys-reg-rst
+  * 20-Sys-reg-rst
+  * 21-Sys-reg-rst
+  * 22-Sys-reg-rst
+  * 23-Sys-reg-rst
+  * 24-Sys-reg-rst
+  * 25-Sys-reg-rst
+  * 26-Sys-reg-rst
+  * 27-Sys-reg-rst
+  * 28-Sys-reg-rst
+  * 29-Sys-reg-rst
+  * 30-Sys-reg-rst
+  * 31-Sys-reg-rst
+  * 32-Sys-reg-rst
   * **Block**
     * 02-Sys-reg
 
@@ -495,6 +527,10 @@ For installing and using this colection in Icestudio follow these steps:
         * **Alhambra-II**
           * 01-manual-test
   * **Sys-Reg**
+  * **Sys-Reg-rst**
+    * **02-bits**
+      * **Alhambra-II**
+        * 01-manual-test
     * **02-08-bits**
       * **02-bits**
         * **Alhambra-II**
