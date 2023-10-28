@@ -377,17 +377,11 @@ For installing and using this colection in Icestudio follow these steps:
           * 01-manual-test
         * **Alhambra-II**
           * 01-manual-test
-      * **Sys-Reg-rst**
-        * **Alhambra-II**
-          * 01-manual-test
     * **18-bits**
       * **Reg**
       * **Reg-rst**
         * **Alhambra-II**
           * 01-manual-test
-        * **Alhambra-II**
-          * 01-manual-test
-      * **Sys-Reg-rst**
         * **Alhambra-II**
           * 01-manual-test
     * **19-bits**
@@ -397,17 +391,11 @@ For installing and using this colection in Icestudio follow these steps:
           * 01-manual-test
         * **Alhambra-II**
           * 01-manual-test
-      * **Sys-Reg-rst**
-        * **Alhambra-II**
-          * 01-manual-test
     * **20-bits**
       * **Reg**
       * **Reg-rst**
         * **Alhambra-II**
           * 01-manual-test
-        * **Alhambra-II**
-          * 01-manual-test
-      * **Sys-Reg-rst**
         * **Alhambra-II**
           * 01-manual-test
     * **21-bits**
@@ -417,17 +405,11 @@ For installing and using this colection in Icestudio follow these steps:
           * 01-manual-test
         * **Alhambra-II**
           * 01-manual-test
-      * **Sys-Reg-rst**
-        * **Alhambra-II**
-          * 01-manual-test
     * **22-bits**
       * **Reg**
       * **Reg-rst**
         * **Alhambra-II**
           * 01-manual-test
-        * **Alhambra-II**
-          * 01-manual-test
-      * **Sys-Reg-rst**
         * **Alhambra-II**
           * 01-manual-test
     * **23-bits**
@@ -437,17 +419,11 @@ For installing and using this colection in Icestudio follow these steps:
           * 01-manual-test
         * **Alhambra-II**
           * 01-manual-test
-      * **Sys-Reg-rst**
-        * **Alhambra-II**
-          * 01-manual-test
     * **24-bits**
       * **Reg**
       * **Reg-rst**
         * **Alhambra-II**
           * 01-manual-test
-        * **Alhambra-II**
-          * 01-manual-test
-      * **Sys-Reg-rst**
         * **Alhambra-II**
           * 01-manual-test
     * **25-bits**
