@@ -280,6 +280,9 @@ gettext('Generic: 4-bits generic constant (0-15)');
 gettext('08-Sys-reg-rst');
 gettext('8-Sys-reg-rst: 8 bits system register with reset. Block implementation');
 gettext('Generic: 8-bits generic constant (0-255)');
+gettext('16-Sys-reg-rst');
+gettext('16-Sys-reg-rst: 16 bits system register with reset. Block implementation');
+gettext('Generic: 16-bits generic constant');
 gettext('02-Sys-reg');
 gettext('02-Sys-reg-02-block: 2-bits system register. Block implementation');
 gettext('Bus2-Split-all: Split the 2-bits bus into two wires');
@@ -411,7 +414,6 @@ gettext('Bus16-Split-quarter: Split the 16-bits bus into four buses of the same 
 gettext('Bus16-Join-quarter: Join the four same buses into an 16-bits Bus');
 gettext('Inc1-16bit: Increment a 16-bits number by one');
 gettext('AdderK-16bit: Adder of 16-bit operand and 16-bit constant');
-gettext('Generic: 16-bits generic constant');
 gettext('Adder-16bits: Adder of two operands of 16 bits');
 gettext('Bus16-Split-half: Split the 16-bits bus into two buses of the same size');
 gettext('Adder-8bits: Adder of two operands of 8 bits');

@@ -208,6 +208,7 @@ For installing and using this colection in Icestudio follow these steps:
     * 02-Sys-reg-rst
     * 04-Sys-reg-rst
     * 08-Sys-reg-rst
+    * 16-Sys-reg-rst
   * **Block**
     * 02-Sys-reg
 
