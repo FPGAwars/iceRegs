@@ -275,6 +275,9 @@ For installing and using this colection in Icestudio follow these steps:
     * **02-bits**
       * **Alhambra-II**
         * 01-manual-test
+    * **03-bits**
+      * **Alhambra-II**
+        * 01-manual-test
     * **17-bits**
       * **Reg**
       * **Reg-rst**
