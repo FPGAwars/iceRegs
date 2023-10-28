@@ -28,7 +28,7 @@ For installing and using this colection in Icestudio follow these steps:
 | Language | Locale | Translated strings |
 |----------|--------|--------------------|
 | English  |  en    | ![](https://progress-bar.dev/100) |
-| Spanish |  es_ES | ![](https://progress-bar.dev/89) |
+| Spanish |  es_ES | ![](https://progress-bar.dev/88) |
 
 ## Blocks
 * **Regs**
@@ -207,6 +207,7 @@ For installing and using this colection in Icestudio follow these steps:
   * **Block**
     * 02-Sys-reg-rst
     * 04-Sys-reg-rst
+    * 08-Sys-reg-rst
   * **Block**
     * 02-Sys-reg
 
