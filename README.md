@@ -553,6 +553,15 @@ For installing and using this colection in Icestudio follow these steps:
     * **09-bits**
       * **Alhambra-II**
         * 01-manual-test
+    * **10-bits**
+      * **Alhambra-II**
+        * 01-manual-test
+    * **11-bits**
+      * **Alhambra-II**
+        * 01-manual-test
+    * **12-bits**
+      * **Alhambra-II**
+        * 01-manual-test
     * **02-08-bits**
       * **02-bits**
         * **Alhambra-II**
