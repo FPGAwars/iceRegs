@@ -172,110 +172,6 @@ For installing and using this colection in Icestudio follow these steps:
   * 30-Sys-reg
   * 31-Sys-reg
   * 32-Sys-reg
-* **Sys-Regs-old**
-  * **02-bits**
-    * Sys-reg-rst
-    * Sys-reg
-    * **Blocks**
-      * Sys-reg-rst
-  * **03-bits**
-    * Sys-reg-rst
-    * Sys-reg
-  * **04-bits**
-    * Sys-reg-rst
-    * Sys-reg
-    * **Blocks**
-      * Sys-reg-rst
-  * **05-bits**
-    * Sys-reg-rst
-    * Sys-reg
-  * **06-bits**
-    * Sys-reg-rst
-    * Sys-reg
-  * **07-bits**
-    * Sys-reg-rst
-    * Sys-reg
-  * **08-bits**
-    * Sys-reg-rst
-    * Sys-reg
-    * **Blocks**
-      * Sys-reg-rst
-  * **09-bits**
-    * Sys-reg-rst
-    * Sys-reg
-  * **10-bits**
-    * Sys-reg-rst
-    * Sys-reg
-  * **11-bits**
-    * Sys-reg-rst
-    * Sys-reg
-  * **12-bits**
-    * Sys-reg-rst
-    * Sys-reg
-  * **13-bits**
-    * Sys-reg-rst
-    * Sys-reg
-  * **14-bits**
-    * Sys-reg-rst
-    * Sys-reg
-  * **15-bits**
-    * Sys-reg-rst
-    * Sys-reg
-  * **16-bits**
-    * Sys-reg-rst
-    * Sys-reg
-    * **Blocks**
-      * Sys-reg-rst
-  * **17-bits**
-    * Sys-reg-rst
-    * Sys-reg
-  * **18-bits**
-    * Sys-reg-rst
-    * Sys-reg
-  * **19-bits**
-    * Sys-reg-rst
-    * Sys-reg
-  * **20-bits**
-    * Sys-reg-rst
-    * Sys-reg
-  * **21-bits**
-    * Sys-reg-rst
-    * Sys-reg
-  * **22-bits**
-    * Sys-reg-rst
-    * Sys-reg
-  * **23-bits**
-    * Sys-reg-rst
-    * Sys-reg
-  * **24-bits**
-    * Sys-reg-rst
-    * Sys-reg
-  * **25-bits**
-    * Sys-reg-rst
-    * Sys-reg
-  * **26-bits**
-    * Sys-reg-rst
-    * Sys-reg
-  * **27-bits**
-    * Sys-reg-rst
-    * Sys-reg
-  * **28-bits**
-    * Sys-reg-rst
-    * Sys-reg
-  * **29-bits**
-    * Sys-reg-rst
-    * Sys-reg
-  * **30-bits**
-    * Sys-reg-rst
-    * Sys-reg
-  * **31-bits**
-    * Sys-reg-rst
-    * Sys-reg
-  * **32-bits**
-    * Sys-reg-rst
-    * Sys-reg
-    * **Blocks**
-      * Sys-reg-rst
 * **Sys-Regs-rst**
   * 02-Sys-reg-rst
   * 03-Sys-reg-rst
@@ -308,6 +204,8 @@ For installing and using this colection in Icestudio follow these steps:
   * 30-Sys-reg-rst
   * 31-Sys-reg-rst
   * 32-Sys-reg-rst
+  * **Block**
+    * 02-Sys-reg-rst
   * **Block**
     * 02-Sys-reg
 
