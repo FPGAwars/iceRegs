@@ -272,6 +272,9 @@ For installing and using this colection in Icestudio follow these steps:
     * 05-Reg-rst-values-on-LEDs
 * **TESTs**
   * **Regs**
+    * **02-bits**
+      * **Alhambra-II**
+        * 01-manual-test
     * **17-bits**
       * **Reg**
       * **Reg-rst**
