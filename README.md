@@ -534,6 +534,9 @@ For installing and using this colection in Icestudio follow these steps:
     * **03-bits**
       * **Alhambra-II**
         * 01-manual-test
+    * **04-bits**
+      * **Alhambra-II**
+        * 01-manual-test
     * **02-08-bits**
       * **02-bits**
         * **Alhambra-II**
