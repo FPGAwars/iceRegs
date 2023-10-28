@@ -49,12 +49,11 @@ def generate_reg(
 
 
 #-- Main
-#TARGET = "../blocks/Sys-Regs-rst"
-TARGET = "test"
+TARGET = "../blocks/Regs"
 VERSION = "0.5"
-generate_reg(3, VERSION, TARGET)
-#for i in range(2,33):
-#    generate_reg_rst(i, VERSION, TARGET)
+#generate_reg(3, VERSION, TARGET)
+for i in range(2,33):
+    generate_reg(i, VERSION, TARGET)
 
 
 
