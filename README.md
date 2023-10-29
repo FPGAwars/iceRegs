@@ -28,7 +28,7 @@ For installing and using this colection in Icestudio follow these steps:
 | Language | Locale | Translated strings |
 |----------|--------|--------------------|
 | English  |  en    | ![](https://progress-bar.dev/100) |
-| Spanish |  es_ES | ![](https://progress-bar.dev/74) |
+| Spanish |  es_ES | ![](https://progress-bar.dev/75) |
 
 ## Blocks
 * **Regs**
@@ -306,6 +306,12 @@ For installing and using this colection in Icestudio follow these steps:
       * **24-bits**
         * **Alhambra-II**
           * 01-manual-test
+    * **25-bits**
+      * **Alhambra-II**
+        * 01-manual-test
+    * **26-bits**
+      * **Alhambra-II**
+        * 01-manual-test
     * **02-08-bits**
       * **02-bits**
         * **Alhambra-II**
