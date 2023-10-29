@@ -631,6 +631,7 @@ gettext('02-08-bits');
 gettext('09-16-bits');
 gettext('17-24-bits');
 gettext('25-32-bits');
+gettext('02-08-bits');
 gettext('02-bits');
 gettext('03-bits');
 gettext('04-bits');
