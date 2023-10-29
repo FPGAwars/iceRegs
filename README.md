@@ -28,7 +28,7 @@ For installing and using this colection in Icestudio follow these steps:
 | Language | Locale | Translated strings |
 |----------|--------|--------------------|
 | English  |  en    | ![](https://progress-bar.dev/100) |
-| Spanish |  es_ES | ![](https://progress-bar.dev/80) |
+| Spanish |  es_ES | ![](https://progress-bar.dev/74) |
 
 ## Blocks
 * **Regs**
@@ -63,6 +63,38 @@ For installing and using this colection in Icestudio follow these steps:
   * 30-Reg
   * 31-Reg
   * 32-Reg
+* **Regs-rst**
+  * 02-Reg-rst
+  * 03-Reg-rst
+  * 04-Reg-rst
+  * 05-Reg-rst
+  * 06-Reg-rst
+  * 07-Reg-rst
+  * 08-Reg-rst
+  * 09-Reg-rst
+  * 10-Reg-rst
+  * 11-Reg-rst
+  * 12-Reg-rst
+  * 13-Reg-rst
+  * 14-Reg-rst
+  * 15-Reg-rst
+  * 16-Reg-rst
+  * 17-Reg-rst
+  * 18-Reg-rst
+  * 19-Reg-rst
+  * 20-Reg-rst
+  * 21-Reg-rst
+  * 22-Reg-rst
+  * 23-Reg-rst
+  * 24-Reg-rst
+  * 25-Reg-rst
+  * 26-Reg-rst
+  * 27-Reg-rst
+  * 28-Reg-rst
+  * 29-Reg-rst
+  * 30-Reg-rst
+  * 31-Reg-rst
+  * 32-Reg-rst
   * **Blocks**
     * 02-Reg
     * 04-Reg
