@@ -97,6 +97,7 @@ For installing and using this colection in Icestudio follow these steps:
   * 32-Reg-rst
   * **Blocks**
     * 02-Reg-rst
+    * 04-Reg-rst
   * **Blocks**
     * 02-Reg
     * 04-Reg
