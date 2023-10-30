@@ -100,6 +100,7 @@ For installing and using this colection in Icestudio follow these steps:
     * 04-Reg-rst
     * 08-Reg-rst
     * 16-Reg-rst
+    * 32-Reg-rst
   * **Blocks**
     * 02-Reg
     * 04-Reg
