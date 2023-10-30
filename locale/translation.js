@@ -144,6 +144,9 @@ gettext('block_name-rst: 2-bits system register with reset. Verilog implementati
 gettext('04-Reg-rst');
 gettext('04-Reg-rst: 4 bits Register with load and reset inputs. Block implementation');
 gettext('2-to-1 Multplexer (4-bit channels). Verilog implementation');
+gettext('08-Reg-rst');
+gettext('08-Reg-rst: 8 bits Register with load and reset inputs. Block implementation');
+gettext('2-to-1 Multplexer (8-bit channels). Verilog implementation');
 gettext('02-Reg');
 gettext('02-Reg-block: 2 bits Register with load input. Blocks implementation');
 gettext('block_name: Two bits system register. Verilog implementation');
@@ -151,7 +154,6 @@ gettext('04-Reg');
 gettext('04-Reg: 4 bits Register with load input. Blocks implementation');
 gettext('08-Reg');
 gettext('08-Reg: 8 bits Register with load input. Blocks implementation');
-gettext('2-to-1 Multplexer (8-bit channels). Verilog implementation');
 gettext('16-Reg');
 gettext('16-Reg: 16 bits Register with load input. Block implementation');
 gettext('2-to-1 Multplexer (16-bit channels). Verilog implementation');
