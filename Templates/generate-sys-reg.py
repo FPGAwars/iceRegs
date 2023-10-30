@@ -26,14 +26,14 @@ def generate_sys_reg(nbits : int,
     #----------------------------------------------------------------------
 
     #-- Cambiar la Descripción
-    new_ice = ice_orig.replace(f"Sys-reg-02: Two bits",
-                              f"{block_name}: {nbits} bits")
+    new_ice = ice_orig.replace(f"<DESCRIPTION>",
+        f"{block_name}: {nbits} bits system register. Verilog implementation")
 
     #-- Nombre del componente. Nombre en plantilla: "Sys-reg-02"
-    new_ice = new_ice.replace(f"Sys-reg-02", f"{block_name}")
+    new_ice = new_ice.replace(f"<NAME>", f"{block_name}")
 
-    #-- Version del componente. Version plantilla: 0.4
-    new_ice = new_ice.replace("0.4", f"{version}")
+    #-- Version del componente
+    new_ice = new_ice.replace("<VERSION>", f"{version}")
 
     
  
@@ -57,7 +57,7 @@ def generate_sys_reg(nbits : int,
 
 #-- Main
 TARGET = "../blocks/Sys-Regs"
-VERSION = "0.6"
+VERSION = "0.7"
 for i in range(2,33):
     generate_sys_reg(i, VERSION, TARGET)
 
