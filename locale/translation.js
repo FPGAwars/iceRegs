@@ -320,8 +320,6 @@ gettext('Sys-reg-rst-27-verilog: 27 bits system register with reset. Verilog imp
 gettext('Sys-reg-rst-28-verilog: 28 bits system register with reset. Verilog implementation');
 gettext('Sys-reg-rst-29-verilog: 29 bits system register with reset. Verilog implementation');
 gettext('Sys-reg-rst-30-verilog: 30 bits system register with reset. Verilog implementation');
-gettext('Reg-rst-02-verilog: 2-bits Register with load and reset inputs. Verilog implementation');
-gettext('Reg-2-verilog: 2 bits Register with load input. Verilog implementation');
 gettext('Reg-3-verilog: 3 bits Register with load input. Verilog implementation');
 gettext('Reg-rst-3-verilog: 3-bits Register with load and reset inputs. Verilog implementation');
 gettext('Reg-rst-4-verilog: 4-bits Register with load and reset inputs. Verilog implementation');
