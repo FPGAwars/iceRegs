@@ -1324,30 +1324,6 @@
           }
         },
         {
-          "id": "bdfbe016-4d64-44de-84dc-b47c2c558a09",
-          "type": "179561e717bab2003fca0f8901f70bdc8e108f03",
-          "position": {
-            "x": 440,
-            "y": 296
-          },
-          "size": {
-            "width": 96,
-            "height": 128
-          }
-        },
-        {
-          "id": "375b3eb9-a954-47d6-a5de-5c9e3959e7d2",
-          "type": "b00fd46c038df4bc1ad644955ecb7e1f42e16702",
-          "position": {
-            "x": 256,
-            "y": 304
-          },
-          "size": {
-            "width": 96,
-            "height": 96
-          }
-        },
-        {
           "id": "814bfbd4-78d9-4a20-b20f-22e92586fbba",
           "type": "a854dcfaf5bdf4705c477bc0b8bb59c32e23aa52",
           "position": {
@@ -2096,6 +2072,30 @@
           "type": "af454da7eb2acd7b2809285675e3982cff5a792e",
           "position": {
             "x": 72,
+            "y": 304
+          },
+          "size": {
+            "width": 96,
+            "height": 96
+          }
+        },
+        {
+          "id": "3e62618a-6d95-4a17-857d-7746ed97691c",
+          "type": "20382dd40e068691a472e43bcae7fb8bace44d76",
+          "position": {
+            "x": 440,
+            "y": 296
+          },
+          "size": {
+            "width": 96,
+            "height": 128
+          }
+        },
+        {
+          "id": "0f8b4ea4-b3c1-4316-ba84-d41b8f12f8b6",
+          "type": "3fa68bf7b97d49e7a5e0a13c19db637ed405ee76",
+          "position": {
+            "x": 256,
             "y": 304
           },
           "size": {
@@ -12768,386 +12768,6 @@
                 "port": "in"
               },
               "size": 31
-            }
-          ]
-        }
-      }
-    },
-    "179561e717bab2003fca0f8901f70bdc8e108f03": {
-      "package": {
-        "name": "Reg-rst-02-verilog",
-        "version": "0.2",
-        "description": "Reg-rst-02-verilog: 2-bits Register with load and reset inputs. Verilog implementation",
-        "author": "Juan González-Gómez (Obijuan)",
-        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22286.865%22%20height=%22270.812%22%20viewBox=%220%200%2075.899794%2071.65232%22%3E%3Cpath%20d=%22M43.907%2033.607h10.645%22%20color=%22#000%22%20fill=%22#00f%22/%3E%3Cg%20stroke=%22#000%22%20stroke-width=%221.442%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%3E%3Cpath%20d=%22M102.876%20163.95l4.552%2028.037%205.644-28.037%22%20fill=%22#ccc%22%20transform=%22matrix(.65581%20-.3791%20.37863%20.6566%20-85.712%20-27.533)%22/%3E%3Cpath%20d=%22M99.758%20149.859l2.39-28.512h-9.831v-5.462h31.86v5.462h-9.284l1.724%2028.769s7.509%201.248%209.269%206.48c1.76%205.231-.367%207.286.15%207.36l-36.077-.044s-.817-6.104%202.015-9.194c2.832-3.09%207.784-4.86%207.784-4.86z%22%20fill=%22red%22%20transform=%22matrix(.65581%20-.3791%20.37863%20.6566%20-85.712%20-27.533)%22/%3E%3C/g%3E%3Cg%20stroke=%22#000%22%20stroke-width=%221.442%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%3E%3Cpath%20d=%22M102.876%20163.95l4.552%2028.037%205.644-28.037%22%20fill=%22#ccc%22%20transform=%22matrix(.65581%20-.3791%20.37863%20.6566%20-69.38%20-28.47)%22/%3E%3Cpath%20d=%22M99.758%20149.859l2.39-28.512h-9.831v-5.462h31.86v5.462h-9.284l1.724%2028.769s7.509%201.248%209.269%206.48c1.76%205.231-.367%207.286.15%207.36l-36.077-.044s-.817-6.104%202.015-9.194c2.832-3.09%207.784-4.86%207.784-4.86z%22%20fill=%22red%22%20transform=%22matrix(.65581%20-.3791%20.37863%20.6566%20-69.38%20-28.47)%22/%3E%3C/g%3E%3Cg%20transform=%22translate(-93.518%20-25.072)%20scale(1.09073)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20cx=%22100.602%22%20cy=%2273.815%22%20r=%2214.559%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3C/svg%3E",
-        "otid": 1618509859237
-      },
-      "design": {
-        "graph": {
-          "blocks": [
-            {
-              "id": "ca7c5f10-efb6-43f9-9364-52d751fc0bc6",
-              "type": "basic.input",
-              "data": {
-                "name": "",
-                "clock": true
-              },
-              "position": {
-                "x": 552,
-                "y": 48
-              }
-            },
-            {
-              "id": "c97f7411-94ef-4d63-ba23-ce596ebcbb25",
-              "type": "basic.input",
-              "data": {
-                "name": "rst",
-                "clock": false
-              },
-              "position": {
-                "x": 552,
-                "y": 128
-              }
-            },
-            {
-              "id": "521f03e5-f364-41b0-a2b8-c7858e6debf5",
-              "type": "basic.output",
-              "data": {
-                "name": "",
-                "range": "[1:0]",
-                "size": 2
-              },
-              "position": {
-                "x": 1184,
-                "y": 168
-              }
-            },
-            {
-              "id": "e699a6f3-fd6f-49dc-a8d3-d35853cb8e6b",
-              "type": "basic.input",
-              "data": {
-                "name": "",
-                "range": "[1:0]",
-                "clock": false,
-                "size": 2
-              },
-              "position": {
-                "x": 552,
-                "y": 200
-              }
-            },
-            {
-              "id": "f1022de4-0225-43d7-92d3-451161ee6942",
-              "type": "basic.input",
-              "data": {
-                "name": "load",
-                "clock": false
-              },
-              "position": {
-                "x": 552,
-                "y": 280
-              }
-            },
-            {
-              "id": "d9020031-ade2-47d0-bca0-4b88fe7eaebd",
-              "type": "basic.constant",
-              "data": {
-                "name": "",
-                "value": "0",
-                "local": false
-              },
-              "position": {
-                "x": 864,
-                "y": -80
-              }
-            },
-            {
-              "id": "2947d492-028d-487a-83fa-b2f84a2e2d2f",
-              "type": "basic.code",
-              "data": {
-                "ports": {
-                  "in": [
-                    {
-                      "name": "clk"
-                    },
-                    {
-                      "name": "rst"
-                    },
-                    {
-                      "name": "d",
-                      "range": "[1:0]",
-                      "size": 2
-                    },
-                    {
-                      "name": "load"
-                    }
-                  ],
-                  "out": [
-                    {
-                      "name": "q",
-                      "range": "[1:0]",
-                      "size": 2
-                    }
-                  ]
-                },
-                "params": [
-                  {
-                    "name": "INI"
-                  }
-                ],
-                "code": "//-- Generic register with reset\n//-- Number of bits\nlocalparam N = 2;\n\n//-- Initial value\nreg [N-1:0] q = INI;\n\nalways @(posedge clk)\nbegin\n\n  //-- Reset has the priority\n  if (rst == 1'b1)\n    q <= INI;\n    \n  else\n    //-- The value is load only if  \n    //-- load is 1\n    if (load == 1'b1)\n      q <= d;\n      \n      \n  //-- In any other case the reg\n  //-- keeps its value\nend\n"
-              },
-              "position": {
-                "x": 720,
-                "y": 40
-              },
-              "size": {
-                "width": 376,
-                "height": 312
-              }
-            }
-          ],
-          "wires": [
-            {
-              "source": {
-                "block": "d9020031-ade2-47d0-bca0-4b88fe7eaebd",
-                "port": "constant-out"
-              },
-              "target": {
-                "block": "2947d492-028d-487a-83fa-b2f84a2e2d2f",
-                "port": "INI"
-              },
-              "vertices": []
-            },
-            {
-              "source": {
-                "block": "2947d492-028d-487a-83fa-b2f84a2e2d2f",
-                "port": "q"
-              },
-              "target": {
-                "block": "521f03e5-f364-41b0-a2b8-c7858e6debf5",
-                "port": "in"
-              },
-              "size": 2
-            },
-            {
-              "source": {
-                "block": "ca7c5f10-efb6-43f9-9364-52d751fc0bc6",
-                "port": "out"
-              },
-              "target": {
-                "block": "2947d492-028d-487a-83fa-b2f84a2e2d2f",
-                "port": "clk"
-              }
-            },
-            {
-              "source": {
-                "block": "e699a6f3-fd6f-49dc-a8d3-d35853cb8e6b",
-                "port": "out"
-              },
-              "target": {
-                "block": "2947d492-028d-487a-83fa-b2f84a2e2d2f",
-                "port": "d"
-              },
-              "size": 2
-            },
-            {
-              "source": {
-                "block": "c97f7411-94ef-4d63-ba23-ce596ebcbb25",
-                "port": "out"
-              },
-              "target": {
-                "block": "2947d492-028d-487a-83fa-b2f84a2e2d2f",
-                "port": "rst"
-              }
-            },
-            {
-              "source": {
-                "block": "f1022de4-0225-43d7-92d3-451161ee6942",
-                "port": "out"
-              },
-              "target": {
-                "block": "2947d492-028d-487a-83fa-b2f84a2e2d2f",
-                "port": "load"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "b00fd46c038df4bc1ad644955ecb7e1f42e16702": {
-      "package": {
-        "name": "Reg-2-verilog",
-        "version": "0.4",
-        "description": "Reg-2-verilog: 2 bits Register with load input. Verilog implementation",
-        "author": "Juan González-Gómez (Obijuan)",
-        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22286.865%22%20height=%22270.812%22%20viewBox=%220%200%2075.899794%2071.65232%22%3E%3Cpath%20d=%22M43.907%2033.607h10.645%22%20color=%22#000%22%20fill=%22#00f%22/%3E%3Cg%20stroke=%22#000%22%20stroke-width=%221.442%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%3E%3Cpath%20d=%22M102.876%20163.95l4.552%2028.037%205.644-28.037%22%20fill=%22#ccc%22%20transform=%22matrix(.65581%20-.3791%20.37863%20.6566%20-85.712%20-27.533)%22/%3E%3Cpath%20d=%22M99.758%20149.859l2.39-28.512h-9.831v-5.462h31.86v5.462h-9.284l1.724%2028.769s7.509%201.248%209.269%206.48c1.76%205.231-.367%207.286.15%207.36l-36.077-.044s-.817-6.104%202.015-9.194c2.832-3.09%207.784-4.86%207.784-4.86z%22%20fill=%22red%22%20transform=%22matrix(.65581%20-.3791%20.37863%20.6566%20-85.712%20-27.533)%22/%3E%3C/g%3E%3Cg%20stroke=%22#000%22%20stroke-width=%221.442%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%3E%3Cpath%20d=%22M102.876%20163.95l4.552%2028.037%205.644-28.037%22%20fill=%22#ccc%22%20transform=%22matrix(.65581%20-.3791%20.37863%20.6566%20-69.38%20-28.47)%22/%3E%3Cpath%20d=%22M99.758%20149.859l2.39-28.512h-9.831v-5.462h31.86v5.462h-9.284l1.724%2028.769s7.509%201.248%209.269%206.48c1.76%205.231-.367%207.286.15%207.36l-36.077-.044s-.817-6.104%202.015-9.194c2.832-3.09%207.784-4.86%207.784-4.86z%22%20fill=%22red%22%20transform=%22matrix(.65581%20-.3791%20.37863%20.6566%20-69.38%20-28.47)%22/%3E%3C/g%3E%3Cg%20transform=%22translate(-93.518%20-25.072)%20scale(1.09073)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20cx=%22100.602%22%20cy=%2273.815%22%20r=%2214.559%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3C/svg%3E",
-        "otid": 1618509859237
-      },
-      "design": {
-        "graph": {
-          "blocks": [
-            {
-              "id": "c39743c3-1b76-483c-8613-15f2782d0809",
-              "type": "basic.input",
-              "data": {
-                "name": "",
-                "clock": true
-              },
-              "position": {
-                "x": 568,
-                "y": 144
-              }
-            },
-            {
-              "id": "8e68dac0-4473-40be-a907-0eb952ae4420",
-              "type": "basic.output",
-              "data": {
-                "name": "",
-                "range": "[1:0]",
-                "size": 2
-              },
-              "position": {
-                "x": 1136,
-                "y": 240
-              }
-            },
-            {
-              "id": "1b621e37-f1b1-46a7-8450-5500bb513afb",
-              "type": "basic.input",
-              "data": {
-                "name": "",
-                "range": "[1:0]",
-                "clock": false,
-                "size": 2
-              },
-              "position": {
-                "x": 568,
-                "y": 240
-              }
-            },
-            {
-              "id": "f1022de4-0225-43d7-92d3-451161ee6942",
-              "type": "basic.input",
-              "data": {
-                "name": "load",
-                "clock": false
-              },
-              "position": {
-                "x": 568,
-                "y": 328
-              }
-            },
-            {
-              "id": "1ee1f0e1-9e00-4224-82dd-d976319e771f",
-              "type": "basic.constant",
-              "data": {
-                "name": "",
-                "value": "0",
-                "local": false
-              },
-              "position": {
-                "x": 848,
-                "y": 24
-              }
-            },
-            {
-              "id": "80679117-f4e2-46f1-95c8-6b897a7d0936",
-              "type": "basic.code",
-              "data": {
-                "ports": {
-                  "in": [
-                    {
-                      "name": "clk"
-                    },
-                    {
-                      "name": "d",
-                      "range": "[1:0]",
-                      "size": 2
-                    },
-                    {
-                      "name": "load"
-                    }
-                  ],
-                  "out": [
-                    {
-                      "name": "q",
-                      "range": "[1:0]",
-                      "size": 2
-                    }
-                  ]
-                },
-                "params": [
-                  {
-                    "name": "INI"
-                  }
-                ],
-                "code": "//-- Generic register\n//-- Number of bits\nlocalparam N = 2;\n\n//-- Initial value\nreg [N-1:0] q = INI;\n\nalways @(posedge clk)\n\n  //-- The value is load only if  \n  //-- load is 1\n  if (load == 1'b1)\n    q <= d;\n  \n\n"
-              },
-              "position": {
-                "x": 728,
-                "y": 128
-              },
-              "size": {
-                "width": 328,
-                "height": 280
-              }
-            }
-          ],
-          "wires": [
-            {
-              "source": {
-                "block": "1ee1f0e1-9e00-4224-82dd-d976319e771f",
-                "port": "constant-out"
-              },
-              "target": {
-                "block": "80679117-f4e2-46f1-95c8-6b897a7d0936",
-                "port": "INI"
-              },
-              "vertices": []
-            },
-            {
-              "source": {
-                "block": "c39743c3-1b76-483c-8613-15f2782d0809",
-                "port": "out"
-              },
-              "target": {
-                "block": "80679117-f4e2-46f1-95c8-6b897a7d0936",
-                "port": "clk"
-              },
-              "vertices": []
-            },
-            {
-              "source": {
-                "block": "f1022de4-0225-43d7-92d3-451161ee6942",
-                "port": "out"
-              },
-              "target": {
-                "block": "80679117-f4e2-46f1-95c8-6b897a7d0936",
-                "port": "load"
-              }
-            },
-            {
-              "source": {
-                "block": "1b621e37-f1b1-46a7-8450-5500bb513afb",
-                "port": "out"
-              },
-              "target": {
-                "block": "80679117-f4e2-46f1-95c8-6b897a7d0936",
-                "port": "d"
-              },
-              "size": 2
-            },
-            {
-              "source": {
-                "block": "80679117-f4e2-46f1-95c8-6b897a7d0936",
-                "port": "q"
-              },
-              "target": {
-                "block": "8e68dac0-4473-40be-a907-0eb952ae4420",
-                "port": "in"
-              },
-              "size": 2
             }
           ]
         }
@@ -26541,6 +26161,419 @@
                 "block": "2cc2ff9d-ebfc-43e2-83d7-5c4a6d8c77e6",
                 "port": "clk"
               }
+            }
+          ]
+        }
+      }
+    },
+    "20382dd40e068691a472e43bcae7fb8bace44d76": {
+      "package": {
+        "name": "02-Reg-rst",
+        "version": "0.5",
+        "description": "02-Reg-rst: 2-bits Register with load and reset inputs. Verilog implementation",
+        "author": "Juan González-Gómez (Obijuan)",
+        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22286.865%22%20height=%22270.812%22%20viewBox=%220%200%2075.899794%2071.65232%22%3E%3Cpath%20d=%22M43.907%2033.607h10.645%22%20color=%22#000%22%20fill=%22#00f%22/%3E%3Cg%20stroke=%22#000%22%20stroke-width=%221.442%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%3E%3Cpath%20d=%22M102.876%20163.95l4.552%2028.037%205.644-28.037%22%20fill=%22#ccc%22%20transform=%22matrix(.65581%20-.3791%20.37863%20.6566%20-85.712%20-27.533)%22/%3E%3Cpath%20d=%22M99.758%20149.859l2.39-28.512h-9.831v-5.462h31.86v5.462h-9.284l1.724%2028.769s7.509%201.248%209.269%206.48c1.76%205.231-.367%207.286.15%207.36l-36.077-.044s-.817-6.104%202.015-9.194c2.832-3.09%207.784-4.86%207.784-4.86z%22%20fill=%22red%22%20transform=%22matrix(.65581%20-.3791%20.37863%20.6566%20-85.712%20-27.533)%22/%3E%3C/g%3E%3Cg%20stroke=%22#000%22%20stroke-width=%221.442%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%3E%3Cpath%20d=%22M102.876%20163.95l4.552%2028.037%205.644-28.037%22%20fill=%22#ccc%22%20transform=%22matrix(.65581%20-.3791%20.37863%20.6566%20-69.38%20-28.47)%22/%3E%3Cpath%20d=%22M99.758%20149.859l2.39-28.512h-9.831v-5.462h31.86v5.462h-9.284l1.724%2028.769s7.509%201.248%209.269%206.48c1.76%205.231-.367%207.286.15%207.36l-36.077-.044s-.817-6.104%202.015-9.194c2.832-3.09%207.784-4.86%207.784-4.86z%22%20fill=%22red%22%20transform=%22matrix(.65581%20-.3791%20.37863%20.6566%20-69.38%20-28.47)%22/%3E%3C/g%3E%3Cg%20transform=%22translate(-93.518%20-25.072)%20scale(1.09073)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20cx=%22100.602%22%20cy=%2273.815%22%20r=%2214.559%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3C/svg%3E",
+        "otid": 1618509859237
+      },
+      "design": {
+        "graph": {
+          "blocks": [
+            {
+              "id": "ca7c5f10-efb6-43f9-9364-52d751fc0bc6",
+              "type": "basic.input",
+              "data": {
+                "name": "",
+                "clock": true
+              },
+              "position": {
+                "x": 560,
+                "y": 64
+              }
+            },
+            {
+              "id": "36fccd77-8921-45ec-b4f9-9dd209acaefa",
+              "type": "basic.output",
+              "data": {
+                "name": "nc"
+              },
+              "position": {
+                "x": 1184,
+                "y": 72
+              }
+            },
+            {
+              "id": "93c58f23-2a4f-40ba-8cc1-80e434606d4e",
+              "type": "basic.output",
+              "data": {
+                "name": "nc"
+              },
+              "position": {
+                "x": 1184,
+                "y": 144
+              }
+            },
+            {
+              "id": "c97f7411-94ef-4d63-ba23-ce596ebcbb25",
+              "type": "basic.input",
+              "data": {
+                "name": "rst",
+                "clock": false
+              },
+              "position": {
+                "x": 560,
+                "y": 168
+              }
+            },
+            {
+              "id": "521f03e5-f364-41b0-a2b8-c7858e6debf5",
+              "type": "basic.output",
+              "data": {
+                "name": "",
+                "range": "[1:0]",
+                "size": 2
+              },
+              "position": {
+                "x": 1184,
+                "y": 224
+              }
+            },
+            {
+              "id": "e699a6f3-fd6f-49dc-a8d3-d35853cb8e6b",
+              "type": "basic.input",
+              "data": {
+                "name": "",
+                "range": "[1:0]",
+                "clock": false,
+                "size": 2
+              },
+              "position": {
+                "x": 560,
+                "y": 272
+              }
+            },
+            {
+              "id": "f1022de4-0225-43d7-92d3-451161ee6942",
+              "type": "basic.input",
+              "data": {
+                "name": "load",
+                "clock": false
+              },
+              "position": {
+                "x": 560,
+                "y": 376
+              }
+            },
+            {
+              "id": "9544d010-d8ad-4946-b068-6b9273721873",
+              "type": "basic.output",
+              "data": {
+                "name": "nc"
+              },
+              "position": {
+                "x": 1184,
+                "y": 376
+              }
+            },
+            {
+              "id": "d9020031-ade2-47d0-bca0-4b88fe7eaebd",
+              "type": "basic.constant",
+              "data": {
+                "name": "",
+                "value": "0",
+                "local": false
+              },
+              "position": {
+                "x": 864,
+                "y": -80
+              }
+            },
+            {
+              "id": "2947d492-028d-487a-83fa-b2f84a2e2d2f",
+              "type": "basic.code",
+              "data": {
+                "ports": {
+                  "in": [
+                    {
+                      "name": "clk"
+                    },
+                    {
+                      "name": "rst"
+                    },
+                    {
+                      "name": "d",
+                      "range": "[1:0]",
+                      "size": 2
+                    },
+                    {
+                      "name": "load"
+                    }
+                  ],
+                  "out": [
+                    {
+                      "name": "q",
+                      "range": "[1:0]",
+                      "size": 2
+                    }
+                  ]
+                },
+                "params": [
+                  {
+                    "name": "INI"
+                  }
+                ],
+                "code": "//-- Generic register with reset\n//-- Number of bits\nlocalparam N = 2;\n\n//-- Initial value\nreg [N-1:0] qi = INI;\n\nalways @(posedge clk)\nbegin\n\n  //-- Reset has the priority\n  if (rst == 1'b1)\n    qi <= INI;\n    \n  else\n    //-- The value is load only if  \n    //-- load is 1\n    if (load == 1'b1)\n      qi <= d;\n      \n  //-- In any other case the reg\n  //-- keeps its value\nend\n\n//-- Connect the register with the\n//-- output\nassign q = qi;\n"
+              },
+              "position": {
+                "x": 720,
+                "y": 40
+              },
+              "size": {
+                "width": 376,
+                "height": 424
+              }
+            }
+          ],
+          "wires": [
+            {
+              "source": {
+                "block": "d9020031-ade2-47d0-bca0-4b88fe7eaebd",
+                "port": "constant-out"
+              },
+              "target": {
+                "block": "2947d492-028d-487a-83fa-b2f84a2e2d2f",
+                "port": "INI"
+              },
+              "vertices": []
+            },
+            {
+              "source": {
+                "block": "2947d492-028d-487a-83fa-b2f84a2e2d2f",
+                "port": "q"
+              },
+              "target": {
+                "block": "521f03e5-f364-41b0-a2b8-c7858e6debf5",
+                "port": "in"
+              },
+              "size": 2
+            },
+            {
+              "source": {
+                "block": "ca7c5f10-efb6-43f9-9364-52d751fc0bc6",
+                "port": "out"
+              },
+              "target": {
+                "block": "2947d492-028d-487a-83fa-b2f84a2e2d2f",
+                "port": "clk"
+              }
+            },
+            {
+              "source": {
+                "block": "e699a6f3-fd6f-49dc-a8d3-d35853cb8e6b",
+                "port": "out"
+              },
+              "target": {
+                "block": "2947d492-028d-487a-83fa-b2f84a2e2d2f",
+                "port": "d"
+              },
+              "size": 2
+            },
+            {
+              "source": {
+                "block": "c97f7411-94ef-4d63-ba23-ce596ebcbb25",
+                "port": "out"
+              },
+              "target": {
+                "block": "2947d492-028d-487a-83fa-b2f84a2e2d2f",
+                "port": "rst"
+              }
+            },
+            {
+              "source": {
+                "block": "f1022de4-0225-43d7-92d3-451161ee6942",
+                "port": "out"
+              },
+              "target": {
+                "block": "2947d492-028d-487a-83fa-b2f84a2e2d2f",
+                "port": "load"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "3fa68bf7b97d49e7a5e0a13c19db637ed405ee76": {
+      "package": {
+        "name": "02-Reg",
+        "version": "0.5",
+        "description": "02-Reg: 2 bits Register with load input. Verilog implementation",
+        "author": "Juan González-Gómez (Obijuan)",
+        "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22286.865%22%20height=%22270.812%22%20viewBox=%220%200%2075.899794%2071.65232%22%3E%3Cpath%20d=%22M43.907%2033.607h10.645%22%20color=%22#000%22%20fill=%22#00f%22/%3E%3Cg%20stroke=%22#000%22%20stroke-width=%221.442%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%3E%3Cpath%20d=%22M102.876%20163.95l4.552%2028.037%205.644-28.037%22%20fill=%22#ccc%22%20transform=%22matrix(.65581%20-.3791%20.37863%20.6566%20-85.712%20-27.533)%22/%3E%3Cpath%20d=%22M99.758%20149.859l2.39-28.512h-9.831v-5.462h31.86v5.462h-9.284l1.724%2028.769s7.509%201.248%209.269%206.48c1.76%205.231-.367%207.286.15%207.36l-36.077-.044s-.817-6.104%202.015-9.194c2.832-3.09%207.784-4.86%207.784-4.86z%22%20fill=%22red%22%20transform=%22matrix(.65581%20-.3791%20.37863%20.6566%20-85.712%20-27.533)%22/%3E%3C/g%3E%3Cg%20stroke=%22#000%22%20stroke-width=%221.442%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%3E%3Cpath%20d=%22M102.876%20163.95l4.552%2028.037%205.644-28.037%22%20fill=%22#ccc%22%20transform=%22matrix(.65581%20-.3791%20.37863%20.6566%20-69.38%20-28.47)%22/%3E%3Cpath%20d=%22M99.758%20149.859l2.39-28.512h-9.831v-5.462h31.86v5.462h-9.284l1.724%2028.769s7.509%201.248%209.269%206.48c1.76%205.231-.367%207.286.15%207.36l-36.077-.044s-.817-6.104%202.015-9.194c2.832-3.09%207.784-4.86%207.784-4.86z%22%20fill=%22red%22%20transform=%22matrix(.65581%20-.3791%20.37863%20.6566%20-69.38%20-28.47)%22/%3E%3C/g%3E%3Cg%20transform=%22translate(-93.518%20-25.072)%20scale(1.09073)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20cx=%22100.602%22%20cy=%2273.815%22%20r=%2214.559%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3C/svg%3E",
+        "otid": 1618509859237
+      },
+      "design": {
+        "graph": {
+          "blocks": [
+            {
+              "id": "c39743c3-1b76-483c-8613-15f2782d0809",
+              "type": "basic.input",
+              "data": {
+                "name": "",
+                "clock": true
+              },
+              "position": {
+                "x": 568,
+                "y": 144
+              }
+            },
+            {
+              "id": "8e68dac0-4473-40be-a907-0eb952ae4420",
+              "type": "basic.output",
+              "data": {
+                "name": "",
+                "range": "[1:0]",
+                "size": 2
+              },
+              "position": {
+                "x": 1136,
+                "y": 240
+              }
+            },
+            {
+              "id": "1b621e37-f1b1-46a7-8450-5500bb513afb",
+              "type": "basic.input",
+              "data": {
+                "name": "",
+                "range": "[1:0]",
+                "clock": false,
+                "size": 2
+              },
+              "position": {
+                "x": 568,
+                "y": 240
+              }
+            },
+            {
+              "id": "f1022de4-0225-43d7-92d3-451161ee6942",
+              "type": "basic.input",
+              "data": {
+                "name": "load",
+                "clock": false
+              },
+              "position": {
+                "x": 568,
+                "y": 328
+              }
+            },
+            {
+              "id": "1ee1f0e1-9e00-4224-82dd-d976319e771f",
+              "type": "basic.constant",
+              "data": {
+                "name": "",
+                "value": "0",
+                "local": false
+              },
+              "position": {
+                "x": 848,
+                "y": 24
+              }
+            },
+            {
+              "id": "80679117-f4e2-46f1-95c8-6b897a7d0936",
+              "type": "basic.code",
+              "data": {
+                "ports": {
+                  "in": [
+                    {
+                      "name": "clk"
+                    },
+                    {
+                      "name": "d",
+                      "range": "[1:0]",
+                      "size": 2
+                    },
+                    {
+                      "name": "load"
+                    }
+                  ],
+                  "out": [
+                    {
+                      "name": "q",
+                      "range": "[1:0]",
+                      "size": 2
+                    }
+                  ]
+                },
+                "params": [
+                  {
+                    "name": "INI"
+                  }
+                ],
+                "code": "//-- Generic register\n//-- Number of bits\nlocalparam N = 2;\n\n//-- Initial value\nreg [N-1:0] qi = INI;\n\nalways @(posedge clk)\n\n  //-- The value is load only if  \n  //-- load is 1\n  if (load == 1'b1)\n    qi <= d;\n  \n//-- Connect the register with the\n//-- output\nassign q = qi;"
+              },
+              "position": {
+                "x": 728,
+                "y": 128
+              },
+              "size": {
+                "width": 328,
+                "height": 280
+              }
+            }
+          ],
+          "wires": [
+            {
+              "source": {
+                "block": "1ee1f0e1-9e00-4224-82dd-d976319e771f",
+                "port": "constant-out"
+              },
+              "target": {
+                "block": "80679117-f4e2-46f1-95c8-6b897a7d0936",
+                "port": "INI"
+              },
+              "vertices": []
+            },
+            {
+              "source": {
+                "block": "c39743c3-1b76-483c-8613-15f2782d0809",
+                "port": "out"
+              },
+              "target": {
+                "block": "80679117-f4e2-46f1-95c8-6b897a7d0936",
+                "port": "clk"
+              },
+              "vertices": []
+            },
+            {
+              "source": {
+                "block": "f1022de4-0225-43d7-92d3-451161ee6942",
+                "port": "out"
+              },
+              "target": {
+                "block": "80679117-f4e2-46f1-95c8-6b897a7d0936",
+                "port": "load"
+              }
+            },
+            {
+              "source": {
+                "block": "1b621e37-f1b1-46a7-8450-5500bb513afb",
+                "port": "out"
+              },
+              "target": {
+                "block": "80679117-f4e2-46f1-95c8-6b897a7d0936",
+                "port": "d"
+              },
+              "size": 2
+            },
+            {
+              "source": {
+                "block": "80679117-f4e2-46f1-95c8-6b897a7d0936",
+                "port": "q"
+              },
+              "target": {
+                "block": "8e68dac0-4473-40be-a907-0eb952ae4420",
+                "port": "in"
+              },
+              "size": 2
             }
           ]
         }
