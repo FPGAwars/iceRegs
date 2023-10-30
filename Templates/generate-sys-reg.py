@@ -25,21 +25,21 @@ def generate_sys_reg(nbits : int,
     #-- Reemplazar elementos de la plantilla por los propios del registro
     #----------------------------------------------------------------------
 
+    #-- Cambiar la Descripción
+    new_ice = ice_orig.replace(f"Sys-reg-02: Two bits",
+                              f"{block_name}: {nbits} bits")
+
     #-- Nombre del componente. Nombre en plantilla: "Sys-reg-02"
-    new_ice = ice_orig.replace(f"Sys-reg-02", f"block_name")
+    new_ice = new_ice.replace(f"Sys-reg-02", f"{block_name}")
 
     #-- Version del componente. Version plantilla: 0.4
     new_ice = new_ice.replace("0.4", f"{version}")
 
+    
+ 
     #-- Tamaño de los buses. Tamaño original: 2
     new_ice = new_ice.replace(f"[1:0]", f"[{nbits-1}:0]")
     new_ice = new_ice.replace(f'"size": 2', f'"size": {nbits}')
-
-    #-- Objetos de poines: Tantos como tenga el tamaño
-    #-- Tamaño 2:  "{},{}"
-    #-- Registro de 4 bits --> "{},{},{},{}"
-    new_ice = new_ice.replace(r"{},{}",
-                              r"{}," * (nbits-1) + r"{}")
     
     #-- Cambiar el numero de bits en el codigo verilog
     new_ice = new_ice.replace("localparam N = 2", 

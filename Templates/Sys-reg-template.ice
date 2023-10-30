@@ -13,7 +13,7 @@
     "graph": {
       "blocks": [
         {
-          "id": "e0d81a47-d26f-476b-be1f-e4d36eea4692",
+          "id": "e1a94202-b953-492e-98ef-7f33548e273b",
           "type": "basic.output",
           "data": {
             "name": "nc"
@@ -24,27 +24,24 @@
           }
         },
         {
-          "id": "ca7c5f10-efb6-43f9-9364-52d751fc0bc6",
+          "id": "ddb7faf8-5783-464a-806d-e7cb3e38683b",
           "type": "basic.input",
           "data": {
             "name": "",
             "clock": true
           },
           "position": {
-            "x": 376,
+            "x": 384,
             "y": 88
           }
         },
         {
-          "id": "21e329c4-b83c-4fdd-abd1-21d0b45b980a",
+          "id": "adfb2cfe-8521-4f06-ac72-3d200ba84185",
           "type": "basic.output",
           "data": {
             "name": "",
-            "virtual": true,
             "range": "[1:0]",
-            "pins": [
-                {},{}
-            ]
+            "size": 2
           },
           "position": {
             "x": 968,
@@ -52,16 +49,13 @@
           }
         },
         {
-          "id": "101532e1-3f59-418f-a392-921817d268c8",
+          "id": "554e0534-d5da-4c8a-a78e-182a3698839e",
           "type": "basic.input",
           "data": {
             "name": "",
-            "virtual": true,
             "range": "[1:0]",
-            "pins": [
-              {},{}
-            ],
-            "clock": false
+            "clock": false,
+            "size": 2
           },
           "position": {
             "x": 376,
@@ -134,7 +128,18 @@
         },
         {
           "source": {
-            "block": "ca7c5f10-efb6-43f9-9364-52d751fc0bc6",
+            "block": "a488e8ac-cd04-4656-9880-218437a4aba0",
+            "port": "q"
+          },
+          "target": {
+            "block": "adfb2cfe-8521-4f06-ac72-3d200ba84185",
+            "port": "in"
+          },
+          "size": 2
+        },
+        {
+          "source": {
+            "block": "ddb7faf8-5783-464a-806d-e7cb3e38683b",
             "port": "out"
           },
           "target": {
@@ -144,18 +149,7 @@
         },
         {
           "source": {
-            "block": "a488e8ac-cd04-4656-9880-218437a4aba0",
-            "port": "q"
-          },
-          "target": {
-            "block": "21e329c4-b83c-4fdd-abd1-21d0b45b980a",
-            "port": "in"
-          },
-          "size": 2
-        },
-        {
-          "source": {
-            "block": "101532e1-3f59-418f-a392-921817d268c8",
+            "block": "554e0534-d5da-4c8a-a78e-182a3698839e",
             "port": "out"
           },
           "target": {
