@@ -1,65 +1,73 @@
+import sys
 
+def generable_iceBlock_from_template(
+        bid : str,  #-- Block identification string. Ex: "Reg"
+        version: str, #-- Block version
+        nbits: int, #-- Parameter: Number of bits for the Data
+        target_path="."  #-- Path where to store the component created
+        ):
+    """Generate an Icestudio block from a template. It is assumed that
+    the template file has a data and bus sizes of 2 bits
+    """
 
+    #-- Create the block name
+    block_name = f"{nbits:02}-{bid}"
 
-#-----------------------------------------------
-#-- Generar un registro del sistema de N bits
-#-----------------------------------------------
-def generate_sys_reg(nbits : int,
-                     version: str, 
-                     target_folder=".",
-                     template="Sys-reg-template.ice"):
-    """Generate one system register icestudio block"""
+    #-- Crete the block file name
+    block_filename = f"{block_name}.ice"
 
-    #-- Nombre del fichero destino
-    file_name = f"{nbits:02}-Sys-reg.ice"
+    #-- Create the Template filename
+    template_filename = f"Template-{bid}.ice"
 
-    # Abre el fichero con el registro plantilla
-    # leerlo y cerrarlo
-    with open(template, "r") as f:
-        ice_orig = f.read()
+    #-- Open the Template icestudio file and read it
+    #-- In case of error exit
+    try:
+        with open(template_filename, "r") as f:
+            ice = f.read()
+    except FileNotFoundError:
+        print()
+        print(f"--> ERROR: Template file '{template_filename}' not found")
+        print()
+        sys.exit()
 
-    #-- Nombre del componente (nombre en icestudio)
-    block_name = f"{nbits:02}-Sys-reg"
+    #-------------------------------------------------------------
+    #-- Change some fields fom the template file for the new ones
+    #-------------------------------------------------------------
 
-    #----------------------------------------------------------------------
-    #-- Reemplazar elementos de la plantilla por los propios del registro
-    #----------------------------------------------------------------------
+    #-- Set the block name
+    new_ice = ice.replace(f"<NAME>", f"{block_name}")
 
-    #-- Cambiar la Descripción
-    new_ice = ice_orig.replace(f"<DESCRIPTION>",
-        f"{block_name}: {nbits} bits system register. Verilog implementation")
-
-    #-- Nombre del componente. Nombre en plantilla: "Sys-reg-02"
-    new_ice = new_ice.replace(f"<NAME>", f"{block_name}")
-
-    #-- Version del componente
+    #-- Set the block Version
     new_ice = new_ice.replace("<VERSION>", f"{version}")
 
-    
- 
-    #-- Tamaño de los buses. Tamaño original: 2
+    #-- Set the block description
+    new_ice = new_ice.replace(f"<DESCRIPTION>",
+        f"{block_name}: {nbits} bits system register. Verilog implementation")
+
+    #-- Set the new buses and data size. It is always 2 in the template
     new_ice = new_ice.replace(f"[1:0]", f"[{nbits-1}:0]")
     new_ice = new_ice.replace(f'"size": 2', f'"size": {nbits}')
-    
-    #-- Cambiar el numero de bits en el codigo verilog
+
+    #-- Change the size in the verilog code (Parameter N)
     new_ice = new_ice.replace("localparam N = 2", 
                               f"localparam N = {nbits}")
-
-    # Generar el fichero de salida
-    with open(f"{target_folder}/{file_name}", "w") as f:
-
-        # Escribe la cadena de texto
+    
+    #-- Write the new generated component in the file
+    with open(f"{target_path}/{block_filename}", "w") as f:
         f.write(new_ice)
         f.write("\n")
 
-    print(f"{block_name} --> {target_folder}/{file_name}")
+    #-- Verbose output:
+    print(f"({template_filename}) {block_name} --> {target_path}/{block_filename}")
 
 
 #-- Main
-TARGET = "../blocks/Sys-Regs"
-VERSION = "0.7"
-for i in range(2,33):
-    generate_sys_reg(i, VERSION, TARGET)
+if __name__ == "__main__":
+    VERSION = "0.7"
+    TARGET_PATH = "../blocks/Sys-Regs"
+    generable_iceBlock_from_template("Sys-reg", VERSION, 3, TARGET_PATH)
+    #for i in range(2,33):
+    #    generate_sys_reg(i, VERSION, TARGET)
 
 
 
