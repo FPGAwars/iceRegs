@@ -734,7 +734,6 @@ gettext('Alhambra-II');
 gettext('01-manual-test');
 gettext('UINT8-4bits:  Extend a 4-bits unsigned integer to 8-bits ');
 gettext('4bits constant value: 0');
-gettext('04-Reg-rst: 2-bits Register with load and reset inputs. Verilog implementation');
 gettext('# TEST: 4-bits Reg-rst: Manual testing\n\n');
 gettext('Alhambra-II');
 gettext('01-manual-test');
