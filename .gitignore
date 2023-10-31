@@ -1,4 +1,6 @@
 *.mo
 Research
 ice-build/
+*.pyc
+
 
