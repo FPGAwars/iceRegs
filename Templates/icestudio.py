@@ -1,5 +1,22 @@
 import sys
 
+#---------------------------------------------------------------------
+#-- ICESTUDIO TEMPLATES
+#---------------------------------------------------------------------
+#- The Icestudio templates consist of a one-level block with only
+#- verilog code. They have a special names for these proyect fields:
+#-
+#- Name: <NAME>
+#- Version: <VERSION>
+#- Description: <DESCRIPTION>
+#-
+#- All the data pins should be 2 bits in size
+#- The verilog code should include the localparameter N initialized
+#- to 2:
+#-
+#-  "localparam N = 2;"
+#----------------------------------------------------------------------
+
 def generate_block_from_template(
         bid : str,  #-- Block identification string. Ex: "Reg"
         version: str, #-- Block version
@@ -31,7 +48,7 @@ def generate_block_from_template(
         sys.exit()
 
     #-------------------------------------------------------------
-    #-- Change some fields fom the template file for the new ones
+    #-- Set the new fields fom the template file 
     #-------------------------------------------------------------
 
     #-- Set the block name
