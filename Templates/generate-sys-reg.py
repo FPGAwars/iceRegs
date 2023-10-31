@@ -58,16 +58,23 @@ def generable_iceBlock_from_template(
         f.write("\n")
 
     #-- Verbose output:
-    print(f"({template_filename}) {block_name} --> {target_path}/{block_filename}")
+    print(f"({template_filename}): "
+          f"{block_name} --> {target_path}/{block_filename}")
 
 
 #-- Main
 if __name__ == "__main__":
+
+    #-- Set these constants
     VERSION = "0.7"
     TARGET_PATH = "../blocks/Sys-Regs"
-    generable_iceBlock_from_template("Sys-reg", VERSION, 3, TARGET_PATH)
-    #for i in range(2,33):
-    #    generate_sys_reg(i, VERSION, TARGET)
+
+    #-- Debug: Generate only one block in the current path for testing
+    #generable_iceBlock_from_template("Sys-reg", VERSION, 3)
+
+    #-- Generate all the blocks of different sizes (from 2 to 32 bits)
+    for i in range(2,33):
+        generable_iceBlock_from_template("Sys-reg", VERSION, i, TARGET_PATH)
 
 
 
