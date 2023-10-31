@@ -729,7 +729,6 @@ gettext('Bus8-Join-5-3: Join the two buses into an 8-bits Bus');
 gettext('5bits constant value: 0');
 gettext('Generic: 5-bits generic constant (0-31)');
 gettext('Generic: 3-bits generic constant (0-7)');
-gettext('03-Reg-rst: 2-bits Register with load and reset inputs. Verilog implementation');
 gettext('# TEST: 3-bits Reg-rst: Manual testing\n\n');
 gettext('Alhambra-II');
 gettext('01-manual-test');
