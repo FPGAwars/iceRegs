@@ -2,8 +2,8 @@ from icestudio import generate_block_from_template
 
 BLOCK_ID = "Sys-reg"
 VERSION = "0.8"
-TARGET_PATH = f"../blocks/{BLOCK_ID}"
 DESCRIPTION = "system register. Verilog implementation"
+TARGET_PATH = f"../blocks/{BLOCK_ID}"
 
 #-- Debug: Generate only one block in the current path for testing
 #generate_block_from_template(3,BLOCK_ID, VERSION, DESCRIPTION)
