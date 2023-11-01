@@ -63,13 +63,7 @@ For installing and using this colection in Icestudio follow these steps:
   * 30-Reg
   * 31-Reg
   * 32-Reg
-  * **Blocks**
-    * 02-Reg
-    * 04-Reg
-    * 08-Reg
-    * 16-Reg
-    * 32-Reg
-* **Regs-rst**
+* **Reg-rst**
   * 02-Reg-rst
   * 03-Reg-rst
   * 04-Reg-rst
@@ -107,6 +101,12 @@ For installing and using this colection in Icestudio follow these steps:
     * 08-Reg-rst
     * 16-Reg-rst
     * 32-Reg-rst
+  * **Blocks**
+    * 02-Reg
+    * 04-Reg
+    * 08-Reg
+    * 16-Reg
+    * 32-Reg
 * **Sys-reg**
   * 02-Sys-reg
   * 03-Sys-reg
