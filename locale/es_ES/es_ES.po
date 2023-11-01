@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-01 08:20+0000\n"
+"POT-Creation-Date: 2023-11-01 08:30+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -1750,27 +1750,27 @@ msgid "Not connected"
 msgstr "No conectado"
 
 #: translation.js:319 translation.js:369 translation.js:476 translation.js:477
-#: translation.js:481 translation.js:482
+#: translation.js:480 translation.js:482
 msgid "01-Sys-Regs-two-values"
 msgstr "01-Sys-Regs-two-values"
 
 #: translation.js:320 translation.js:498 translation.js:523 translation.js:527
-#: translation.js:529 translation.js:530 translation.js:977
+#: translation.js:528 translation.js:530 translation.js:977
 msgid "02-Sys-Regs-four-values"
 msgstr "02-Sys-Regs-four-values"
 
 #: translation.js:321 translation.js:536 translation.js:550 translation.js:551
-#: translation.js:553 translation.js:554
+#: translation.js:552 translation.js:554
 msgid "03-Sys-Regs-rst-two-values"
 msgstr "03-Sys-Regs-rst-two-values"
 
 #: translation.js:322 translation.js:560 translation.js:564 translation.js:565
-#: translation.js:567 translation.js:568
+#: translation.js:566 translation.js:568
 msgid "04-Reg-values-on-LEDs"
 msgstr "04-Reg-values-on-LEDs"
 
 #: translation.js:323 translation.js:574 translation.js:576 translation.js:577
-#: translation.js:579 translation.js:580
+#: translation.js:578 translation.js:580
 msgid "05-Reg-rst-values-on-LEDs"
 msgstr "05-Reg-rst-values-on-LEDs"
 
@@ -2657,10 +2657,6 @@ msgid "Priority on set"
 msgstr "Prioridad en el set"
 
 #: translation.js:478
-msgid "Sys-reg-02: Two bits system register"
-msgstr "Sys-reg-02: Registro del sistema de 2 bits"
-
-#: translation.js:479
 msgid ""
 "Button-tic: Configurable button that emits a tic when it is pressed. ECP5 "
 "FPGA Family"
@@ -2668,9 +2664,13 @@ msgstr ""
 "Button-tic: Botón configurable que emite un tic cuando se aprieta. Familia "
 "de FPGAs ECP5"
 
-#: translation.js:480
+#: translation.js:479
 msgid "Configurable button (pull-up on/off. Not on/off). ECP5 FPGA family"
 msgstr "Botón configurable (pull-up on/off. Not on/off). Familia de FPGA ECP5"
+
+#: translation.js:481
+msgid "Sys-reg-02: Two bits system register"
+msgstr "Sys-reg-02: Registro del sistema de 2 bits"
 
 #: translation.js:483
 msgid "6bits constant value: 0"
@@ -2863,7 +2863,7 @@ msgstr ""
 "LED3\n"
 "d\n"
 
-#: translation.js:528
+#: translation.js:529
 msgid "Sys-reg-8: 8 bits system register"
 msgstr "Sys-reg-8: Registro del sistema de 8 bits"
 
@@ -2949,7 +2949,7 @@ msgstr "Valor inicial: 0"
 msgid "Falling edge"
 msgstr "Flanco de bajada"
 
-#: translation.js:552
+#: translation.js:553
 msgid ""
 "Sys-reg-rst-08-verilog: Two bits system register with reset. Verilog "
 "implementation"
@@ -2985,7 +2985,7 @@ msgstr ""
 msgid "8-bit Register"
 msgstr "8-bit Register"
 
-#: translation.js:566
+#: translation.js:567
 msgid "Reg-8-verilog: 8 bits Register with load input. Verilog implementation"
 msgstr ""
 "Reg-8-verilog: Registro de 8 bits con entradas de load y reset. "
@@ -3010,7 +3010,7 @@ msgstr ""
 "valor 0x55  \n"
 "Cuando se aprieta `SW2`, el registro se resetea y se muestra el valor inicial"
 
-#: translation.js:578
+#: translation.js:579
 msgid ""
 "Reg-rst-8-verilog: 8-bits Register with load and reset inputs. Verilog "
 "implementation"
