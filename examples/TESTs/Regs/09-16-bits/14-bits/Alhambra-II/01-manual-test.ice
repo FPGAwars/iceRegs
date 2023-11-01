@@ -260,8 +260,8 @@
           }
         },
         {
-          "id": "fcd32f9d-1945-4f97-9dc8-66a600544bf4",
-          "type": "3f46e7098cbfc89f478974c33db91d27430a5b62",
+          "id": "8090ad7e-c825-4f02-a583-96df9eb19252",
+          "type": "7804c7964e7bd728fc7ce65d6b9f6068115f1131",
           "position": {
             "x": 816,
             "y": 344
@@ -279,7 +279,7 @@
             "port": "constant-out"
           },
           "target": {
-            "block": "fcd32f9d-1945-4f97-9dc8-66a600544bf4",
+            "block": "8090ad7e-c825-4f02-a583-96df9eb19252",
             "port": "1ee1f0e1-9e00-4224-82dd-d976319e771f"
           }
         },
@@ -309,7 +309,7 @@
             "port": "997db8c4-b772-49d8-83e7-4427aff720e6"
           },
           "target": {
-            "block": "fcd32f9d-1945-4f97-9dc8-66a600544bf4",
+            "block": "8090ad7e-c825-4f02-a583-96df9eb19252",
             "port": "f1022de4-0225-43d7-92d3-451161ee6942"
           }
         },
@@ -374,14 +374,14 @@
             "port": "eecc16dc-2b03-4f7b-bc80-7bbc3012a333"
           },
           "target": {
-            "block": "fcd32f9d-1945-4f97-9dc8-66a600544bf4",
+            "block": "8090ad7e-c825-4f02-a583-96df9eb19252",
             "port": "1b621e37-f1b1-46a7-8450-5500bb513afb"
           },
           "size": 14
         },
         {
           "source": {
-            "block": "fcd32f9d-1945-4f97-9dc8-66a600544bf4",
+            "block": "8090ad7e-c825-4f02-a583-96df9eb19252",
             "port": "8e68dac0-4473-40be-a907-0eb952ae4420"
           },
           "target": {
@@ -13827,11 +13827,11 @@
         }
       }
     },
-    "3f46e7098cbfc89f478974c33db91d27430a5b62": {
+    "7804c7964e7bd728fc7ce65d6b9f6068115f1131": {
       "package": {
         "name": "14-Reg",
-        "version": "0.5",
-        "description": "14-Reg: 2 bits Register with load input. Verilog implementation",
+        "version": "0.7",
+        "description": "14-Reg: 14 bits system register. Verilog implementation",
         "author": "Juan González-Gómez (Obijuan)",
         "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22286.865%22%20height=%22270.812%22%20viewBox=%220%200%2075.899794%2071.65232%22%3E%3Cpath%20d=%22M43.907%2033.607h10.645%22%20color=%22#000%22%20fill=%22#00f%22/%3E%3Cg%20stroke=%22#000%22%20stroke-width=%221.442%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%3E%3Cpath%20d=%22M102.876%20163.95l4.552%2028.037%205.644-28.037%22%20fill=%22#ccc%22%20transform=%22matrix(.65581%20-.3791%20.37863%20.6566%20-85.712%20-27.533)%22/%3E%3Cpath%20d=%22M99.758%20149.859l2.39-28.512h-9.831v-5.462h31.86v5.462h-9.284l1.724%2028.769s7.509%201.248%209.269%206.48c1.76%205.231-.367%207.286.15%207.36l-36.077-.044s-.817-6.104%202.015-9.194c2.832-3.09%207.784-4.86%207.784-4.86z%22%20fill=%22red%22%20transform=%22matrix(.65581%20-.3791%20.37863%20.6566%20-85.712%20-27.533)%22/%3E%3C/g%3E%3Cg%20stroke=%22#000%22%20stroke-width=%221.442%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%3E%3Cpath%20d=%22M102.876%20163.95l4.552%2028.037%205.644-28.037%22%20fill=%22#ccc%22%20transform=%22matrix(.65581%20-.3791%20.37863%20.6566%20-69.38%20-28.47)%22/%3E%3Cpath%20d=%22M99.758%20149.859l2.39-28.512h-9.831v-5.462h31.86v5.462h-9.284l1.724%2028.769s7.509%201.248%209.269%206.48c1.76%205.231-.367%207.286.15%207.36l-36.077-.044s-.817-6.104%202.015-9.194c2.832-3.09%207.784-4.86%207.784-4.86z%22%20fill=%22red%22%20transform=%22matrix(.65581%20-.3791%20.37863%20.6566%20-69.38%20-28.47)%22/%3E%3C/g%3E%3Cg%20transform=%22translate(-93.518%20-25.072)%20scale(1.09073)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20cx=%22100.602%22%20cy=%2273.815%22%20r=%2214.559%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3C/svg%3E",
         "otid": 1618509859237
