@@ -2,7 +2,7 @@
   "version": "1.2",
   "package": {
     "name": "04-Reg-rst-blocks",
-    "version": "0.4",
+    "version": "0.5",
     "description": "04-Reg-rst: 4 bits Register with load and reset inputs. Block implementation",
     "author": "Juan González-Gómez (Obijuan)",
     "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22286.865%22%20height=%22270.812%22%20viewBox=%220%200%2075.899794%2071.65232%22%3E%3Cpath%20d=%22M43.907%2033.607h10.645%22%20color=%22#000%22%20fill=%22#00f%22/%3E%3Cg%20stroke=%22#000%22%20stroke-width=%221.442%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%3E%3Cpath%20d=%22M102.876%20163.95l4.552%2028.037%205.644-28.037%22%20fill=%22#ccc%22%20transform=%22matrix(.65581%20-.3791%20.37863%20.6566%20-85.712%20-27.533)%22/%3E%3Cpath%20d=%22M99.758%20149.859l2.39-28.512h-9.831v-5.462h31.86v5.462h-9.284l1.724%2028.769s7.509%201.248%209.269%206.48c1.76%205.231-.367%207.286.15%207.36l-36.077-.044s-.817-6.104%202.015-9.194c2.832-3.09%207.784-4.86%207.784-4.86z%22%20fill=%22red%22%20transform=%22matrix(.65581%20-.3791%20.37863%20.6566%20-85.712%20-27.533)%22/%3E%3C/g%3E%3Cg%20stroke=%22#000%22%20stroke-width=%221.442%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%3E%3Cpath%20d=%22M102.876%20163.95l4.552%2028.037%205.644-28.037%22%20fill=%22#ccc%22%20transform=%22matrix(.65581%20-.3791%20.37863%20.6566%20-69.38%20-28.47)%22/%3E%3Cpath%20d=%22M99.758%20149.859l2.39-28.512h-9.831v-5.462h31.86v5.462h-9.284l1.724%2028.769s7.509%201.248%209.269%206.48c1.76%205.231-.367%207.286.15%207.36l-36.077-.044s-.817-6.104%202.015-9.194c2.832-3.09%207.784-4.86%207.784-4.86z%22%20fill=%22red%22%20transform=%22matrix(.65581%20-.3791%20.37863%20.6566%20-69.38%20-28.47)%22/%3E%3C/g%3E%3Cg%20transform=%22translate(-93.518%20-25.072)%20scale(1.09073)%22%20stroke=%22green%22%20stroke-linecap=%22round%22%3E%3Ccircle%20cx=%22100.602%22%20cy=%2273.815%22%20r=%2214.559%22%20fill=%22#ececec%22%20stroke-width=%22.608%22%20stroke-linejoin=%22round%22/%3E%3Cpath%20d=%22M106.978%2082.142h-3.353V63.316H97.54v18.678h-3.652%22%20fill=%22none%22%20stroke-width=%221.521%22/%3E%3C/g%3E%3C/svg%3E",
@@ -276,8 +276,8 @@
           }
         },
         {
-          "id": "6bc23841-2fe1-4928-8b3d-ef562c5c8d4d",
-          "type": "d5ed974e96b535255ac3106cc7c6d88b37ce5f8f",
+          "id": "dcdb422e-068d-4569-9a6d-db959f13c6ca",
+          "type": "00ad2e84b8095de81f46e84aa9b5b9c6090e5fb0",
           "position": {
             "x": 968,
             "y": 96
@@ -305,7 +305,7 @@
             "port": "outlabel"
           },
           "target": {
-            "block": "6bc23841-2fe1-4928-8b3d-ef562c5c8d4d",
+            "block": "dcdb422e-068d-4569-9a6d-db959f13c6ca",
             "port": "0ae5a502-ee21-47ad-bacb-405a35a87a91"
           }
         },
@@ -345,7 +345,7 @@
             "port": "outlabel"
           },
           "target": {
-            "block": "6bc23841-2fe1-4928-8b3d-ef562c5c8d4d",
+            "block": "dcdb422e-068d-4569-9a6d-db959f13c6ca",
             "port": "892d93f1-9c4c-46c1-82c7-ff9702a5725a"
           },
           "vertices": [
@@ -357,7 +357,7 @@
         },
         {
           "source": {
-            "block": "6bc23841-2fe1-4928-8b3d-ef562c5c8d4d",
+            "block": "dcdb422e-068d-4569-9a6d-db959f13c6ca",
             "port": "7995c7b0-4a39-4a19-aaa4-68f4e469912f",
             "size": 4
           },
@@ -427,7 +427,7 @@
             "port": "constant-out"
           },
           "target": {
-            "block": "6bc23841-2fe1-4928-8b3d-ef562c5c8d4d",
+            "block": "dcdb422e-068d-4569-9a6d-db959f13c6ca",
             "port": "d1e52cbe-a82e-4bea-9ed0-e970eec3e43e"
           }
         },
@@ -437,7 +437,7 @@
             "port": "10cce266-c0e4-460d-b4d8-58c523b895f3"
           },
           "target": {
-            "block": "6bc23841-2fe1-4928-8b3d-ef562c5c8d4d",
+            "block": "dcdb422e-068d-4569-9a6d-db959f13c6ca",
             "port": "c48a2779-52ed-4dde-8f95-e8ce67397de8"
           },
           "size": 4
@@ -601,11 +601,11 @@
         }
       }
     },
-    "d5ed974e96b535255ac3106cc7c6d88b37ce5f8f": {
+    "00ad2e84b8095de81f46e84aa9b5b9c6090e5fb0": {
       "package": {
-        "name": "block_name-rst",
-        "version": "0.5",
-        "description": "block_name-rst: 2-bits system register with reset. Verilog implementation",
+        "name": "04-Sys-reg-rst",
+        "version": "0.7",
+        "description": "04-Sys-reg-rst: 4 bits system register. Verilog implementation",
         "author": "Juan González-Gómez (Obijuan)",
         "image": "%3Csvg%20width=%22252.294%22%20height=%22220.368%22%20viewBox=%220%200%2066.75283%2058.305748%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg%20stroke=%22#000%22%20stroke-width=%221.442%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%3E%3Cpath%20d=%22M25.682%2041.088L39.29%2057.76l-6.918-20.534%22%20fill=%22#ccc%22%20stroke-width=%221.0924880399999999%22/%3E%3Cpath%20d=%22M18.298%2033.024L9.066%2013.41l-6.45%203.724-2.07-3.583%2020.905-12.07%202.069%203.584-6.092%203.517%2012.03%2018.223s5.399-2.025%208.535.74c3.137%202.766%202.52%204.92%202.887%204.773L17.192%2045.956s-2.848-3.695-2.16-6.795c.688-3.1%203.266-6.137%203.266-6.137z%22%20fill=%22red%22%20stroke-width=%221.0924880399999999%22/%3E%3C/g%3E%3Cg%20stroke=%22#000%22%20stroke-width=%221.442%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%3E%3Cpath%20d=%22M42.022%2040.152l13.607%2016.672-6.918-20.534%22%20fill=%22#ccc%22%20stroke-width=%221.0924880399999999%22/%3E%3Cpath%20d=%22M34.638%2032.088l-9.232-19.613-6.451%203.724-2.07-3.583L37.792.546%2039.86%204.13l-6.093%203.517%2012.03%2018.223s5.4-2.025%208.536.74c3.137%202.766%202.52%204.92%202.887%204.772L33.532%2045.02s-2.848-3.695-2.16-6.795c.688-3.1%203.266-6.137%203.266-6.137z%22%20fill=%22red%22%20stroke-width=%221.0924880399999999%22/%3E%3C/g%3E%3Cg%20transform=%22translate(-38.356%20-17.732)%22%3E%3Crect%20width=%2224.412%22%20height=%2213.185%22%20x=%2280.3%22%20y=%2221.375%22%20ry=%222.247%22%20fill=%22#fff%22%20stroke=%22#000%22%20stroke-width=%22.794%22%20stroke-linecap=%22round%22/%3E%3Ctext%20style=%22line-height:1.25%22%20x=%2282.245%22%20y=%2230.943%22%20font-weight=%22400%22%20font-size=%2210.583%22%20font-family=%22sans-serif%22%20fill=%22#00f%22%20stroke-width=%22.265%22%3E%3Ctspan%20style=%22-inkscape-font-specification:'sans-serif%20Bold'%22%20x=%2282.245%22%20y=%2230.943%22%20font-weight=%22700%22%3ESys%3C/tspan%3E%3C/text%3E%3C/g%3E%3C/svg%3E",
         "otid": 1618509859237
