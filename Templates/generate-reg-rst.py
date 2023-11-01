@@ -2,7 +2,7 @@ from icestudio import generate_block_from_template
 
 BLOCK_ID = "Reg-rst"
 VERSION = "0.8"
-DESCRIPTION = "Register. Verilog implementation"
+DESCRIPTION = "Register with reset. Verilog implementation"
 TARGET_PATH = f"../blocks/{BLOCK_ID}"
 
 #-- Debug: Generate only one block in the current path for testing
