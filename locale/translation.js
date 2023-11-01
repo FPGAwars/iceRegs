@@ -1178,6 +1178,7 @@ gettext('# TEST: 2-bits Sys-reg: Manual testing\n\n');
 gettext('Alhambra-II');
 gettext('01-manual-test');
 gettext('Bus4-Split-1-3: Split the 4-bits bus into two: 1-bit and 3-bits buses');
+gettext('Sys-TFF: System TFF: It toogles its output on every system cycle. Verilog implementation');
 gettext('# TEST: 3-bits Sys-reg: Manual testing\n\n');
 gettext('Alhambra-II');
 gettext('01-manual-test');
