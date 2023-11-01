@@ -31,7 +31,7 @@ For installing and using this colection in Icestudio follow these steps:
 | Spanish |  es_ES | ![](https://progress-bar.dev/64) |
 
 ## Blocks
-* **Regs**
+* **Reg**
   * 02-Reg
   * 03-Reg
   * 04-Reg
@@ -63,6 +63,12 @@ For installing and using this colection in Icestudio follow these steps:
   * 30-Reg
   * 31-Reg
   * 32-Reg
+  * **Blocks**
+    * 02-Reg
+    * 04-Reg
+    * 08-Reg
+    * 16-Reg
+    * 32-Reg
 * **Regs-rst**
   * 02-Reg-rst
   * 03-Reg-rst
@@ -101,12 +107,6 @@ For installing and using this colection in Icestudio follow these steps:
     * 08-Reg-rst
     * 16-Reg-rst
     * 32-Reg-rst
-  * **Blocks**
-    * 02-Reg
-    * 04-Reg
-    * 08-Reg
-    * 16-Reg
-    * 32-Reg
 * **Sys-reg**
   * 02-Sys-reg
   * 03-Sys-reg
