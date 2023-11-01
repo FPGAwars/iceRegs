@@ -291,7 +291,7 @@ gettext('31-Sys-reg-rst: 31 bits system register. Verilog implementation');
 gettext('32-Sys-reg-rst');
 gettext('32-Sys-reg-rst: 32 bits system register. Verilog implementation');
 gettext('02-Sys-reg-rst');
-gettext('02-Sys-reg-rst-02: Two bits system register with reset. Block implementation');
+gettext('02-Sys-reg-rst: 02 bits system register with reset. Block implementation');
 gettext('Generic: 2-bits generic constant (0,1,2,3)');
 gettext('04-Sys-reg-rst');
 gettext('04-Sys-reg-rst: 4 bits system register with reset. Block implementation');
