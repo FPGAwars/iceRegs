@@ -18,9 +18,10 @@ import sys
 #----------------------------------------------------------------------
 
 def generate_block_from_template(
+        nbits: int, #-- Parameter: Number of bits for the Data
         bid : str,  #-- Block identification string. Ex: "Reg"
         version: str, #-- Block version
-        nbits: int, #-- Parameter: Number of bits for the Data
+        description: str, #-- Description
         target_path="."  #-- Path where to store the component created
         ):
     """Generate an Icestudio block from a template. It is assumed that
@@ -59,8 +60,7 @@ def generate_block_from_template(
 
     #-- Set the block description
     new_ice = new_ice.replace(f"<DESCRIPTION>",
-        f"{block_name}: {nbits} bits system register. "
-        f"Verilog implementation")
+        f"{block_name}: {nbits} bits {description}")
 
     #-- Set the new buses and data size. It is always 2 in the template
     new_ice = new_ice.replace(f"[1:0]", f"[{nbits-1}:0]")
