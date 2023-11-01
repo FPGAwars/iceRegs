@@ -1209,11 +1209,11 @@ gettext('Data Ledoscope. 2 samples of 16bits data are taken initially, at the sy
 gettext('# TEST: 9-bits Sys-reg: Manual testing\n\n');
 gettext('Alhambra-II');
 gettext('01-manual-test');
-gettext('Reg-x16: 16bits register');
-gettext('2-to-1 Multplexer (16-bit channels)');
 gettext('# TEST: 10-bits Sys-reg: Manual testing\n\n');
 gettext('Alhambra-II');
 gettext('01-manual-test');
+gettext('Reg-x16: 16bits register');
+gettext('2-to-1 Multplexer (16-bit channels)');
 gettext('# TEST: 11-bits Sys-reg: Manual testing\n\n');
 gettext('Alhambra-II');
 gettext('01-manual-test');
