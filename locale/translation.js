@@ -1227,8 +1227,6 @@ gettext('01-manual-test');
 gettext('# TEST: 15-bits Sys-reg: Manual testing\n\n');
 gettext('Alhambra-II');
 gettext('01-manual-test');
-gettext('Reg-x16: 16bits register');
-gettext('2-to-1 Multplexer (16-bit channels)');
 gettext('# TEST: 16-bits Sys-reg: Manual testing\n\n');
 gettext('17-bits');
 gettext('18-bits');
