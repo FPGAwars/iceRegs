@@ -28,7 +28,7 @@ For installing and using this colection in Icestudio follow these steps:
 | Language | Locale | Translated strings |
 |----------|--------|--------------------|
 | English  |  en    | ![](https://progress-bar.dev/100) |
-| Spanish |  es_ES | ![](https://progress-bar.dev/67) |
+| Spanish |  es_ES | ![](https://progress-bar.dev/64) |
 
 ## Blocks
 * **Regs**
@@ -107,7 +107,39 @@ For installing and using this colection in Icestudio follow these steps:
     * 08-Reg
     * 16-Reg
     * 32-Reg
-* **Sys-Regs-rst**
+* **Sys-reg**
+  * 02-Sys-reg
+  * 03-Sys-reg
+  * 04-Sys-reg
+  * 05-Sys-reg
+  * 06-Sys-reg
+  * 07-Sys-reg
+  * 08-Sys-reg
+  * 09-Sys-reg
+  * 10-Sys-reg
+  * 11-Sys-reg
+  * 12-Sys-reg
+  * 13-Sys-reg
+  * 14-Sys-reg
+  * 15-Sys-reg
+  * 16-Sys-reg
+  * 17-Sys-reg
+  * 18-Sys-reg
+  * 19-Sys-reg
+  * 20-Sys-reg
+  * 21-Sys-reg
+  * 22-Sys-reg
+  * 23-Sys-reg
+  * 24-Sys-reg
+  * 25-Sys-reg
+  * 26-Sys-reg
+  * 27-Sys-reg
+  * 28-Sys-reg
+  * 29-Sys-reg
+  * 30-Sys-reg
+  * 31-Sys-reg
+  * 32-Sys-reg
+* **Sys-reg-rst**
   * 02-Sys-reg-rst
   * 03-Sys-reg-rst
   * 04-Sys-reg-rst
@@ -145,38 +177,6 @@ For installing and using this colection in Icestudio follow these steps:
     * 08-Sys-reg-rst
     * 16-Sys-reg-rst
     * 32-Sys-reg-rst
-* **Sys-reg**
-  * 02-Sys-reg
-  * 03-Sys-reg
-  * 04-Sys-reg
-  * 05-Sys-reg
-  * 06-Sys-reg
-  * 07-Sys-reg
-  * 08-Sys-reg
-  * 09-Sys-reg
-  * 10-Sys-reg
-  * 11-Sys-reg
-  * 12-Sys-reg
-  * 13-Sys-reg
-  * 14-Sys-reg
-  * 15-Sys-reg
-  * 16-Sys-reg
-  * 17-Sys-reg
-  * 18-Sys-reg
-  * 19-Sys-reg
-  * 20-Sys-reg
-  * 21-Sys-reg
-  * 22-Sys-reg
-  * 23-Sys-reg
-  * 24-Sys-reg
-  * 25-Sys-reg
-  * 26-Sys-reg
-  * 27-Sys-reg
-  * 28-Sys-reg
-  * 29-Sys-reg
-  * 30-Sys-reg
-  * 31-Sys-reg
-  * 32-Sys-reg
   * **Block**
     * 02-Sys-reg
 
