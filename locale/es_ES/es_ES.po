@@ -944,9 +944,8 @@ msgid "02-Sys-reg-rst"
 msgstr "02-Sys-reg-rst"
 
 #: translation.js:235
-#, fuzzy
 msgid "03-Sys-reg-rst"
-msgstr "Sys-reg-rst"
+msgstr "03-Sys-reg-rst"
 
 #: translation.js:236
 msgid ""
@@ -956,14 +955,12 @@ msgstr ""
 "Verilog"
 
 #: translation.js:237 translation.js:294
-#, fuzzy
 msgid "04-Sys-reg-rst"
-msgstr "Sys-reg-rst"
+msgstr "04-Sys-reg-rst"
 
 #: translation.js:238
-#, fuzzy
 msgid "05-Sys-reg-rst"
-msgstr "Sys-reg-rst"
+msgstr "05-Sys-reg-rst"
 
 #: translation.js:239
 msgid ""
@@ -973,9 +970,8 @@ msgstr ""
 "Verilog"
 
 #: translation.js:240
-#, fuzzy
 msgid "06-Sys-reg-rst"
-msgstr "Sys-reg-rst"
+msgstr "06-Sys-reg-rst"
 
 #: translation.js:241
 msgid ""
@@ -985,9 +981,8 @@ msgstr ""
 "Verilog"
 
 #: translation.js:242
-#, fuzzy
 msgid "07-Sys-reg-rst"
-msgstr "Sys-reg-rst"
+msgstr "07-Sys-reg-rst"
 
 #: translation.js:243
 msgid ""
@@ -997,14 +992,12 @@ msgstr ""
 "Verilog"
 
 #: translation.js:244 translation.js:297
-#, fuzzy
 msgid "08-Sys-reg-rst"
-msgstr "Sys-reg-rst"
+msgstr "08-Sys-reg-rst"
 
 #: translation.js:245
-#, fuzzy
 msgid "09-Sys-reg-rst"
-msgstr "Sys-reg-rst"
+msgstr "09-Sys-reg-rst"
 
 #: translation.js:246
 msgid ""
@@ -1014,9 +1007,8 @@ msgstr ""
 "Verilog"
 
 #: translation.js:247
-#, fuzzy
 msgid "10-Sys-reg-rst"
-msgstr "Sys-reg-rst"
+msgstr "10-Sys-reg-rst"
 
 #: translation.js:248
 msgid ""
@@ -1026,9 +1018,8 @@ msgstr ""
 "Verilog"
 
 #: translation.js:249
-#, fuzzy
 msgid "11-Sys-reg-rst"
-msgstr "Sys-reg-rst"
+msgstr "11-Sys-reg-rst"
 
 #: translation.js:250
 msgid ""
@@ -1038,9 +1029,8 @@ msgstr ""
 "Verilog"
 
 #: translation.js:251
-#, fuzzy
 msgid "12-Sys-reg-rst"
-msgstr "Sys-reg-rst"
+msgstr "12-Sys-reg-rst"
 
 #: translation.js:252
 msgid ""
@@ -1050,9 +1040,8 @@ msgstr ""
 "Verilog"
 
 #: translation.js:253
-#, fuzzy
 msgid "13-Sys-reg-rst"
-msgstr "Sys-reg-rst"
+msgstr "13-Sys-reg-rst"
 
 #: translation.js:254
 msgid ""
@@ -1062,9 +1051,8 @@ msgstr ""
 "Verilog"
 
 #: translation.js:255
-#, fuzzy
 msgid "14-Sys-reg-rst"
-msgstr "Sys-reg-rst"
+msgstr "14-Sys-reg-rst"
 
 #: translation.js:256
 msgid ""
@@ -1074,9 +1062,8 @@ msgstr ""
 "Verilog"
 
 #: translation.js:257
-#, fuzzy
 msgid "15-Sys-reg-rst"
-msgstr "Sys-reg-rst"
+msgstr "15-Sys-reg-rst"
 
 #: translation.js:258
 msgid ""
@@ -1086,14 +1073,12 @@ msgstr ""
 "Verilog"
 
 #: translation.js:259 translation.js:300
-#, fuzzy
 msgid "16-Sys-reg-rst"
-msgstr "Sys-reg-rst"
+msgstr "16-Sys-reg-rst"
 
 #: translation.js:260
-#, fuzzy
 msgid "17-Sys-reg-rst"
-msgstr "Sys-reg-rst"
+msgstr "17-Sys-reg-rst"
 
 #: translation.js:261
 msgid ""
@@ -1103,9 +1088,8 @@ msgstr ""
 "Verilog"
 
 #: translation.js:262
-#, fuzzy
 msgid "18-Sys-reg-rst"
-msgstr "Sys-reg-rst"
+msgstr "18-Sys-reg-rst"
 
 #: translation.js:263
 msgid ""
@@ -1115,9 +1099,8 @@ msgstr ""
 "Verilog"
 
 #: translation.js:264
-#, fuzzy
 msgid "19-Sys-reg-rst"
-msgstr "Sys-reg-rst"
+msgstr "19-Sys-reg-rst"
 
 #: translation.js:265
 msgid ""
@@ -1127,9 +1110,8 @@ msgstr ""
 "Verilog"
 
 #: translation.js:266
-#, fuzzy
 msgid "20-Sys-reg-rst"
-msgstr "Sys-reg-rst"
+msgstr "20-Sys-reg-rst"
 
 #: translation.js:267
 msgid ""
@@ -1139,217 +1121,188 @@ msgstr ""
 "Verilog"
 
 #: translation.js:268
-#, fuzzy
 msgid "21-Sys-reg-rst"
-msgstr "Sys-reg-rst"
+msgstr "21-Sys-reg-rst"
 
 #: translation.js:269
-#, fuzzy
 msgid ""
 "21-Sys-reg-rst: 21 bits system register with reset. Verilog implementation"
 msgstr ""
-"Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
-"Implementación en Verilog"
+"21-Sys-reg-rst: Registro del sistema de 21-bits con reset. Implementación en "
+"Verilog"
 
 #: translation.js:270
-#, fuzzy
 msgid "22-Sys-reg-rst"
-msgstr "Sys-reg-rst"
+msgstr "22-Sys-reg-rst"
 
 #: translation.js:271
-#, fuzzy
 msgid ""
 "22-Sys-reg-rst: 22 bits system register with reset. Verilog implementation"
 msgstr ""
-"Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
-"Implementación en Verilog"
+"22-Sys-reg-rst: Registro del sistema de 22-bits con reset. Implementación en "
+"Verilog"
 
 #: translation.js:272
-#, fuzzy
 msgid "23-Sys-reg-rst"
-msgstr "Sys-reg-rst"
+msgstr "23-Sys-reg-rst"
 
 #: translation.js:273
-#, fuzzy
 msgid ""
 "23-Sys-reg-rst: 23 bits system register with reset. Verilog implementation"
 msgstr ""
-"Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
-"Implementación en Verilog"
+"23-Sys-reg-rst: Registro del sistema de 23-bits con reset. Implementación en "
+"Verilog"
 
 #: translation.js:274
-#, fuzzy
 msgid "24-Sys-reg-rst"
-msgstr "Sys-reg-rst"
+msgstr "24-Sys-reg-rst"
 
 #: translation.js:275
-#, fuzzy
 msgid ""
 "24-Sys-reg-rst: 24 bits system register with reset. Verilog implementation"
 msgstr ""
-"Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
-"Implementación en Verilog"
+"24-Sys-reg-rst: Registro del sistema de 24-bits con reset. Implementación en "
+"Verilog"
 
 #: translation.js:276
-#, fuzzy
 msgid "25-Sys-reg-rst"
-msgstr "Sys-reg-rst"
+msgstr "25-Sys-reg-rst"
 
 #: translation.js:277
-#, fuzzy
 msgid ""
 "25-Sys-reg-rst: 25 bits system register with reset. Verilog implementation"
 msgstr ""
-"Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
-"Implementación en Verilog"
+"25-Sys-reg-rst: Registro del sistema de 25-bits con reset. Implementación en "
+"Verilog"
 
 #: translation.js:278
-#, fuzzy
 msgid "26-Sys-reg-rst"
-msgstr "Sys-reg-rst"
+msgstr "26-Sys-reg-rst"
 
 #: translation.js:279
-#, fuzzy
 msgid ""
 "26-Sys-reg-rst: 26 bits system register with reset. Verilog implementation"
 msgstr ""
-"Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
-"Implementación en Verilog"
+"26-Sys-reg-rst: Registro del sistema de 26-bits con reset. Implementación en "
+"Verilog"
 
 #: translation.js:280
-#, fuzzy
 msgid "27-Sys-reg-rst"
-msgstr "Sys-reg-rst"
+msgstr "27-Sys-reg-rst"
 
 #: translation.js:281
-#, fuzzy
 msgid ""
 "27-Sys-reg-rst: 27 bits system register with reset. Verilog implementation"
 msgstr ""
-"Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
-"Implementación en Verilog"
+"27-Sys-reg-rst: Registro del sistema de 27-bits con reset. Implementación en "
+"Verilog"
 
 #: translation.js:282
-#, fuzzy
 msgid "28-Sys-reg-rst"
-msgstr "Sys-reg-rst"
+msgstr "28-Sys-reg-rst"
 
 #: translation.js:283
-#, fuzzy
 msgid ""
 "28-Sys-reg-rst: 28 bits system register with reset. Verilog implementation"
 msgstr ""
-"Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
-"Implementación en Verilog"
+"28-Sys-reg-rst: Registro del sistema de 28-bits con reset. Implementación en "
+"Verilog"
 
 #: translation.js:284
-#, fuzzy
 msgid "29-Sys-reg-rst"
-msgstr "Sys-reg-rst"
+msgstr "29-Sys-reg-rst"
 
 #: translation.js:285
-#, fuzzy
 msgid ""
 "29-Sys-reg-rst: 29 bits system register with reset. Verilog implementation"
 msgstr ""
-"Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
-"Implementación en Verilog"
+"29-Sys-reg-rst: Registro del sistema de 29-bits con reset. Implementación en "
+"Verilog"
 
 #: translation.js:286
-#, fuzzy
 msgid "30-Sys-reg-rst"
-msgstr "Sys-reg-rst"
+msgstr "30-Sys-reg-rst"
 
 #: translation.js:287
-#, fuzzy
 msgid ""
 "30-Sys-reg-rst: 30 bits system register with reset. Verilog implementation"
 msgstr ""
-"Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
-"Implementación en Verilog"
+"30-Sys-reg-rst: Registro del sistema de 30-bits con reset. Implementación en "
+"Verilog"
 
 #: translation.js:288
-#, fuzzy
 msgid "31-Sys-reg-rst"
-msgstr "Sys-reg-rst"
+msgstr "31-Sys-reg-rst"
 
 #: translation.js:289
-#, fuzzy
 msgid ""
 "31-Sys-reg-rst: 31 bits system register with reset. Verilog implementation"
 msgstr ""
-"Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
-"Implementación en Verilog"
+"31-Sys-reg-rst: Registro del sistema de 31-bits con reset. Implementación en "
+"Verilog"
 
 #: translation.js:290 translation.js:303
-#, fuzzy
 msgid "32-Sys-reg-rst"
-msgstr "Sys-reg-rst"
+msgstr "32-Sys-reg-rst"
 
 #: translation.js:292
-#, fuzzy
 msgid ""
 "02-Sys-reg-rst: 02 bits system register with reset. Block implementation"
 msgstr ""
-"Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
-"Implementación en Verilog"
+"02-Sys-reg-rst: Registro del sistema de 2-bits con reset. Implementación "
+"mediante bloques"
 
 #: translation.js:293
 msgid "Generic: 2-bits generic constant (0,1,2,3)"
 msgstr "Generico: Constante genérica de 2 bits (0,1,2,3)"
 
 #: translation.js:295
-#, fuzzy
 msgid "04-Sys-reg-rst: 4 bits system register with reset. Block implementation"
 msgstr ""
-"Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
-"Implementación en Verilog"
+"04-Sys-reg-rst: Registro del sistema de 4-bits con reset. Implementación "
+"mediante bloques"
 
 #: translation.js:296
 msgid "Generic: 4-bits generic constant (0-15)"
 msgstr "Genérico: Constante genérica de 4 bits (0-15)"
 
 #: translation.js:298
-#, fuzzy
 msgid "8-Sys-reg-rst: 8 bits system register with reset. Block implementation"
 msgstr ""
-"Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
-"Implementación en Verilog"
+"08-Sys-reg-rst: Registro del sistema de 8-bits con reset. Implementación "
+"mediante bloques"
 
 #: translation.js:299
 msgid "Generic: 8-bits generic constant (0-255)"
 msgstr "Genérico: Constante genérica de 8 bits (0-255)"
 
 #: translation.js:301
-#, fuzzy
 msgid ""
 "16-Sys-reg-rst: 16 bits system register with reset. Block implementation"
 msgstr ""
-"Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
-"Implementación en Verilog"
+"16-Sys-reg-rst: Registro del sistema de 16-bits con reset. Implementación "
+"mediante bloques"
 
 #: translation.js:302
 msgid "Generic: 16-bits generic constant"
 msgstr "Genérico: Constante genérica de 16 bits"
 
 #: translation.js:304
-#, fuzzy
 msgid ""
 "32-Sys-reg-rst: 32 bits system register with reset. Block implementation"
 msgstr ""
-"Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
-"Implementación en Verilog"
+"32-Sys-reg-rst: Registro del sistema de 32-bits con reset. Implementación "
+"mediante bloques"
 
 #: translation.js:305
 msgid "Generic: 32-bits generic constant"
 msgstr "Genérico: Constante genérica de 32 bits"
 
 #: translation.js:307
-#, fuzzy
 msgid "02-Sys-reg-02-block: 2-bits system register. Block implementation"
 msgstr ""
-"Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
-"Implementación en Verilog"
+"02-Sys-reg-rst-block: Registro del sistema de 2-bits con reset. "
+"Implementación mediante bloques"
 
 #: translation.js:308
 msgid "Bus2-Split-all: Split the 2-bits bus into two wires"
@@ -1429,11 +1382,10 @@ msgid "00-Index"
 msgstr "00-Index"
 
 #: translation.js:323
-#, fuzzy
 msgid "Sys-reg-dff-02-block: Two bits system register. Block implementation"
 msgstr ""
-"Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
-"Implementación en Verilog"
+"Sys-reg-dff: Registro del sistema de 2-bits con reset. Implementación "
+"mediante bloques"
 
 #: translation.js:324
 msgid "# INDEX: IceRegs Collection"
@@ -1613,39 +1565,31 @@ msgid "NOT gate (Verilog implementation)"
 msgstr "Puerta NOT (Implementación en verilog)"
 
 #: translation.js:366
-#, fuzzy
-#| msgid "RS-FF-set. RS Flip-flop with priority set"
 msgid ""
 "RS-FF-set-verilog. RS Flip-flop with priority set. Implementation in verilog"
-msgstr "RS-FF-set: Biestable RS con prioridad en el set"
+msgstr ""
+"RS-FF-set-verilog: Biestable RS con prioridad en el set. Implementación en "
+"Verilog"
 
 #: translation.js:367
-#, fuzzy
-#| msgid ""
-#| "System TFF with toggle input: It toogles on every system cycle if the "
-#| "input is active"
 msgid ""
 "TFF-verilog. System TFF with toggle input: It toogles on every system cycle "
 "if the input is active. Verilog implementation"
 msgstr ""
-"Biestable T del sistema con entrada de cambio: Cambia en cada ciclo del "
-"sistema si la entrada está activa"
+"TFF-verilog. Biestable T del sistema con entrada de cambio: Cambia en cada "
+"ciclo del sistema si la entrada está activa. Implementación en Verilog"
 
 #: translation.js:368
 msgid "Button-tic: Configurable button that emits a tic when it is pressed"
 msgstr "Button-tic: Botón configurable que emite un tic cuando se aprieta"
 
 #: translation.js:369
-#, fuzzy
-#| msgid ""
-#| "Rising-edge detector. It generates a 1-period pulse (tic) when a rising "
-#| "edge is detected on the input"
 msgid ""
 "Rising-edge detector. It generates a 1-period pulse (tic) when a rising edge "
 "is detected on the input. Block implementation"
 msgstr ""
 "Detector de flanco de subida. Genera un pulso de un ciclo (tic) cuando se "
-"detecta un flanco de subida en la entrada"
+"detecta un flanco de subida en la entrada. Implementación mediante bloques"
 
 #: translation.js:370
 msgid "Two bits input And gate"
@@ -1671,6 +1615,8 @@ msgid ""
 "Valor genérico constante, de 1 bits. Su valor se introduce como parámetro. "
 "Por defecto vale 0"
 msgstr ""
+"Valor genérico constante, de 1 bits. Su valor se introduce como parámetro. "
+"Por defecto vale 0"
 
 #: translation.js:375
 msgid "XOR gate: two bits input xor gate"
@@ -1681,22 +1627,17 @@ msgid "Remove the rebound on a mechanical switch"
 msgstr "Eliminar los rebotes del interruptor mecánico"
 
 #: translation.js:377
-#, fuzzy
-#| msgid ""
-#| "Edges detector. It generates a 1-period pulse (tic) when either a rising "
-#| "edge or a falling edge is detected on the input"
 msgid ""
 "Edges detector. It generates a 1-period pulse (tic) when either a rising "
 "edge or a falling edge is detected on the input. Block implementation"
 msgstr ""
 "Detector de flancos. Se genera un pulso de 1-ciclo (tic) cuando se detecta "
-"un flanco de subida o de bajada en la entrada"
+"un flanco de subida o de bajada en la entrada. Implementación mediante "
+"bloques"
 
 #: translation.js:378
-#, fuzzy
-#| msgid "D Flip-flop (verilog implementation)"
 msgid "DFF. D Flip-flop. Verilog implementation"
-msgstr "Biestable D (Implementación en Verilog)"
+msgstr "DFF. Biestable D (Implementación en Verilog)"
 
 #: translation.js:379
 msgid "16-bits Syscounter with reset"
@@ -1770,11 +1711,11 @@ msgid "Bus16-Join-half: Join the two same halves into an 16-bits Bus"
 msgstr "Bus16-Join-half: Agrupar dos mitades en un bus de 16-bits"
 
 #: translation.js:396
-#, fuzzy
-#| msgid "Sync 1-bit input with the system clock domain"
 msgid ""
 "Sync-x01: 1-bit input with the system clock domain (Verilog implementation)"
-msgstr "Sincronizar la entrada de 1-bit con el dominio del reloj del sistema"
+msgstr ""
+"Sync-x01: Sincronizar la entrada de 1-bit con el dominio del reloj del "
+"sistema (Implementación en Verilog)"
 
 #: translation.js:397
 msgid ""
@@ -2242,10 +2183,8 @@ msgid "OR-BUS2: OR gate with 2-bits bus input"
 msgstr "OR-BUS2: Puerta OR de 2 bits de entrada"
 
 #: translation.js:476
-#, fuzzy
-#| msgid "2-to-1 Multplexer (8-bit channels). Verilog implementation"
 msgid "4-to-1 Multplexer (8-bit channels). Verilog implementation"
-msgstr "Multiplexor 2-1 (canales de 8 bits). Implementación en Verilog"
+msgstr "Multiplexor 4-1 (canales de 8 bits). Implementación en Verilog"
 
 #: translation.js:477
 msgid ""
@@ -2347,12 +2286,12 @@ msgstr ""
 "la velocidad del reloj del sistema"
 
 #: translation.js:493
-#, fuzzy
-#| msgid "System TFF: It toogles its output on every system cycle"
 msgid ""
 "Sys-TFF: System TFF: It toogles its output on every system cycle. Verilog "
 "implementation"
-msgstr "Biestable T del sistema: Cambia su salida en cada ciclo del sistema"
+msgstr ""
+"Sys-TFF: Biestable T del sistema: Cambia su salida en cada ciclo del "
+"sistema. Implementación en Verilog"
 
 #: translation.js:494
 msgid ""
@@ -2385,16 +2324,12 @@ msgid "2-cycles with pulse"
 msgstr "Pulso de 2 ciclos de anchura"
 
 #: translation.js:507
-#, fuzzy
-#| msgid ""
-#| "start: Start signal: It goes from 1 to 0 when the system clock starts. 1 "
-#| "cycle pulse witch"
 msgid ""
 "start: Start signal: It goes from 1 to 0 when the system clock starts. 1 "
 "cycle pulse witch. Block implementation"
 msgstr ""
 "start: Señal de start. Transita de 1 a 0 cuando arranca el reloj del "
-"sistema. Anchura de 1 ciclo"
+"sistema. Anchura de 1 ciclo. Implementación mediante bloques"
 
 #: translation.js:508
 msgid ""
