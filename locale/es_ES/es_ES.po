@@ -76,54 +76,48 @@ msgid "06-Reg: 6 bits Register. Verilog implementation"
 msgstr "06-Reg: Registro de 6-bits. Implementación en Verilog"
 
 #: translation.js:25
-#, fuzzy
 msgid "07-Reg"
-msgstr "Sys-Reg"
+msgstr "07-Reg"
 
 #: translation.js:26
 msgid "07-Reg: 7 bits Register. Verilog implementation"
 msgstr "07-Reg: Registro de 7-bits. Implementación en Verilog"
 
 #: translation.js:27 translation.js:166
-#, fuzzy
 msgid "08-Reg"
-msgstr "Sys-Reg"
+msgstr "08-Reg"
 
 #: translation.js:28
 msgid "08-Reg: 8 bits Register. Verilog implementation"
 msgstr "08-Reg: Registro de 8-bits. Implementación en Verilog"
 
 #: translation.js:29
-#, fuzzy
 msgid "09-Reg"
-msgstr "Sys-Reg"
+msgstr "09-Reg"
 
 #: translation.js:30
 msgid "09-Reg: 9 bits Register. Verilog implementation"
 msgstr "09-Reg: Registro de 9-bits. Implementación en Verilog"
 
 #: translation.js:31
-#, fuzzy
 msgid "10-Reg"
-msgstr "Sys-Reg"
+msgstr "10-Reg"
 
 #: translation.js:32
 msgid "10-Reg: 10 bits Register. Verilog implementation"
 msgstr "10-Reg: Registro de 10-bits. Implementación en Verilog"
 
 #: translation.js:33
-#, fuzzy
 msgid "11-Reg"
-msgstr "Sys-Reg"
+msgstr "11-Reg"
 
 #: translation.js:34
 msgid "11-Reg: 11 bits Register. Verilog implementation"
 msgstr "11-Reg: Registro de 11-bits. Implementación en Verilog"
 
 #: translation.js:35
-#, fuzzy
 msgid "12-Reg"
-msgstr "Sys-Reg"
+msgstr "12-Reg"
 
 #: translation.js:36
 msgid "12-Reg: 12 bits Register. Verilog implementation"
@@ -153,11 +147,8 @@ msgid "15-Reg"
 msgstr "Sys-Reg"
 
 #: translation.js:42
-#, fuzzy
 msgid "15-Reg: 15 bits Register. Verilog implementation"
-msgstr ""
-"Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
-"Implementación en Verilog"
+msgstr "15-Reg: Registro de 15-bits. Implementación en Verilog"
 
 #: translation.js:43 translation.js:169
 #, fuzzy
@@ -165,11 +156,8 @@ msgid "16-Reg"
 msgstr "Sys-Reg"
 
 #: translation.js:44
-#, fuzzy
 msgid "16-Reg: 16 bits Register. Verilog implementation"
-msgstr ""
-"Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
-"Implementación en Verilog"
+msgstr "16-Reg: Registro de 16-bits. Implementación en Verilog"
 
 #: translation.js:45
 #, fuzzy
@@ -177,11 +165,8 @@ msgid "17-Reg"
 msgstr "Sys-Reg"
 
 #: translation.js:46
-#, fuzzy
 msgid "17-Reg: 17 bits Register. Verilog implementation"
-msgstr ""
-"Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
-"Implementación en Verilog"
+msgstr "17-Reg: Registro de 17-bits. Implementación en Verilog"
 
 #: translation.js:47
 #, fuzzy
@@ -189,11 +174,8 @@ msgid "18-Reg"
 msgstr "Sys-Reg"
 
 #: translation.js:48
-#, fuzzy
 msgid "18-Reg: 18 bits Register. Verilog implementation"
-msgstr ""
-"Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
-"Implementación en Verilog"
+msgstr "18-Reg: Registro de 18-bits. Implementación en Verilog"
 
 #: translation.js:49
 #, fuzzy
@@ -201,11 +183,8 @@ msgid "19-Reg"
 msgstr "Sys-Reg"
 
 #: translation.js:50
-#, fuzzy
 msgid "19-Reg: 19 bits Register. Verilog implementation"
-msgstr ""
-"Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
-"Implementación en Verilog"
+msgstr "19-Reg: Registro de 19-bits. Implementación en Verilog"
 
 #: translation.js:51
 #, fuzzy
@@ -213,11 +192,8 @@ msgid "20-Reg"
 msgstr "Sys-Reg"
 
 #: translation.js:52
-#, fuzzy
 msgid "20-Reg: 20 bits Register. Verilog implementation"
-msgstr ""
-"Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
-"Implementación en Verilog"
+msgstr "20-Reg: Registro de 20-bits. Implementación en Verilog"
 
 #: translation.js:53
 #, fuzzy
@@ -225,11 +201,8 @@ msgid "21-Reg"
 msgstr "Sys-Reg"
 
 #: translation.js:54
-#, fuzzy
 msgid "21-Reg: 21 bits Register. Verilog implementation"
-msgstr ""
-"Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
-"Implementación en Verilog"
+msgstr "21-Reg: Registro de 21-bits. Implementación en Verilog"
 
 #: translation.js:55
 #, fuzzy
@@ -237,11 +210,8 @@ msgid "22-Reg"
 msgstr "Sys-Reg"
 
 #: translation.js:56
-#, fuzzy
 msgid "22-Reg: 22 bits Register. Verilog implementation"
-msgstr ""
-"Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
-"Implementación en Verilog"
+msgstr "22-Reg: Registro de 22-bits. Implementación en Verilog"
 
 #: translation.js:57
 #, fuzzy
@@ -249,11 +219,8 @@ msgid "23-Reg"
 msgstr "Sys-Reg"
 
 #: translation.js:58
-#, fuzzy
 msgid "23-Reg: 23 bits Register. Verilog implementation"
-msgstr ""
-"Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
-"Implementación en Verilog"
+msgstr "23-Reg: Registro de 23-bits. Implementación en Verilog"
 
 #: translation.js:59
 #, fuzzy
@@ -261,11 +228,8 @@ msgid "24-Reg"
 msgstr "Sys-Reg"
 
 #: translation.js:60
-#, fuzzy
 msgid "24-Reg: 24 bits Register. Verilog implementation"
-msgstr ""
-"Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
-"Implementación en Verilog"
+msgstr "24-Reg: Registro de 24-bits. Implementación en Verilog"
 
 #: translation.js:61
 #, fuzzy
@@ -273,11 +237,8 @@ msgid "25-Reg"
 msgstr "Sys-Reg"
 
 #: translation.js:62
-#, fuzzy
 msgid "25-Reg: 25 bits Register. Verilog implementation"
-msgstr ""
-"Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
-"Implementación en Verilog"
+msgstr "25-Reg: Registro de 25-bits. Implementación en Verilog"
 
 #: translation.js:63
 #, fuzzy
@@ -285,11 +246,8 @@ msgid "26-Reg"
 msgstr "Sys-Reg"
 
 #: translation.js:64
-#, fuzzy
 msgid "26-Reg: 26 bits Register. Verilog implementation"
-msgstr ""
-"Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
-"Implementación en Verilog"
+msgstr "26-Reg: Registro de 26-bits. Implementación en Verilog"
 
 #: translation.js:65
 #, fuzzy
@@ -297,11 +255,8 @@ msgid "27-Reg"
 msgstr "Sys-Reg"
 
 #: translation.js:66
-#, fuzzy
 msgid "27-Reg: 27 bits Register. Verilog implementation"
-msgstr ""
-"Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
-"Implementación en Verilog"
+msgstr "27-Reg: Registro de 27-bits. Implementación en Verilog"
 
 #: translation.js:67
 #, fuzzy
@@ -309,11 +264,10 @@ msgid "28-Reg"
 msgstr "Sys-Reg"
 
 #: translation.js:68
-#, fuzzy
 msgid "28-Reg: 28 bits Register. Verilog implementation"
 msgstr ""
-"Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
-"Implementación en Verilog"
+"28-Reg: Registro de 28\n"
+"-bits. Implementación en Verilog"
 
 #: translation.js:69
 #, fuzzy
@@ -321,11 +275,8 @@ msgid "29-Reg"
 msgstr "Sys-Reg"
 
 #: translation.js:70
-#, fuzzy
 msgid "29-Reg: 29 bits Register. Verilog implementation"
-msgstr ""
-"Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
-"Implementación en Verilog"
+msgstr "29-Reg: Registro de 29-bits. Implementación en Verilog"
 
 #: translation.js:71
 #, fuzzy
@@ -333,11 +284,8 @@ msgid "30-Reg"
 msgstr "Sys-Reg"
 
 #: translation.js:72
-#, fuzzy
 msgid "30-Reg: 30 bits Register. Verilog implementation"
-msgstr ""
-"Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
-"Implementación en Verilog"
+msgstr "30-Reg: Registro de 30-bits. Implementación en Verilog"
 
 #: translation.js:73
 #, fuzzy
@@ -345,11 +293,8 @@ msgid "31-Reg"
 msgstr "Sys-Reg"
 
 #: translation.js:74
-#, fuzzy
 msgid "31-Reg: 31 bits Register. Verilog implementation"
-msgstr ""
-"Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
-"Implementación en Verilog"
+msgstr "31-Reg: Registro de 31-bits. Implementación en Verilog"
 
 #: translation.js:75 translation.js:172
 #, fuzzy
@@ -357,11 +302,8 @@ msgid "32-Reg"
 msgstr "Sys-Reg"
 
 #: translation.js:76
-#, fuzzy
 msgid "32-Reg: 32 bits Register. Verilog implementation"
-msgstr ""
-"Sys-reg-rst-02-verilog: Registro del sistema de 2-bits con reset. "
-"Implementación en Verilog"
+msgstr "32-Reg: Registro de 32-bits. Implementación en Verilog"
 
 #: translation.js:78 translation.js:140
 #, fuzzy
